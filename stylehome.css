@@ -1,635 +1,107 @@
-@charset "utf-8";
-	/* CSS Document */
-
-	a:link {
-		text-decoration: none;
-	}
-
-	a:hover {
-		text-decoration:none;
-	}
-
-	a:visited {
-		text-decoration:none;
-	}
-
-	div#navigation div.nav div.blue a{
-		color: #4c81c0;
-		font-weight: 700;
-	}
-
-	html {
-		position: relative;
-		background: #f0f0f0;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-
-	body {
-		margin-top:0;
-		margin-bottom: 0;
-		height:100%;
-	}
-
-	#logofloat {
-		display:inline-block;
-		width: 12%;
-		height: auto;
-		padding-bottom: 0px;
-		margin-bottom: 0px;
-		padding-top: 0px;
-		margin-left: 7%;
-		margin-right: 0%;
-		padding-right: 0%;
-	}
-
-	#centeringdiv {
-		display:inline-block;
-		width:40%;
-	}
-
-	#navigation {
-		display:inline-block;
-		text-align: right;
-		width: 32%;
-		padding-top: 2%;
-		padding-bottom:0px;
-		margin-top: 0px;
-		margin-bottom: 0.5%;
-	}
-	#navigation div {list-style:none; padding:0; margin:0; display:inline; }
-
-	#navigation div a {
-		font-family: 'Titillium Web', "Trebuchet MS", Arial, Helvetica, sans-serif;
-		display: inline-block;
-		font-weight: 400;
-		color: #000;
-		padding: 7% 0px 0px 0px;
-		margin: 0 5px;
-		text-decoration: none;
-		font-size: 100%;
-		border-bottom: 4px dashed transparent;
-	}
-
-	.nav{
-		display:table-cell;
-	}
-
-	#navigation div a:hover{
-		color: #000000;
-		border-bottom: 4px solid #4c81c0;
-	}
-
-	#content{
-		margin-left: 7%;
-		margin-right: 7%;
-		-webkit-box-shadow: 0px 0px 15px #d0d0d0;
-	    -moz-box-shadow: 0px 0px 15px #d0d0d0;
-	    box-shadow: 0px 0px 15px #d0d0d0;
-	}
-
-	/*-----------------HOME PAGE-----------------*/
-	#content_home {
-		display:inline-block;
-		font-family: 'Merriweather Sans', "Trebuchet MS", Arial, Helvetica, sans-serif;
-		font-weight: 300;
-		color: #0;
-		font-size: 1em;
-		background: #FFF ;
-		text-align: center;
-		padding-top: 30px;
-		padding-bottom: 30px;
-		padding-left: 15%;
-		padding-right: 15%;
-		background-image: url("images/SysDiag3.png");
-		background-repeat:no-repeat;
-		background-size:cover;
-		background-position:center;
-	}
-
-	.table {
-		padding-top:1.8%;
-		padding-bottom:1.8%;
-	    display:table;
-	    table-layout:fixed;
-	    width:100%;
-	}
-	.table div{
-		display:table-cell;
-		height:100%;
-		/*padding-bottom: 62.5%;*/
-	}
-
-	.cell {
-		font-family: 'Roboto Condensed';
-		font-weight: 300;
-		vertical-align:top;
-		padding-top:-10px;
-		outline: 0px solid transparent;
-		display:table-cell;
-		font-size:0.92em;
-		color: #FFFFFF;
-		overflow:hidden;
-	}
-
-	.site-footer div p{
-		line-height: 1pt;
-	}
-
-	#slogan {
-		font-family: 'Merriweather Sans', "Trebuchet MS", Arial, Helvetica, sans-serif;
-		font-weight: 600;
-		color: #0;
-		font-size: 150%;
-		letter-spacing: 2px;
-		text-transform: uppercase;
-		text-align: center;
-		padding-bottom: 2%;
-	}
-
-	#stupidsloganstars {
-		font-family: 'Playfair Display', "Trebuchet MS", Arial, Helvetica, sans-serif;
-		font-weight: 400;
-		text-color: #666;
-		width: 25%;
-		font-size: 10pt;
-		margin-top: 2%;
-		margin-bottom: 2%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	#blurbs{
-		font-family: 'Merriweather Sans';
-		font-weight: 300;
-		width:97.5%;
-		float: left;
-		background: #787878;
-		padding-left:2.5%;
-		padding-right:0%;
-		-webkit-box-shadow: 0px 0px 15px #d0d0d0;
-	    -moz-box-shadow: 0px 0px 15px #d0d0d0;
-	    box-shadow: 0px 0px 15px #d0d0d0;
-	    overflow:hidden;
-	}
-
-	div.stretchy-wrapper {
-	    width: auto;
-	    height: 100%;
-	    position: relative;
-	}
-
-	div.stretchy-wrapper > div {
-	    position: absolute;
-	    top: 0; bottom: 0; left: 0; right: 0;
-	}
-
-	#img.source-image {
-		width: 100%;
-		height: 100%;
-		position: relative;
-		top: 0;
-		left: 0;
-	  	-webkit-box-shadow: 0px 0px 10px #606060;
-	    -moz-box-shadow: 0px 0px 10px #606060;
-	    box-shadow: 0px 0px 10px #606060;
-	}
-
-	#txt{
-		padding-bottom:2%;
-		padding-left:5%;
-		padding-right:20%;
-		overflow:hidden;
-		font-size: 0.85vw;
-	}
-
-	/*---------------CONTACT PAGE-----------------*/
-	#content_contact {
-		font-family: 'Merriweather Sans', "Trebuchet MS", Arial, Helvetica, sans-serif;
-		font-weight: 300;
-		padding-left: 5%;
-		padding-right: 5%;
-		background-image: url("images/SysDiag_right2.png");
-		background-color: #FFFFFF;
-		background-repeat:no-repeat;
-		background-size:cover;
-		background-position:center;
-	}
-
-	#content-l{
-		float:left;
-		width:50%;
-		display:inline-block;
-		font-family: 'Merriweather Sans', "Trebuchet MS", Arial, Helvetica, sans-serif;
-		font-weight: 300;
-		color: #0;
-		font-size: 1em;
-	}
-
-	#content-r{
-		display:inline-block;
-		float:right;
-		vertical-align: top;
-		font-family: 'Merriweather Sans', "Trebuchet MS", Arial, Helvetica, sans-serif;
-		font-weight: 300;
-	}
-
-	iframe {
-		float: center;
-		-webkit-box-shadow: 0px 0px 2px #d0d0d0;
-	  -moz-box-shadow: 0px 0px 2px #d0d0d0;
-	  box-shadow: 0px 0px 2px #d0d0d0;
-	}
-
-	.mail{
-		color:#787878;
-	}
-
-	.mail2{
-		color:#4c81c0;
-		font-family: 'Merriweather Sans', 'Playfair Display', "Trebuchet MS", Arial, Helvetica, sans-serif;
-
-	}
-
-	.map{
-		color:#4c81c0;
-	}
-
-	#canvas {
-		vertical-align: top;
-		float:center;
-		-webkit-box-shadow: 0px 0px 1px #787878;
-	    -moz-box-shadow: 0px 0px 1px #787878;
-	    box-shadow: 0px 0px 1px #787878;
-	}
-
-	.thick{
-		font-family: 'Roboto Condensed';
-		font-weight: 400;
-	}
-
-	.contact{
-		font-family: 'Merriweather Sans';
-		color:black;
-	}
-
-	.address{
-		vertical-align: top;
-		text-align: right;
-		font-weight:400;
-	}
-
-	.phone{
-		font-weight: 400;
-		text-align: right;
-	}
-
-	.numbers, .popuptext{
-		padding-left: 5%;
-		display: inline-block;
-		white-space: nowrap;
-	}
-
-	.gridtable{
-		width:120%;
-		margin:0 auto;
-	}
-
-	.site-footer {
-	    font-family: 'Titillium Web', "Trebuchet MS", Arial, Helvetica, sans-serif;
-	  	float:left;
-	  	display:block;
-		font-size:0.8em;
-		clear:both;
-		height: auto;
-		background:#f0f0f0;
-		left: 0;
-		bottom: 0;
-		color:#787878;
-		/*margin-top:0.5%;*/
-		width:100%;
-		line-height:110%;
-	}
-
-	.footer-left{
-		float:left;
-		margin-left:0;
-	}
-
-	.footer-right{
-		float:right;
-		margin-right:0;
-		text-align:right;
-	}
-
-@media only screen and (max-width: 1067px) {
-
-	#logofloat {
-		display:inline-block;
-		width: 50%;
-		height: auto;
-		padding-bottom: 0px;
-		margin-bottom: 0px;
-		padding-top: 1%;
-		margin-left: 32.5%;
-		margin-right: 0%;
-		padding-right: 0%;
-	}
-
-	#logofloat img {
-		width:70%;
-		height: auto;
-	}
-
-	#centeringdiv {
-		width:0%;
-	}
-
-	#navigation {
-		display:inline-block;
-		text-align: center;
-		width: 80%;
-		padding-top: 0%;
-		padding-bottom:0px;
-		margin-top: 0px;
-		margin-left: 10%;
-		margin-bottom: 0.5%;
-	}
-	#navigation div {list-style:none; padding:0; margin:0; display:inline; }
-
-	#navigation div a {
-		font-family: 'Titillium Web', "Trebuchet MS", Arial, Helvetica, sans-serif;
-		display: inline-block;
-		font-weight: 400;
-		color: #000;
-		padding: 7% 0px 0px 0px;
-		margin: 0 5px;
-		text-decoration: none;
-		font-size: 100%;
-		border-bottom: 4px dashed transparent;
-
-	}
-
-	.nav{
-		display:table-cell;
-	}
-
-	#navigation div a:hover{
-		color: #000000;
-		border-bottom: 4px solid #4c81c0;
-	}
-
-	#content{
-		margin-left: 0%;
-		margin-right: 0%;
-		width:100%;
-		-webkit-box-shadow: 0px 0px 15px #d0d0d0;
-	    -moz-box-shadow: 0px 0px 15px #d0d0d0;
-	    box-shadow: 0px 0px 15px #d0d0d0;
-	}
-
-	#content div {
-		margin:0 auto;
-		/*padding:0%;*/
-	}
-
-	/*-----------------HOME PAGE-----------------*/
-	#content_home {
-		/*display:inline-block;*/
-		font-family: 'Merriweather Sans', "Trebuchet MS", Arial, Helvetica, sans-serif;
-		font-weight: 300;
-		color: #0;
-		font-size: 9pt;
-
-		background: #FFF ;
-		text-align: left;
-		padding-top: 30px;
-		padding-bottom: 30px;
-		padding-left: 5%;
-		padding-right: 5%;
-		background-image: url("images/SysDiag2.png");
-		background-repeat:no-repeat;
-		background-size:cover;
-		background-position:center;
-	}
-
-	#stupidslogan {
-		font-family: 'Playfair Display', "Trebuchet MS", Arial, Helvetica, sans-serif;
-		font-weight: 600;
-		color: #0;
-		font-size: 150%;
-		letter-spacing: 2px;
-		text-transform: uppercase;
-		text-align: center;
-		margin-top: 5%
-		margin-bottom: 5%;
-	}
-
-
-	#blurbs{
-		font-family: 'Merriweather Sans';
-		font-weight: 300;
-		font-size:9pt;
-		width:auto;
-		float: left;
-		background: #787878;
-		-webkit-box-shadow: 0px 0px 15px #d0d0d0;
-	    -moz-box-shadow: 0px 0px 15px #d0d0d0;
-	    box-shadow: 0px 0px 15px #d0d0d0;
-	    overflow:hidden;
-	}
-
-	#img.source-image {
-		width: 100%;
-		height: 100%;
-		position: relative;
-		top: 0;
-		left: 0;
-	  	-webkit-box-shadow: 0px 0px 10px #606060;
-	    -moz-box-shadow: 0px 0px 10px #606060;
-	    box-shadow: 0px 0px 10px #606060;
-	}
-
-	#txt{
-		padding-bottom:2%;
-		padding-left:5%;
-		padding-right:20%;
-		overflow:hidden;
-		font-size: 1.05vw;
-
-	}
-
-	/*---------------CONTACT PAGE-----------------*/
-	#content_contact {
-		font-family: 'Merriweather Sans', "Trebuchet MS", Arial, Helvetica, sans-serif;
-		font-weight: 300;
-		padding-left: 5%;
-		padding-right: 5%;
-		margin:0;
-		background-image: url("images/SysDiag_right2.png");
-		background-color: #FFFFFF;
-		background-repeat:no-repeat;
-		background-size:cover;
-		background-position:center;
-	}
-
-	#content-l{
-		float:left;
-		width:50%;
-		margin-left:auto;
-		margin-right:auto;
-		display:inline-block;
-		font-family: 'Merriweather Sans', "Trebuchet MS", Arial, Helvetica, sans-serif;
-		font-weight: 300;
-		color: #0;
-		font-size: 9pt;
-	}
-
-	#content-r{
-		display:inline-block;
-		float:right;
-		vertical-align: top;
-		font-family: 'Merriweather Sans', "Trebuchet MS", Arial, Helvetica, sans-serif;
-		font-weight: 300;
-		/*margin-left: 5%;*/
-
-	}
-
-	.mail{
-		color:#787878;
-	}
-
-	.mail2{
-		color:#4c81c0;
-		font-family: 'Merriweather Sans', 'Playfair Display', "Trebuchet MS", Arial, Helvetica, sans-serif;
-
-	}
-
-	.map{
-		color:#4c81c0;
-	}
-
-	#canvas {
-		margin-right:15%;
-		vertical-align: top;
-		float:center;
-		-webkit-box-shadow: 0px 0px 1px #787878;
-	    -moz-box-shadow: 0px 0px 1px #787878;
-	    box-shadow: 0px 0px 1px #787878;
-	}
-
-	.thick{
-		font-family: 'Roboto Condensed';
-		font-weight: 400;
-	}
-
-	.contact{
-		font-family: 'Merriweather Sans';
-		color:black;
-	}
-
-	.address{
-		vertical-align: top;
-		text-align: right;
-		font-weight:400;
-	}
-
-	.phone{
-		font-weight: 400;
-		text-align: right;
-	}
-
-	.numbers, .popuptext{
-		padding-left: 5%;
-		display: inline-block;
-		white-space: nowrap;
-	}
-
-	..gridtable{
-		width:120%;
-		margin:0 auto;
-	}
-
-	.site-footer {
-	    font-family: 'Titillium Web', "Trebuchet MS", Arial, Helvetica, sans-serif;
-	  	float:left;
-	  	display:block;
-		font-size:0.8em;
-		clear:both;
-		height: auto;
-		background:#f0f0f0;
-		left: 0;
-		bottom: 0;
-		color:#787878;
-		margin-top:0.5%;
-		width:100%;
-		line-height:110%;
-	}
-
-	.footer-left{
-		float:left;
-		margin-left:0;
-	}
-
-	.footer-right{
-		float:right;
-		margin-right:0;
-		text-align:right;
-	}
-
+a:visited, a:hover, a:link {
+  text-decoration: none;
+  color: inherit;
 }
 
-@media only screen and (max-width: 923px) {
-	.gridtable {
-		margin: 0;
-		padding:0;
-	}
-
-	#content-l {
-		padding-left: 25%
-	}
-
-	#content-r {
-		padding-right: 33%
-	}
-
-	#canvas {
-		margin:0;
-		padding:0;
-		width:auto;
-		height:auto;
-	}
-
-
+body {
+	background: #ebebeb;
+  font-family: "Merriweather Sans", "Trebuchet MS", Helvetica, sans-serif;
 }
 
-@media only screen and (max-width: 820px) {
-	#content-l {
-		padding-left: 20%
-	}
-
-	#content-r {
-		padding-right: 30%
-	}
-
+.gray {
+  background-color: #939598;
 }
 
-@media only screen and (max-width: 660px) {
-	#content-r {
-		padding-right: 20%
-	}
+.nav-item {
+  color: #000000;
+  padding: 0 .5rem 0 .5rem;
+  margin-top: 2%;
+  font-weight: 400;
+  font-family: "Titillium Web";
 }
 
-@media only screen and (max-width: 560px) {
-	#content-r {
-		padding-right: 15%
-	}
+.navbar-nav a:hover {
+  color: #000000;
 }
 
-@media only screen and (max-width: 500px) {
-	#content-r {
-		padding-right: 10%
-	}
+.nav-title:hover {
+	border-bottom: 0.2rem solid #4c81c0;
+}
+
+.nav-active {
+	color: #4c81c0;
+	font-weight: 700;
+}
+
+.navbar-nav a.nav-active:hover{
+  color: #4c81c0;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.content-home {
+	font-weight: 300;
+	text-align: center;
+	padding-top: 2.4rem;
+	padding-bottom: 2.4rem;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.content {
+	font-weight: 300;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.space {
+  margin-top: 1.5%;
+}
+
+#bg-home {
+  background-image: url("images/diag_lr.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#bg-contact {
+  background-image: url("images/diag_r.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#slogan {
+	font-weight: 600;
+	font-size: 150%;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+#blurbs{
+	font-weight: 300;
+	background: #939598;
+	font-family: 'Roboto Condensed';
+	font-weight: 300;
+	display:table-cell;
+	font-size:0.92em;
+	color: #FFFFFF;
+}
+
+.bold {
+	font-weight: 400;
+}
+
+.footer {
+  font-family: "Titillium Web";
+	font-size: 0.8rem;
+	color: #787878;
 }
