@@ -4,24 +4,12 @@ a:visited, a:hover, a:link {
 }
 
 body {
-	background: #ebebeb;
+	background: #ededed;
   font-family: "Merriweather Sans", "Trebuchet MS", Helvetica, sans-serif;
 }
 
-.gray {
-  background-color: #939598;
-}
-
-.nav-item {
-  color: #000000;
-  padding: 0 .5rem 0 .5rem;
-  margin-top: 2%;
-  font-weight: 400;
+.nav-title {
   font-family: "Titillium Web";
-}
-
-.navbar-nav a:hover {
-  color: #000000;
 }
 
 .nav-title:hover {
@@ -29,12 +17,8 @@ body {
 }
 
 .nav-active {
-	color: #4c81c0;
+	color: #4E82BE;
 	font-weight: 700;
-}
-
-.navbar-nav a.nav-active:hover{
-  color: #4c81c0;
 }
 
 .unselectable {
@@ -44,25 +28,6 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-.content-home {
-	font-weight: 300;
-	text-align: center;
-	padding-top: 2.4rem;
-	padding-bottom: 2.4rem;
-	padding-left: 15%;
-	padding-right: 15%;
-}
-
-.content {
-	font-weight: 300;
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
-}
-
-.space {
-  margin-top: 1.5%;
 }
 
 #bg-home {
@@ -77,27 +42,11 @@ body {
 	background-position: center;
 }
 
-#slogan {
-	font-weight: 600;
-	font-size: 150%;
-	letter-spacing: .2rem;
-	text-transform: uppercase;
-	text-align: center;
-	padding-bottom: 2%;
-}
-
-#blurbs{
-	font-weight: 300;
-	background: #939598;
+#home-info {
+  background-color: #939598;
 	font-family: 'Roboto Condensed';
-	font-weight: 300;
-	display:table-cell;
-	font-size:0.92em;
+	font-size:0.8em;
 	color: #FFFFFF;
-}
-
-.bold {
-	font-weight: 400;
 }
 
 .footer {

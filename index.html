@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Kanaan Consulting US</title>
+
 		<meta http-equiv="Content-Type" content="text/html"></meta>
 		<meta charset="utf-8"></meta>
 		<meta name="keywords" content="kanaan,consulting,us,kcus"></meta>
@@ -19,79 +20,90 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
 		<!-- custom -->
-		<link rel="stylesheet" href="stylehome.css" type="text/css">
-		<link href='http://fonts.googleapis.com/css?family=Playfair+Display|Titillium+Web:400,300|Roboto+Condensed:400,300,300italic|Merriweather+Sans:400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="base.css" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Playfair+Display|Titillium+Web:400,300|Roboto+Condensed:400,300,300italic|Merriweather+Sans:400,300,300italic' rel='stylesheet' type='text/css'>
 
 	</head>
 
 	<body>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<img src="images/kcus_inc.png" id="title">
-				</div>
-				<div class="col-sm-8 pull-right" id="navigation">
-					<div class="nav"><a href="index.html"><span class="blue">Home</span></a></div>
-					<div class="nav"><a href="staff.html">Staff</a></div>
-					<div class="nav"><a href="projects.html">Projects</a></div>
-					<div class="nav"><a href="contact.html">Contact</a></div>
-				</div>
-			</div>
-		</div>
+		<h1 class="text-hide">Kanaan Consulting US</h1> <!-- for SEO -->
 
 		<div class="container">
-			<div class="jumbotron content">
-				<p>Kanaan Consulting US, Inc. is a Boston-based transportation consulting firm that offers comprehensive multimodal transportation consulting services. We partner with our clients to move people and cargo more efficiently by applying cutting-edge solutions and innovative yield management concepts.</p>
-				<div id="slogan">Innovative Thinking &amp; Practical Advice</div>
-				<p>Transportation systems in the 21st Century will reflect the impulses and expectations of our techno-centric era. KCUS services are focused on leveraging and deploying intelligent systems to improve service delivery, enhance operational efficiencies, collect data and disseminate actionable real-time information to public sector agencies and citizens.<p>
-			</div>
-		</div>
+			<nav class="navbar navbar-expand-sm justify-content-between rounded bg-white mt-3 unselectable">
+				<a class="col-sm-2 navbar-brand" href="index.html">
+					<img src="images/kcus_inc.png" class="img-fluid" alt="KCUS">
+				</a>
+				<div class="navbar-nav">
+					<a class="nav-item nav-link" href="index.html">
+						<span class="nav-title nav-active">Home</span>
+					</a>
+					<a class="nav-item nav-link" href="projects.html">
+						<span class="nav-title">Projects</span>
+					</a>
+					<a class="nav-item nav-link" href="staff.html">
+						<span class="nav-title">Staff</span>
+					</a>
+					<a class="nav-item nav-link" href="contact.html">
+						<span class="nav-title">Contact</span>
+					</a>
+				</div>
+			</nav>
 
-		<div class="container">
-			<div class="row" id="blurbs">
-				<div class="col-sm-4">
+			<div class="row rounded-top mx-auto mt-3 p-5" id="bg-home">
+				<div class="text-center font-weight-light">
+					<p>Kanaan Consulting US, Inc. is a Boston-based transportation consulting firm that offers comprehensive multimodal transportation consulting services. We partner with our clients to move people and cargo more efficiently by applying cutting-edge solutions and innovative yield management concepts.</p>
+					<p class="font-weight-bold lead text-uppercase">Innovative Thinking and Practical Advice</p>
+					<p>Transportation systems in the 21st Century will reflect the impulses and expectations of our techno-centric era. KCUS services are focused on leveraging and deploying intelligent systems to improve service delivery, enhance operational efficiencies, collect data and disseminate actionable real-time information to public sector agencies and citizens.</p>
+				</div>
+			</div>
+
+			<div class="row rounded-bottom mx-auto p-2 font-weight-light" id="home-info">
+				<div class="col-md">
 					<a href="projects/gotime.html">
-						<img src="images/home_rttm.png" height="auto" width="100%">
+						<img src="images/home_rttm.png" class="img-fluid img-thumbnail">
 					</a>
-					<div>KCUS was awarded the contract for the Massachusetts <span class="bold">Statewide Real Time Trafffic Management (RTTM)</span>System.</div>
 				</div>
-
-				<div class="col-sm-4">
+				<div class="col-md">
+					<div>KCUS was awarded the contract for the Massachusetts Statewide <a class="font-weight-bold" href="projects/gotime.html">Real Time Trafffic Management (RTTM) </a>System.</div>
+				</div>
+				<div class="col-md">
 					<a href="projects/new_office.html">
-						<img src="images/bulfinch.png" height="auto" width="100%">
+						<img src="images/bulfinch.png" class="img-fluid img-thumbnail">
 					</a>
-					<div>In October  KCUS moved to East Cambridge. The new office is located at 43 Thorndike Street in Bulfinch Square.
+				</div>
+				<div class="col-md">
+					<div>In October  KCUS moved to East Cambridge. The new office is located at 43 Thorndike Street in Bulfinch Square.</div>
+				</div>
+				<div class="col-md">
+					<a href="projects/its_colombia.html">
+						<img src="images/home_colombia.png" class="img-fluid img-thumbnail">
+					</a>
+				</div>
+				<div class="col-md">
+					<div>KCUS offered technical assistance to the Colombian Ministry of Transport regarding the implementation of Intelligent Transportation System (ITS) technologies.</div>
+				</div>
+			</div>
+
+			<div class="row rounded mt-3 footer">
+				<div class="col-sm">
+					<a href="mailto:info@kcus.org">info@kcus.org</a>
+					<br>
+					617-945-7385
+				</div>
+				<div class="text-right">
+					<div class="col-sm">
+						43 Thorndike Street,
+						Suite S2-3
+						<br>
+						Cambridge, MA 02141
 					</div>
 				</div>
 
-				<div class="col-sm-4">
-					<a href="projects/its_colombia.html">
-						<img src="images/home_colombia.png" height="auto" width="100%">
-					</a>
-					<div>KCUS offered technical assistance to the Colombian Ministry of Transport regarding the implementation of Intelligent Transportation System (ITS) technologies.</div>
-				</div>
-
-			</div>
 		</div>
-
-    <footer class="footer">
-			<div class="container text-muted">
-				<div class="row">
-	      	<div class="col-xs-6">
-	        	<p><a href="mailto:info@kcus.org"><strong class="blue">info@kcus.org</strong></a></p>
-	        	<p>t: 617-945-7385</p>
-	      	</div>
-	      	<div class="col-xs-6 text-right">
-	        	<p>43 Thorndike Street</p>
-	        	<p> Suite S2-3</p>
-	        	<p>Cambridge, MA 02141</p>
-	      	</div>
-				</div>
-			</div>
-    </footer>
 
 		<!-- bootstrap -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 	</body>
