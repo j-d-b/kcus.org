@@ -20,6 +20,9 @@ a:visited, a:hover, a:link {
   font-size: 0.8rem;
   color: #787878; }
 
+.highlight {
+  color: #4e82be; }
+
 .unselectable {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
