@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700|Roboto:300,400,700|Roboto+Condensed:300,400,700|Titillium+Web:300,400,600');
+
 $kcus-gray: #939598;
 $kcus-blue: #4e82be;
 $bg-gray: #ededed;
-$font-stack: "Merriweather Sans", "Trebuchet MS", Helvetica, sans-serif;
+$font-stack: "Merriweather Sans", Helvetica, sans-serif;
 
 body {
 	background: $bg-gray;
@@ -15,6 +17,7 @@ a:visited, a:hover, a:link {
 
 .nav-title {
   font-family: "Titillium Web";
+	font-weight: 400;
   &:hover {
     border-bottom: 0.2rem solid $kcus-blue;
   }
@@ -22,11 +25,11 @@ a:visited, a:hover, a:link {
 
 .nav-active {
 	color: $kcus-blue;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .footer {
-  font-family: "Titillium Web";
+  font-family: "Roboto";
 	font-size: 0.8rem;
 	color: #787878;
 }
@@ -50,15 +53,15 @@ a:visited, a:hover, a:link {
 	background-position: center;
 }
 
-#bg-contact {
-  background-image: url("images/diag_r.png");
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
 #home-info {
   background-color: $kcus-gray;
 	font-family: 'Roboto Condensed';
 	font-size: 0.8em;
   color: #fff;
+}
+
+#bg-contact {
+  background-image: url("images/diag_r.png");
+	background-repeat: no-repeat;
+	background-position: center;
 }
