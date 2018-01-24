@@ -11,19 +11,28 @@ a:visited, a:hover, a:link {
   font-family: "Titillium Web";
   font-weight: 400; }
   .nav-title:hover {
-    border-bottom: 0.2rem solid #4e82be; }
+    border-bottom: 0.2rem solid #4f8ac7; }
 
 .nav-active {
-  color: #4e82be;
+  color: #4f8ac7;
   font-weight: 600; }
 
-.footer {
-  font-family: "Roboto";
-  font-size: 0.8rem;
-  color: #787878; }
-
 .highlight {
-  color: #4e82be; }
+  color: #4f8ac7; }
+
+.staff-name {
+  color: #4f8ac7;
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.2; }
+
+.staff-title {
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  color: #787878;
+  font-size: 0.82rem;
+  line-height: 1.1; }
 
 .unselectable {
   -webkit-touch-callout: none;
@@ -32,6 +41,11 @@ a:visited, a:hover, a:link {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
+
+#footer {
+  font-family: "Roboto";
+  font-size: 0.8rem;
+  color: #787878; }
 
 #bg-home {
   background-image: url("images/diag_lr.png");

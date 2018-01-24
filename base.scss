@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700|Roboto:300,400,700|Roboto+Condensed:300,400,700|Titillium+Web:300,400,600');
 
 $kcus-gray: #939598;
-$kcus-blue: #4e82be;
+$kcus-blue-old: #4e82be;
+$kcus-blue: #4f8ac7;
 $bg-gray: #ededed;
+$light-gray: #787878;
 $font-stack: "Merriweather Sans", Helvetica, sans-serif;
 
 body {
@@ -28,14 +30,24 @@ a:visited, a:hover, a:link {
 	font-weight: 600;
 }
 
-.footer {
-  font-family: "Roboto";
-	font-size: 0.8rem;
-	color: #787878;
-}
-
 .highlight {
 	color: $kcus-blue;
+}
+
+.staff-name {
+	color: $kcus-blue;
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+
+.staff-title {
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+	color: $light-gray;
+	font-size: 0.82rem;
+	line-height: 1.1;
 }
 
 .unselectable {
@@ -45,6 +57,12 @@ a:visited, a:hover, a:link {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+#footer {
+  font-family: "Roboto";
+	font-size: 0.8rem;
+	color: $light-gray;
 }
 
 #bg-home {
