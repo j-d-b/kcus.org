@@ -1,27 +1,30 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700|Roboto:300,400,700|Roboto+Condensed:300,400,700|Titillium+Web:300,400,600");
+a:visited, a:hover, a:link {
+  text-decoration: none;
+  color: inherit; }
+
 body {
   background: #ededed;
   font-family: "Merriweather Sans", Helvetica, sans-serif; }
 
-a:visited, a:hover, a:link {
-  text-decoration: none;
-  color: inherit; }
+.font-weight-medium {
+  font-weight: 400; }
+
+.highlight {
+  color: #2386CC; }
+
+.nav-active {
+  color: #2386CC;
+  font-weight: 600; }
 
 .nav-title {
   font-family: "Titillium Web";
   font-weight: 400; }
   .nav-title:hover {
-    border-bottom: 0.2rem solid #4f8ac7; }
-
-.nav-active {
-  color: #4f8ac7;
-  font-weight: 600; }
-
-.highlight {
-  color: #4f8ac7; }
+    border-bottom: 0.2rem solid #2386CC; }
 
 .staff-name {
-  color: #4f8ac7;
+  color: #2386CC;
   font-family: "Roboto Condensed";
   font-weight: 400;
   font-size: 1.3rem;
@@ -42,25 +45,35 @@ a:visited, a:hover, a:link {
   -ms-user-select: none;
   user-select: none; }
 
+#contact-body {
+  background-image: url("images/diag_r.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+  #contact-body a {
+    color: #2386CC; }
+    #contact-body a:hover {
+      text-decoration: underline; }
+
 #footer {
   font-family: "Roboto";
   font-size: 0.8rem;
   color: #787878; }
+  #footer a:hover {
+    text-decoration: underline; }
 
-#bg-home {
+#home-body {
   background-image: url("images/diag_lr.png");
   background-repeat: no-repeat;
   background-position: center; }
 
 #home-info {
-  background-color: #939598;
+  background-color: #898989;
   font-family: 'Roboto Condensed';
   font-size: 0.8em;
   color: #fff; }
-
-#bg-contact {
-  background-image: url("images/diag_r.png");
-  background-repeat: no-repeat;
-  background-position: center; }
+  #home-info a:hover {
+    text-decoration: underline; }
+  #home-info .info-item {
+    max-width: 450px; }
 
 /*# sourceMappingURL=base.css.map */

@@ -8,13 +8,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- favicons -->
-		<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-		<link rel="manifest" href="favicons/manifest.json">
-		<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#4f8ac7">
-		<link rel="shortcut icon" href="favicons/favicon.ico">
-		<meta name="msapplication-config" content="favicons/browserconfig.xml">
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+		<link rel="manifest" href="/favicons/site.webmanifest">
+		<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#2386cc">
+		<link rel="shortcut icon" href="/favicons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#2d89ef">
+		<meta name="msapplication-config" content="/favicons/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
 
 		<!-- bootstrap 4 -->
@@ -29,7 +30,7 @@
 		<h1 class="text-hide">Kanaan Consulting US</h1> <!-- for search engines -->
 		<div class="container">
 
-			<nav class="navbar navbar-expand-sm d-print justify-content-between rounded bg-white mt-3 unselectable">
+			<nav class="navbar navbar-expand-sm d-print justify-content-between rounded bg-white mt-3 mt-lg-4 unselectable">
 				<a class="col-md-3 col-xl-2 navbar-brand pr-0" href="index.html">
 					<img src="images/logos/kcus_inc.svg" alt="KCUS">
 				</a>
@@ -51,51 +52,53 @@
 				</div>
 			</nav>
 
-			<div class="row rounded-top mx-auto mt-3 px-5 py-4" id="bg-home">
-				<div class="text-center font-weight-light">
-					<p>Kanaan Consulting US, Inc. is a Cambridge-based engineering company that offers comprehensive engineering and consulting services with a focus on multimodal transportation. We partner with our clients to move people and cargo more safely and efficiently by applying cutting-edge solutions and innovative yield management concepts.</p>
-					<p class="font-weight-bold lead text-uppercase">comprehensive engineering and consulting services</p>
-					<p>KCUS offers a unique combination of design, implementation, operations, and maintenance services to our clients. We specialize in solutions that integrate software, hardware, and usability to deliver better outcomes&mdash;whether through improved network throughput, increased yield, refined user experience, or a combination of these.</p>
-					<p>KCUS was established in 2001. We are based in historical Bulfinch Square in Cambridge, MA.</p>
-				</div>
-			</div>
-
-			<div class="row rounded-bottom mx-auto p-2 font-weight-light text-center text-lg-left align-items-center" id="home-info">
-				<div class="col-lg">
-					<div class="row">
-						<div class="col-lg">
-							<a href="projects/gotime.html">
-								<img class="img-thumbnail" src="images/home_rttm.png" alt="rttm">
-							</a>
-						</div>
-						<div class="col-lg">
-							KCUS was awarded the contract for the Massachusetts Statewide <a class="font-weight-bold" href="projects/gotime.html">Real Time Trafffic Management (RTTM) </a>System.
-						</div>
+			<div class="rounded" id="home-container">
+				<div class="row rounded-top mx-auto mt-3 px-5 py-4" id="home-body">
+					<div class="text-center font-weight-light">
+						<p>Kanaan Consulting US, Inc. is a Cambridge-based engineering company that offers comprehensive engineering and consulting services with a focus on multimodal transportation. We partner with our clients to move people and cargo more safely and efficiently by applying cutting-edge solutions and innovative yield management concepts.</p>
+						<p class="font-weight-bold lead text-uppercase">comprehensive engineering and consulting services</p>
+						<p>KCUS offers a unique combination of design, implementation, operations, and maintenance services to our clients. We specialize in solutions that integrate software, hardware, and usability to deliver better outcomes&mdash;whether through improved network throughput, increased yield, refined user experience, or a combination of these.</p>
+						<p>KCUS was established in 2001. We are based in historical Bulfinch Square in Cambridge, MA.</p>
 					</div>
 				</div>
 
-				<div class="col-lg">
-					<div class="row">
-						<div class="col-lg">
-							<a href="projects/new_office.html">
-								<img class="img-thumbnail" src="images/bulfinch_square.jpg" alt="Bulfinch Square">
-							</a>
-						</div>
-						<div class="col-lg">
-							In October KCUS moved to East Cambridge. The new office is located at 43 Thorndike Street in Bulfinch Square.
+				<div class="row rounded-bottom mx-auto p-3 font-weight-light text-center text-lg-left align-items-center" id="home-info">
+					<div class="col-lg info-item mx-auto">
+						<div class="row align-items-center">
+							<div class="col-lg pb-2 pb-lg-0">
+								<a href="projects/gotime.html">
+									<img class="img-thumbnail" src="images/home_rttm.png" alt="RTTM">
+								</a>
+							</div>
+							<div class="col-lg pl-lg-0 pb-4 pb-lg-0">
+								KCUS implemented and maintains <a class="font-weight-medium" href="http://www.massdotgotime.com" target="_blank">GoTime</a>, the Massachusetts Statewide <a class="font-weight-medium" href="projects/gotime.html">Real Time Trafffic Management (RTTM) </a>System.
+							</div>
 						</div>
 					</div>
-				</div>
 
-				<div class="col-lg">
-					<div class="row">
-						<div class="col-lg">
-							<a href="projects/its_colombia.html">
-								<img class="img-thumbnail" src="images/home_colombia.png" alt="ITS Colombia">
-							</a>
+					<div class="col-lg info-item mx-auto">
+						<div class="row align-items-center">
+							<div class="col-lg pb-2 pb-lg-0">
+								<a href="/contact.html">
+									<img class="img-thumbnail" src="images/bulfinch_square.jpg" alt="Bulfinch Square">
+								</a>
+							</div>
+							<div class="col-lg pl-lg-0 pb-4 pb-lg-0">
+								KCUS is located in Cambridge, Massachusetts at <a class="font-weight-medium" href="https://www.google.com/maps/place/Kanaan+Consulting,+Inc.+US/@42.3663545,-71.0826626,15z/data=!4m5!3m4!1s0x89e370bbf92c8791:0x49e5de4aae3787d6!8m2!3d42.3699335!4d-71.0797014" target="_blank">43 Thorndike Street</a> in the historic Bulfinch Square.
+							</div>
 						</div>
-						<div class="col-lg">
-								KCUS offered technical assistance to the Colombian Ministry of Transport regarding the implementation of Intelligent Transportation System (ITS) technologies.
+					</div>
+
+					<div class="col-lg info-item mx-auto">
+						<div class="row align-items-center">
+							<div class="col-lg pb-2 pb-lg-0">
+								<a href="/projects/itms.html">
+									<img class="img-thumbnail" src="/images/projects/hoc.jpeg" alt="ITMS">
+								</a>
+							</div>
+							<div class="col-lg pl-lg-0 pb-3 pb-lg-0">
+								KCUS is working with the Massachusetts Department of Transportation to design and implement a new <a href="/projects/itms.html" class="font-weight-medium">Integrated Transportation Management System (ITMS)</a>.
+							</div>
 						</div>
 					</div>
 				</div>
