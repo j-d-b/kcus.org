@@ -1,2 +1,0 @@
-kcus blue: #4E82BE
-kcus gray: #939598
