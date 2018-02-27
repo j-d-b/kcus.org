@@ -13,4 +13,16 @@ $(document).ready(function() {
   var templateScript = Handlebars.templates.staff(context);
 
   $('#staff-placeholder').html(templateScript);
+
+  $('.staff-select').on('click', function() {
+    $('.staff-item').toggleClass('col-md-6 col-lg-4 col-lg-6');
+    $('#staff-thumbnails').toggleClass('col-12 col-sm-8');
+    $('#staff-description').toggleClass('col-4 d-none');
+
+    var name = $(this).attr('data-target');
+    $('#staff-description').load('staff/_' + name + '.html');
+  });
+
+
+
 });

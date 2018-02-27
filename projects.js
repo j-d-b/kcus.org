@@ -172,4 +172,9 @@ $('#projects-placeholder').ready(function() {
   $('#software-systems').html(softSysScr);
   $('#transportation-planning').html(transPlanScr);
 
+  $('.proj-page-header').on('click', function() {
+    console.log('here');
+    $(this).find('svg').toggleClass('fa-caret-right fa-caret-down py-2 px-1');
+  });
+
 });

@@ -1,9 +1,13 @@
 {{#each projects}}
   <div class="col-md-6 col-lg-4 pb-3 pb-md-4-5">
     <div class="card h-100">
-      <img class="card-img-top" src="{{img-src}}" alt="{{title}}">
+      <a href="{{hash}}">
+        <img class="card-img-top" src="{{img-src}}" alt="{{title}}">
+      </a>
       <div class="card-body text-roboto">
-        <span class="blue-header">{{title}}</span>
+        <a href="{{hash}}">
+          <span class="blue-header">{{title}}</span>
+        </a>
         <p class="card-text">{{description}}</p>
       </div>
       <div class="card-footer">

@@ -1,3 +1,8 @@
+@import 'home';
+@import 'projects';
+@import 'staff';
+@import 'contact';
+
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700|Roboto:300,400,700|Roboto+Condensed:300,400,700|Titillium+Web:300,400,600');
 
 $kcus-gray: #898989;
@@ -5,39 +10,76 @@ $kcus-blue: #2386CC;
 $bg-gray: #ededed;
 $light-gray: #787878;
 $bs-md-breakpoint: 768px;
-$pad-4-5: 2.0rem;
-$font-stack: "Merriweather Sans", Helvetica, sans-serif;
-
-@media (min-width: $bs-md-breakpoint) {
-  .pb-md-4-5 {
-    padding-bottom: $pad-4-5 !important;
-  }
-}
-
-a:visited, a:hover, a:link {
-    text-decoration: none;
-    color: inherit;
-}
+$space-4-5: 2.0rem;
 
 body {
 	background: $bg-gray;
-  font-family: $font-stack;
 }
 
-.card-text {
-  font-size: 0.87rem;
+// ---------- SPACING ----------
+@media (min-width: $bs-md-breakpoint) {
+  .pb-md-4-5 {
+    padding-bottom: $space-4-5 !important;
+  }
 }
 
+.pt-4-5 {
+  padding-top: $space-4-5 !important;
+}
+
+
+// ---------- COLORS ----------
+.bg-kcus-gray {
+  background-color: $kcus-gray;
+}
+
+
+// ---------- TEXT ----------
 .font-weight-medium {
 	font-weight: 400;
 }
 
-.gray-subheader {
-	font-family: "Roboto Condensed", sans-serif;
-	font-weight: 400;
-	color: $light-gray;
-	font-size: 0.82rem;
-	line-height: 1.1;
+.font-small {
+  font-size: 0.8rem;
+}
+
+.text-blue {
+  color: $kcus-blue;
+}
+
+.text-gray {
+  color: $kcus-gray;
+}
+
+.text-light-gray {
+  color: $light-gray;
+}
+
+.text-merriweather {
+  font-family: "Merriweather Sans", Helvetica, sans-serif;
+}
+
+.text-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-roboto-cond {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+
+// ---------- UTILITIES ----------
+.anchor-plain {
+  a:visited, a:hover, a:link {
+      text-decoration: none;
+      color: inherit;
+  }
+}
+
+.anchor-underline {
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 .h-100 {
@@ -48,6 +90,17 @@ body {
 	color: $kcus-blue;
 }
 
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+// ----- NAVBAR ------
 .nav-active {
 	color: $kcus-blue;
 	font-weight: 600;
@@ -61,10 +114,8 @@ body {
   }
 }
 
-.pt-4-5 {
-  padding-top: $pad-4-5 !important;
-}
 
+// ---------- CUSTOM COMPONENTS ----------
 .blue-header {
 	color: $kcus-blue;
 	font-family: "Roboto Condensed", sans-serif;
@@ -73,66 +124,26 @@ body {
 	line-height: 1.2;
 }
 
-.text-blue {
-  color: $kcus-blue;
-}
-
-.text-gray {
-  color: $kcus-gray;
-}
-
-.text-merriweather {
-  font-family: $font-stack;
-}
-
-.text-roboto {
-  font-family: "Roboto", sans-serif;
-}
-
-.unselectable {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-#contact-body {
-  background-image: url("images/diag_r.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	a {
-		color: $kcus-blue;
-		&:hover{
-			text-decoration: underline;
-		}
-	}
-}
-
-#footer {
-  font-family: "Roboto", sans-serif;
-	font-size: 0.8rem;
+.gray-subheader {
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 400;
 	color: $light-gray;
-	a:hover {
-		text-decoration: underline;
-	}
+	font-size: 0.82rem;
 }
 
-#home-body {
-  background-image: url("images/diag_lr.png");
-	background-repeat: no-repeat;
-	background-position: center;
+.blue-links {
+  a {
+    color: $kcus-blue;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
 }
 
 #home-info {
-  background-color: $kcus-gray;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 0.8em;
   color: #fff;
-	a:hover {
-		text-decoration: underline;
-	}
 	.info-item {
 		max-width: 450px;
 	}

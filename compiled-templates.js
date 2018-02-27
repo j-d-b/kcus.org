@@ -20,13 +20,17 @@ templates['home'] = template({"1":function(container,depth0,helpers,partials,dat
 templates['projects'] = template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "  <div class=\"col-md-6 col-lg-4 pb-3 pb-md-4-5\">\n    <div class=\"card h-100\">\n      <img class=\"card-img-top\" src=\""
+  return "  <div class=\"col-md-6 col-lg-4 pb-3 pb-md-4-5\">\n    <div class=\"card h-100\">\n      <a href=\""
+    + alias4(((helper = (helper = helpers.hash || (depth0 != null ? depth0.hash : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"hash","hash":{},"data":data}) : helper)))
+    + "\">\n        <img class=\"card-img-top\" src=\""
     + alias4(((helper = (helper = helpers["img-src"] || (depth0 != null ? depth0["img-src"] : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"img-src","hash":{},"data":data}) : helper)))
     + "\" alt=\""
     + alias4(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
-    + "\">\n      <div class=\"card-body text-roboto\">\n        <span class=\"blue-header\">"
+    + "\">\n      </a>\n      <div class=\"card-body text-roboto\">\n        <a href=\""
+    + alias4(((helper = (helper = helpers.hash || (depth0 != null ? depth0.hash : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"hash","hash":{},"data":data}) : helper)))
+    + "\">\n          <span class=\"blue-header\">"
     + alias4(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
-    + "</span>\n        <p class=\"card-text\">"
+    + "</span>\n        </a>\n        <p class=\"card-text\">"
     + alias4(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data}) : helper)))
     + "</p>\n      </div>\n      <div class=\"card-footer\">\n        <div class=\"row gray-subheader\">\n          <div class=\"col-7\">"
     + alias4(((helper = (helper = helpers.location || (depth0 != null ? depth0.location : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"location","hash":{},"data":data}) : helper)))
@@ -41,13 +45,13 @@ templates['projects'] = template({"1":function(container,depth0,helpers,partials
 templates['staff'] = template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "  <div class=\"staff-item col-md-6 col-lg-4 pb-2 pb-md-3\">\n    <a class=\"staff-img\" href=\"#staff-"
+  return "  <div class=\"staff-item col-md-6 col-lg-4 pb-2 pb-md-3\">\n    <a class=\"staff-select\" data-target=\""
     + alias4(((helper = (helper = helpers["staff-name-first"] || (depth0 != null ? depth0["staff-name-first"] : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"staff-name-first","hash":{},"data":data}) : helper)))
-    + "\">\n      <img class=\"staff-img img-thumbnail\" src=\"images/staff/"
+    + "\">\n      <img class=\"img-thumbnail\" src=\"images/staff/"
     + alias4(((helper = (helper = helpers["staff-name-first"] || (depth0 != null ? depth0["staff-name-first"] : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"staff-name-first","hash":{},"data":data}) : helper)))
     + "-2x1-thumb.png\" alt=\""
     + alias4(((helper = (helper = helpers["staff-name-first"] || (depth0 != null ? depth0["staff-name-first"] : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"staff-name-first","hash":{},"data":data}) : helper)))
-    + "\">\n    </a>\n    <div class=\"pt-1 pl-1\">\n      <div class=\"blue-header\">\n        <a href=\"#staff-"
+    + "\">\n    </a>\n    <div class=\"pt-1 pl-1\">\n      <div class=\"blue-header\">\n        <a class=\"staff-select\" href=\""
     + alias4(((helper = (helper = helpers["staff-name-first"] || (depth0 != null ? depth0["staff-name-first"] : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"staff-name-first","hash":{},"data":data}) : helper)))
     + "\">"
     + alias4(((helper = (helper = helpers["staff-name-full"] || (depth0 != null ? depth0["staff-name-full"] : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"staff-name-full","hash":{},"data":data}) : helper)))
