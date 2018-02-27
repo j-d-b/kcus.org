@@ -30,81 +30,31 @@
 		<h1 class="text-hide">Kanaan Consulting US</h1> <!-- for search engines -->
 		<div class="container">
 
-			<nav class="navbar navbar-expand-sm d-print justify-content-between rounded bg-white mt-3 mt-lg-4 unselectable">
+			<nav class="navbar navbar-expand-sm justify-content-between rounded bg-white mt-3 mt-lg-4 unselectable">
 				<a class="col-md-3 col-xl-2 navbar-brand pr-0" href="index.html">
 					<img src="images/logos/kcus_inc.svg" alt="KCUS">
 				</a>
 				<div class="navbar-nav mx-auto mx-sm-0">
 					<div class="d-flex flex-nowrap mt-2 mt-sm-0">
-						<a class="nav-item nav-link p-2" href="index.html">
-							<span class="nav-title nav-active">Home</span>
+						<a class="nav-item nav-link p-2" href="#home">
+							<span class="nav-title">Home</span>
 						</a>
-						<a class="nav-item nav-link p-2" href="projects.html">
+						<a class="nav-item nav-link p-2" href="#projects">
 							<span class="nav-title">Projects</span>
 						</a>
-						<a class="nav-item nav-link p-2" href="staff.html">
+						<a class="nav-item nav-link p-2" href="#staff">
 							<span class="nav-title">Staff</span>
 						</a>
-						<a class="nav-item nav-link p-2" href="contact.html">
+						<a class="nav-item nav-link p-2" href="#contact">
 							<span class="nav-title">Contact</span>
 						</a>
 					</div>
 				</div>
 			</nav>
 
-			<div class="rounded" id="home-container">
-				<div class="row rounded-top mx-auto mt-3 px-5 py-4" id="home-body">
-					<div class="text-center font-weight-light">
-						<p>Kanaan Consulting US, Inc. is a Cambridge-based engineering company that offers comprehensive engineering and consulting services with a focus on multimodal transportation. We partner with our clients to move people and cargo more safely and efficiently by applying cutting-edge solutions and innovative yield management concepts.</p>
-						<p class="font-weight-bold lead text-uppercase">comprehensive engineering and consulting services</p>
-						<p>KCUS offers a unique combination of design, implementation, operations, and maintenance services to our clients. We specialize in solutions that integrate software, hardware, and usability to deliver better outcomes&mdash;whether through improved network throughput, increased yield, refined user experience, or a combination of these.</p>
-						<p>KCUS was established in 2001. We are based in historical Bulfinch Square in Cambridge, MA.</p>
-					</div>
-				</div>
+			<div id="main-content"></div> <!-- inject page bodies here -->
 
-				<div class="row rounded-bottom mx-auto p-3 font-weight-light text-center text-lg-left align-items-center" id="home-info">
-					<div class="col-lg info-item mx-auto">
-						<div class="row align-items-center">
-							<div class="col-lg pb-2 pb-lg-0">
-								<a href="projects/gotime.html">
-									<img class="img-thumbnail" src="images/home_rttm.png" alt="RTTM">
-								</a>
-							</div>
-							<div class="col-lg pl-lg-0 pb-4 pb-lg-0">
-								KCUS implemented and maintains <a class="font-weight-medium" href="http://www.massdotgotime.com" target="_blank">GoTime</a>, the Massachusetts Statewide <a class="font-weight-medium" href="projects/gotime.html">Real Time Trafffic Management (RTTM) </a>System.
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg info-item mx-auto">
-						<div class="row align-items-center">
-							<div class="col-lg pb-2 pb-lg-0">
-								<a href="/contact.html">
-									<img class="img-thumbnail" src="images/bulfinch_square.jpg" alt="Bulfinch Square">
-								</a>
-							</div>
-							<div class="col-lg pl-lg-0 pb-4 pb-lg-0">
-								KCUS is located in Cambridge, Massachusetts at <a class="font-weight-medium" href="https://www.google.com/maps/place/Kanaan+Consulting,+Inc.+US/@42.3663545,-71.0826626,15z/data=!4m5!3m4!1s0x89e370bbf92c8791:0x49e5de4aae3787d6!8m2!3d42.3699335!4d-71.0797014" target="_blank">43 Thorndike Street</a> in the historic Bulfinch Square.
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg info-item mx-auto">
-						<div class="row align-items-center">
-							<div class="col-lg pb-2 pb-lg-0">
-								<a href="/projects/itms.html">
-									<img class="img-thumbnail" src="/images/projects/hoc.jpeg" alt="ITMS">
-								</a>
-							</div>
-							<div class="col-lg pl-lg-0 pb-3 pb-lg-0">
-								KCUS is working with the Massachusetts Department of Transportation to design and implement a new <a href="/projects/itms.html" class="font-weight-medium">Integrated Transportation Management System (ITMS)</a>.
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row rounded mt-2 mt-sm-3 text-center" id="footer">
+			<div class="row rounded mt-2 mt-sm-3 mb-3 text-center" id="footer">
       	<div class="col-sm text-sm-left">
         	<a href="mailto:info@kcus.org">info@kcus.org</a>
 					<br>
@@ -121,9 +71,14 @@
 		</div>
 
 		<!-- bootstrap 4 -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+		<!-- handlebars -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.runtime.min.js"></script>
+
+		<script src="main-spa.js"></script>
+		<script src="compiled-templates.js"></script>
 
 	</body>
 </html>

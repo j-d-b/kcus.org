@@ -4,7 +4,15 @@ $kcus-gray: #898989;
 $kcus-blue: #2386CC;
 $bg-gray: #ededed;
 $light-gray: #787878;
+$bs-md-breakpoint: 768px;
+$pad-4-5: 2.0rem;
 $font-stack: "Merriweather Sans", Helvetica, sans-serif;
+
+@media (min-width: $bs-md-breakpoint) {
+  .pb-md-4-5 {
+    padding-bottom: $pad-4-5 !important;
+  }
+}
 
 a:visited, a:hover, a:link {
     text-decoration: none;
@@ -16,8 +24,24 @@ body {
   font-family: $font-stack;
 }
 
+.card-text {
+  font-size: 0.87rem;
+}
+
 .font-weight-medium {
 	font-weight: 400;
+}
+
+.gray-subheader {
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 400;
+	color: $light-gray;
+	font-size: 0.82rem;
+	line-height: 1.1;
+}
+
+.h-100 {
+  height: 100%;
 }
 
 .highlight {
@@ -30,27 +54,39 @@ body {
 }
 
 .nav-title {
-  font-family: "Titillium Web";
+  font-family: "Titillium Web", sans-serif;
 	font-weight: 400;
   &:hover {
     border-bottom: 0.2rem solid $kcus-blue;
   }
 }
 
-.staff-name {
+.pt-4-5 {
+  padding-top: $pad-4-5 !important;
+}
+
+.blue-header {
 	color: $kcus-blue;
-	font-family: "Roboto Condensed";
+	font-family: "Roboto Condensed", sans-serif;
 	font-weight: 400;
 	font-size: 1.3rem;
 	line-height: 1.2;
 }
 
-.staff-title {
-	font-family: "Roboto Condensed";
-	font-weight: 400;
-	color: $light-gray;
-	font-size: 0.82rem;
-	line-height: 1.1;
+.text-blue {
+  color: $kcus-blue;
+}
+
+.text-gray {
+  color: $kcus-gray;
+}
+
+.text-merriweather {
+  font-family: $font-stack;
+}
+
+.text-roboto {
+  font-family: "Roboto", sans-serif;
 }
 
 .unselectable {
@@ -61,15 +97,6 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
-
-// Firas wants a border radius but I don't
-// .navbar {
-// 	box-shadow: 0 0 0.75rem #e1e1e1;
-// }
-//
-// #home-container {
-// 	box-shadow: 0 0 0.75rem #e1e1e1;
-// }
 
 #contact-body {
   background-image: url("images/diag_r.png");
@@ -84,7 +111,7 @@ body {
 }
 
 #footer {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 	font-size: 0.8rem;
 	color: $light-gray;
 	a:hover {
@@ -100,7 +127,7 @@ body {
 
 #home-info {
   background-color: $kcus-gray;
-	font-family: 'Roboto Condensed';
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 0.8em;
   color: #fff;
 	a:hover {

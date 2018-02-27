@@ -1,0 +1,17 @@
+{{#each projects}}
+  <div class="col-md-6 col-lg-4 pb-3 pb-md-4-5">
+    <div class="card h-100">
+      <img class="card-img-top" src="{{img-src}}" alt="{{title}}">
+      <div class="card-body text-roboto">
+        <span class="blue-header">{{title}}</span>
+        <p class="card-text">{{description}}</p>
+      </div>
+      <div class="card-footer">
+        <div class="row gray-subheader">
+          <div class="col-7">{{location}}</div>
+          <div class="col-5 text-right">{{date}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{/each}}
