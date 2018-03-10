@@ -1,0 +1,40 @@
+{
+  "staff": [
+    {
+      "staffNameFull": "Ammar Kanaan",
+      "staffNameFirst": "ammar",
+      "staffTitle": "President",
+      "imgThumbSource": "/images/staff/ammar-2x1-thumb.png"
+    },
+    {
+      "staffNameFull": "Michelle Boucher",
+      "staffNameFirst": "michelle",
+      "staffTitle": "Managing Director",
+      "imgThumbSource": "/images/staff/michelle-2x1-thumb.png"
+    },
+    {
+      "staffNameFull": "Firas Said",
+      "staffNameFirst": "firas",
+      "staffTitle": "Lead Systems Engineer",
+      "imgThumbSource": "/images/staff/firas-2x1-thumb.png"
+    },
+    {
+      "staffNameFull": "Emily Wright",
+      "staffNameFirst": "emily",
+      "staffTitle": "Systems Engineer",
+      "imgThumbSource": "/images/staff/emily-2x1-thumb.png"
+    },
+    { 
+      "staffNameFull": "Sapreen Abbass",
+      "staffNameFirst": "sapreen",
+      "staffTitle": "Systems Engineer",
+      "imgThumbSource": "/images/staff/sapreen-2x1-thumb.png"
+    },
+    {
+      "staffNameFull": "Jacob Brady",
+      "staffNameFirst": "jacob",
+      "staffTitle": "Software Developer",
+      "imgThumbSource": "/images/staff/jacob-2x1-thumb.png"
+    }
+  ]
+}
