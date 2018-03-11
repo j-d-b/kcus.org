@@ -18,7 +18,7 @@ Pages partials with `_` prefix, for insert into index.html `#main-content` div.
 ## Handlebars
 Uses Handlebars for repeated staff, project, and home info elements, dramatically shortening html and facilitating addition of new staff or projects with minimal-to-no codebase knowledge.
 
-Handlebars templates are found in `templates/` and are precompiled into `compiled-templates.js`.
+Handlebars templates are found in `templates/` and are precompiled into `scripts/compiled-templates.js`.
 
 ## About KCUS, Inc.
 > Kanaan Consulting US, Inc. is a Cambridge-based engineering company that offers comprehensive engineering and consulting services with a focus on multimodal transportation.

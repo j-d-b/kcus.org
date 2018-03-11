@@ -2,18 +2,12 @@
 
 $kcus-gray: #898989;
 $kcus-blue: #2386CC;
-$bg-gray: #ededed;
 $light-gray: #787878;
 $bs-md-breakpoint: 768px;
-$space-4-5: 2.0rem;
+$space-4-5: 2.0rem; // between bs 4 and 5 spacing
 
 
-body {
-	background: $bg-gray;
-}
-
-
-// ---------- SPACING ----------
+// ---------- spacing ----------
 @media (min-width: $bs-md-breakpoint) {
   .pb-md-4-5 {
     padding-bottom: $space-4-5 !important;
@@ -25,23 +19,39 @@ body {
 }
 
 
-// ---------- COLORS ----------
+// ---------- background ----------
 .bg-kcus-gray {
   background-color: $kcus-gray;
 }
 
+.bg-ededed {
+	background-color: #ededed;
+}
 
-// ---------- TEXT ----------
+.bg-img-diag-lr {
+  background-image: url("images/home/diag_lr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-img-diag-r {
+  background-image: url("images/contact/diag_r.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+// ---------- text ----------
 .font-weight-medium {
 	font-weight: 400;
 }
 
-.font-small {
-  font-size: 0.8rem;
+.text-point-87-rem {
+  font-size: 0.87rem;
 }
 
-.highlight {
-	color: $kcus-blue;
+.text-point-8-rem{
+  font-size: 0.8rem;
 }
 
 .text-blue {
@@ -69,7 +79,7 @@ body {
 }
 
 
-// ---------- UTILITIES ----------
+// ---------- utilities ----------
 .anchor-plain {
   a:visited, a:hover, a:link {
       text-decoration: none;
@@ -92,12 +102,8 @@ body {
   }
 }
 
-.h-100 {
-  height: 100%;
-}
-
 .mw-450 {
-  max-width: 450px; //TODO clean this up: rem, %... etc
+  max-width: 450px;
 }
 
 .unselectable {
@@ -110,7 +116,7 @@ body {
 }
 
 
-// ----- NAVBAR ------
+// ----- navbar ------
 .nav-active {
 	color: $kcus-blue;
 	font-weight: 600;
@@ -125,11 +131,7 @@ body {
 }
 
 
-// ---------- CUSTOM COMPONENTS ----------
-.project-text {
-  font-size: 0.87rem;
-}
-
+// ---------- custom ----------
 .blue-header {
 	color: $kcus-blue;
 	font-family: "Roboto Condensed", sans-serif;
@@ -143,16 +145,4 @@ body {
 	font-weight: 400;
 	color: $light-gray;
 	font-size: 0.82rem;
-}
-
-.bg-img-diag-lr {
-  background-image: url("images/home/diag_lr.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.bg-img-diag-r {
-  background-image: url("images/contact/diag_r.png");
-	background-repeat: no-repeat;
-	background-position: center;
 }
