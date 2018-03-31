@@ -20,11 +20,11 @@ templates['home'] = template({"1":function(container,depth0,helpers,partials,dat
 templates['person'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "<div class=\"col-12 d-flex justify-content-between pb-1 anchor-plain anchor-underline\">\n  <h2 class=\"font-weight-light text-uppercase\">\n    <span class=\"text-blue\">"
+  return "<div class=\"col-12 d-flex justify-content-between pb-1\">\n  <h2 class=\"font-weight-light text-uppercase\">\n    <span class=\"text-blue\">"
     + alias4(((helper = (helper = helpers.firstName || (depth0 != null ? depth0.firstName : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"firstName","hash":{},"data":data}) : helper)))
     + " </span>\n    <span class=\"text-gray\">"
     + alias4(((helper = (helper = helpers.lastName || (depth0 != null ? depth0.lastName : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"lastName","hash":{},"data":data}) : helper)))
-    + "</span>\n  </h2>\n  <a class=\"align-self-center text-point-87-rem\" href=\"#staff\">View all staff</a>\n</div>\n<div class=\"col-12 font-weight-light mb-2 mb-md-4\">\n  <div class=\"row\">\n    <div class=\"col-md-4 col-xl-3\">\n      <img class=\"img-fluid img-thumbnail d-none d-md-block\" src=\""
+    + "</span>\n  </h2>\n  <a class=\"return-button align-self-center rounded text-point-87-rem\" href=\"#staff\">View all staff</a>\n</div>\n\n<div class=\"col-12 font-weight-light mb-2 mb-md-4\">\n  <div class=\"row\">\n    <div class=\"col-md-4 col-xl-3\">\n      <img class=\"img-fluid img-thumbnail d-none d-md-block\" src=\""
     + alias4(((helper = (helper = helpers.imgTallSource || (depth0 != null ? depth0.imgTallSource : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"imgTallSource","hash":{},"data":data}) : helper)))
     + "\" />\n      <img class=\"img-fluid img-thumbnail d-md-none mb-4\" src=\""
     + alias4(((helper = (helper = helpers.imgThumbSource || (depth0 != null ? depth0.imgThumbSource : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"imgThumbSource","hash":{},"data":data}) : helper)))

@@ -30,6 +30,10 @@
 }
 
 .return-button {
-	border: 1px solid black;
-	&:hover
+	color: $kcus-gray;
+	padding: 0.4rem;
+	&:hover {
+		text-decoration: none;
+		color: $kcus-blue;
+	}
 }
