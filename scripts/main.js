@@ -1,13 +1,16 @@
 // Jacob Brady
 // 2018 KCUS Inc.
 
+// globals
 var mainPageHashes = ['#home', '#projects', '#staff', '#contact'];
-var subPageHashes = ['#staff-ammar', '#staff-michelle', '#staff-firas', '#staff-emily', '#staff-sapreen', '#staff-jacob' ];
-var allPageHashes = mainPageHashes.concat(subPageHashes);
+var staffPageHashes = ['#staff-ammar', '#staff-michelle', '#staff-firas', '#staff-emily', '#staff-sapreen', '#staff-jacob'];
+var allPageHashes = mainPageHashes.concat(staffPageHashes);
 var currentHash = '#home';
 var defaultHash = '#home'; // could link to page not found, etc.
 
 $(document).ready(function(){
+  // setStaffHashes();
+
   currentHash = checkHash( $(location).attr('hash') );
   displayContent(currentHash);
   setHighlight(currentHash);
@@ -20,18 +23,23 @@ $(document).ready(function(){
   });
 });
 
-// gives the pathname partial given a hash
-// ex: given '#contact' returns '/views/_contact.html'
-// ex: given '#staff-jacob' returns /views/staff/_jacob.html'
-// only works for singly nested subpages
+// fills out global staffPageHashes using staff.json
+function setStaffHashes() {
+  $.getJSON('/template-data/staff.json', function(data) {
+    data.staff.forEach(function(obj) {
+      staffPageHashes.push(obj.hash);
+    });
+  });
+}
+
+// gives the pathname partial given a hash,
+// assumes pages are in 'views/'
 function hashToPath(hash) {
-  var parts = hash.substring(1).split('-');
-  return '/views/' + (parts.length > 1 ? ( parts[0] + '/_' + parts[1] + '.html') : ('_' + parts[0] + '.html'));
+  return '/views/' + '_' + hash.substring(1) + '.html';
 }
 
 // ensures hash is in allPageHashes
 function checkHash(hash) {
-  console.log(hash);
   var isValid = $.inArray(hash, allPageHashes) != -1;
   if (isValid) {
     return hash;
@@ -44,7 +52,14 @@ function checkHash(hash) {
 
 // determine which content to display on page load by url hash
 function displayContent(hash) {
+  if (staffPageHashes.includes(hash)) {
+    $.getJSON('/template-data/staff.json', function(data) { // get rid of all these ajax!!
+      loadPerson(data.staff[staffPageHashes.indexOf(hash)]);
+    });
+    return;
+  }
   var path = hashToPath(hash);
+
   $('#main-content').load(path, function() {
     switch (hash) {
       case '#home':
@@ -75,12 +90,10 @@ function setHighlight(hash) {
 }
 
 
-
 // -------- PAGE LOADING STUFF BELOW --------
-// put this into indivdual file w/ webpack or something...
+// put this into indivdual file or something...
 // rename this page switching file to index.js
 // these set up the handlers for the page and builds the html from template w/ json data
-
 function loadProj() {
   $.getJSON('/template-data/projects.json', function(data) {
     $('#current-projects').html( Handlebars.templates.projects(data.projCurrent) );
@@ -95,24 +108,20 @@ function loadProj() {
 }
 
 function loadHome() {
-  $.getJSON('/template-data/home.json', function(context) {
-    var templateScr = Handlebars.templates.home(context);
-    $('#home-info').html(templateScr);
+  $.getJSON('/template-data/home.json', function(data) {
+    var templateScr = Handlebars.templates.home(data);
+    $('#hbs-home').html(templateScr);
   });
 }
 
 function loadStaff() {
-  $.getJSON('/template-data/staff.json', function(context) {
-    var templateScr = Handlebars.templates.staff(context);
-    $('#staff-placeholder').html(templateScr);
-
-    $('.staff-select').on('click', function() { // TODO
-      $('.staff-item').toggleClass('col-md-6 col-lg-4 col-lg-6');
-      $('#staff-thumbnails').toggleClass('col-12 col-sm-8');
-      $('#staff-description').toggleClass('col-4 d-none');
-
-      var name = $(this).attr('data-target');
-      $('#staff-description').load('staff/_' + name + '.html');
-    });
+  $.getJSON('/template-data/staff.json', function(data) {
+    var staffTemplate = Handlebars.templates.staff(data);
+    $('#hbs-staff').html(staffTemplate);
   });
+}
+
+function loadPerson(person) {
+  var personTemplate = Handlebars.templates.person(person);
+  $('#main-content').html(personTemplate);
 }

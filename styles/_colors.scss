@@ -1,0 +1,23 @@
+$kcus-gray: #898989;
+$kcus-blue: #2386CC;
+$light-gray: #787878;
+
+.bg-kcus-gray {
+  background-color: $kcus-gray;
+}
+
+.bg-ededed {
+	background-color: #ededed;
+}
+
+.bg-img-diag-lr {
+  background-image: url("/images/home/diag_lr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-img-diag-r {
+  background-image: url("/images/contact/diag_r.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}

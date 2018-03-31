@@ -20,5 +20,10 @@ Uses Handlebars for repeated staff, project, and home info elements, dramaticall
 
 Handlebars templates are found in `templates/` and are precompiled into `scripts/compiled-templates.js`.
 
+Templates are injected by element `id`, all which are prefixed with `hbs-` for clarity.
+
+To add/change staff or projects, change only the json data files in `template-data/`, no need to touch any HTML or JS.
+
+
 ## About KCUS, Inc.
 > Kanaan Consulting US, Inc. is a Cambridge-based engineering company that offers comprehensive engineering and consulting services with a focus on multimodal transportation.

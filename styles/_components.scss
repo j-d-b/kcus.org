@@ -1,0 +1,35 @@
+// ----- navbar ------
+.nav-active {
+	color: $kcus-blue;
+	font-weight: 600;
+}
+
+.nav-title {
+  font-family: "Titillium Web", sans-serif;
+	font-weight: 400;
+  &:hover {
+    border-bottom: 0.2rem solid $kcus-blue;
+  }
+}
+
+
+// ---------- custom ----------
+.blue-header {
+	color: $kcus-blue;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 400;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+
+.gray-subheader {
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 400;
+	color: $light-gray;
+	font-size: 0.82rem;
+}
+
+.return-button {
+	border: 1px solid black;
+	&:hover
+}

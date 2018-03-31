@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700|Roboto:300,400,700|Roboto+Condensed:300,400,700|Titillium+Web:300,400,600');
+
+.font-weight-medium {
+	font-weight: 400;
+}
+
+.text-point-87-rem {
+  font-size: 0.87rem;
+}
+
+.text-point-8-rem{
+  font-size: 0.8rem;
+}
+
+.text-blue {
+  color: $kcus-blue;
+}
+
+.text-gray {
+  color: $kcus-gray;
+}
+
+.text-light-gray {
+  color: $light-gray;
+}
+
+.text-merriweather {
+  font-family: "Merriweather Sans", Helvetica, sans-serif;
+}
+
+.text-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-roboto-cond {
+  font-family: "Roboto Condensed", sans-serif;
+}
