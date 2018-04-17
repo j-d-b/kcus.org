@@ -1,21 +1,8 @@
 // Jacob Brady
 // 2018 KCUS Inc.
-import { route } from './router.js';
+import { route, setupNavigation } from './router.js';
 
+setupNavigation(document.querySelector('nav'));
 route(window.location.pathname);
 
-document.querySelectorAll('.spa-nav').forEach(element => {
-  element.addEventListener('click', e => {
-    e.preventDefault();
-    let path = e.target.getAttribute('href');
-    console.log(path);
-    route(path);
-  });
-});
-
-window.onpopstate = e => {
-  console.log(e.state.path);
-  if (e.state) {
-    route(e.state.path);
-  }
-}
+window.onpopstate = () => route(window.location.pathname);

@@ -12,7 +12,7 @@ import ProjectsData from './data/projects.json';
 // load the relevant page content and setup event listeners based on path
 // note: only checks subpages for staff and projects; also no nested subpages
 export function route(path) {
-  const pages = path.substring(1).split('/');
+  const pages = path.substring(1).split('/'); // don't need to error check bc of default case
   const mainPage = pages[0];
   const isSubPage = pages[1] && true;
 
@@ -36,10 +36,25 @@ export function route(path) {
     default:
       setHighlight('home');
       setContent(homeTemplate(HomeData));
-      window.history.replaceState({ path: path }, '', '/home');
+      window.history.replaceState({}, null, '/home');
   }
 
-  window.history.pushState({ path: path }, '', path);
+  setupNavigation(document.querySelector('#main-content'));
+}
+
+// setup the event listeners for spa navigation (internal links) on anchors with
+// the 'spa-nav' class, within the given element
+export function setupNavigation(element) {
+  element.querySelectorAll('.spa-nav').forEach(el => {
+    el.addEventListener('click', e => {
+      e.preventDefault();
+      let path = e.currentTarget.getAttribute('href');
+      if (path !== window.location.pathname) {
+        route(path);
+        window.history.pushState({}, null, path);
+      }
+    });
+  });
 }
 
 // highlights only navbar item corresponding to the given main page
