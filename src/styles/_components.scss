@@ -1,14 +1,13 @@
 // ----- navbar ------
 .nav-active {
-	color: $kcus-blue;
-	font-weight: 600;
+	color: $kcus-blue !important;
 }
 
 .nav-title {
   font-family: "Titillium Web", sans-serif;
 	font-weight: 400;
   &:hover {
-    border-bottom: 0.2rem solid $kcus-blue;
+    border-bottom: 0.15rem solid $kcus-blue;
   }
 }
 

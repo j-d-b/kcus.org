@@ -1,0 +1,24 @@
+<div class="col-12 text-center text-md-left">
+  <h2 class="font-weight-light text-uppercase pb-1">
+    <span class="text-blue">Our </span>
+    <span class="text-gray">Team</span>
+  </h2>
+</div>
+
+<div class="col-12 mb-2">
+  <div class="row text-center text-md-left anchor-plain">
+    {{#each staff}}
+      <div class="staff-item col-md-6 col-lg-4 pb-2 pb-md-3">
+        <a class="js-nav" href="{{path}}">
+          <img class="img-thumbnail" src="{{imgThumbSource}}" alt="{{firstName}}">
+        </a>
+        <div class="blue-header pt-1">
+          <a class="js-nav" href="{{path}}">{{firstName}} {{lastName}}</a>
+        </div>
+        <div class="gray-subheader text-uppercase">
+          {{title}}
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

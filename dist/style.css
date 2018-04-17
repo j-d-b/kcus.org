@@ -72,14 +72,13 @@
   font-family: "Roboto Condensed", sans-serif; }
 
 .nav-active {
-  color: #2386CC;
-  font-weight: 600; }
+  color: #2386CC !important; }
 
 .nav-title {
   font-family: "Titillium Web", sans-serif;
   font-weight: 400; }
   .nav-title:hover {
-    border-bottom: 0.2rem solid #2386CC; }
+    border-bottom: 0.15rem solid #2386CC; }
 
 .blue-header {
   color: #2386CC;

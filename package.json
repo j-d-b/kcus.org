@@ -1,0 +1,25 @@
+{
+  "name": "kcus.org",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --watch --config webpack.config.js --mode development",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-d-b/kcus.org.git"
+  },
+  "author": "Jacob Brady",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "handlebars-loader": "^1.7.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.11"
+  }
+}
