@@ -70,12 +70,15 @@ function setContent(html) {
 
 // projects main route can have subpages, so find it and load accordingly
 function routeProjects(path, isSubPage) {
-  if (isSubPage) {
-    const project = {}; // TODO
-    setContent(projectTemplate(project));
-  } else {
-    setContent(projectsTemplate(ProjectsData));
-  }
+  const getProject = (categories) => {
+    for (let i = 0; i < categories.length; i++) {
+      let proj = categories[i].projects.find(proj => proj.path === path);
+      if (proj) return proj;
+    }
+  };
+  const data = isSubPage ? getProject(ProjectsData.projectCategories) : ProjectsData;
+  const content = isSubPage ? projectTemplate(data) : projectsTemplate(data);
+  setContent(content);
 }
 
 // staff main route can have subpages, so find it and load accordingly

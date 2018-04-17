@@ -6,7 +6,7 @@
       "projects": [
         {
           "title": "GoTime - Statewide RTTM System",
-          "link": "/projects/gotime",
+          "path": "/projects/gotime",
           "imgSource": "/images/projects/gotime_s.jpg",
           "location": "Massachusetts",
           "date": "2014 - 2019",
@@ -15,7 +15,7 @@
         },
         {
           "title": "RTTM Pilot Program",
-          "link": "/projects/rttm-pilot",
+          "path": "/projects/rttm-pilot",
           "imgSource": "/images/projects/rttm_pilot2_s.jpg",
           "location": "Massachusetts",
           "date": "2012 - Present",
@@ -24,7 +24,7 @@
         },
         {
           "title": "ITMS",
-          "link": "/projects/itms",
+          "path": "/projects/itms",
           "imgSource": "/images/projects/itms_s.jpg",
           "location": "Massachusetts",
           "date": "2015 - 2020",
@@ -33,7 +33,7 @@
         },
         {
           "title": "GoTime Data Warehouse",
-          "link": "/projects/data-warehouse",
+          "path": "/projects/data-warehouse",
           "imgSource": "/images/projects/gotime_dw_s.jpg",
           "location": "Massachusetts",
           "date": "2015 - 2018",
@@ -42,7 +42,7 @@
         },
         {
           "title": "Smart Work Zones Application",
-          "link": "/projects/swzm",
+          "path": "/projects/swzm",
           "imgSource": "/images/projects/swz_app_l1.png",
           "location": "Massachusetts",
           "date": "2016 - 2018",
@@ -57,7 +57,7 @@
       "projects": [
         {
           "title": "Cape Cod RTTM Software",
-          "link": "/projects/cc-rttm",
+          "path": "/projects/cc-rttm",
           "imgSource": "/images/projects/cape_cod_rttm_s.jpg",
           "location": "Massachusetts",
           "date": "2014 - 2015",
@@ -66,7 +66,7 @@
         },
         {
           "title": "IPCS/SCADA Design",
-          "link": "/projects/ipsc",
+          "path": "/projects/ipsc",
           "imgSource": "/images/projects/ipcs_scada_s.jpg",
           "location": "Massachusetts",
           "date": "2014 - 2015",
@@ -75,7 +75,7 @@
         },
         {
           "title": "ATMS/ATIS Design",
-          "link": "/projects/atms",
+          "path": "/projects/atms",
           "imgSource": "/images/projects/atms_atis_s.jpg",
           "location": "Massachusetts",
           "date": "2013 - 2014",
@@ -84,7 +84,7 @@
         },
         {
           "title": "Work Zone ITS Implementation Tool",
-          "link": "/projects/wz-its",
+          "path": "/projects/wz-its",
           "imgSource": "/images/projects/swz_tool_s.jpg",
           "location": "Massachusetts",
           "date": "2015 - 2016",
@@ -93,7 +93,7 @@
         },
         {
           "title": "Port of New Bedford Truck Appointment System",
-          "link": "/projects/pnb-tas",
+          "path": "/projects/pnb-tas",
           "imgSource": "/images/projects/new_bedford_truck_s.jpg",
           "location": "Massachusetts",
           "date": "2008 - 2010",
@@ -108,7 +108,7 @@
       "projects": [
         {
           "title": "PACTS Travel Speed Data Report",
-          "link": "/projects/pacts",
+          "path": "/projects/pacts",
           "imgSource": "/images/projects/pacts_s.jpg",
           "location": "Maine",
           "date": "2015 - 2016",
@@ -117,7 +117,7 @@
         },
         {
           "title": "ITS Planning in Colombia",
-          "link": "/projects/its-columbia",
+          "path": "/projects/its-columbia",
           "imgSource": "/images/projects/its_colombia_s.jpg",
           "location": "Colombia",
           "date": "2014 - 2015",
@@ -126,7 +126,7 @@
         },
         {
           "title": "KAEC Transportation Framework",
-          "link": "/projects/kaec",
+          "path": "/projects/kaec",
           "imgSource": "/images/projects/kaec_its_s.png",
           "location": "Saudi Arabia",
           "date": "2015 - 2016",
@@ -135,7 +135,7 @@
         },
         {
           "title": "I-90 ITS Design",
-          "link": "/projects/i90-its",
+          "path": "/projects/i90-its",
           "imgSource": "/images/projects/its_strategic_plan_s.jpg",
           "location": "Massachusetts",
           "date": "2012 - 2013",
@@ -144,7 +144,7 @@
         },
         {
           "title": "ITS Strategic Plan",
-          "link": "/projects/its-plan",
+          "path": "/projects/its-plan",
           "imgSource": "/images/projects/swz_tool_s.jpg",
           "location": "Massachusetts",
           "date": "2009 - 2010 ",
@@ -153,7 +153,7 @@
         },
         {
           "title": "I-495 ITS ConOps",
-          "link": "/projects/its-conops",
+          "path": "/projects/its-conops",
           "imgSource": "/images/projects/its_conops_s.jpg",
           "location": "Massachusetts",
           "date": "2012 - 2013",
@@ -162,7 +162,7 @@
         },
         {
           "title": "Smart Work Zone SOPs",
-          "link": "/projects/swz-sop",
+          "path": "/projects/swz-sop",
           "imgSource": "/images/projects/swz_standards_s.jpg",
           "location": "Massachusetts",
           "date": "2012 - 2013",
@@ -171,7 +171,7 @@
         },
         {
           "title": "Regional ITS Architecture Updates",
-          "link": "/projects/its-arch",
+          "path": "/projects/its-arch",
           "imgSource": "/images/projects/regional_its_arch_s.jpg",
           "location": "Massachusetts",
           "date": "2010",
@@ -180,7 +180,7 @@
         },
         {
           "title": "ITS Deployment and Design Guide",
-          "link": "/projects/its-depdev",
+          "path": "/projects/its-depdev",
           "imgSource": "/images/projects/its_d_d_s.png",
           "location": "Massachusetts",
           "date": "2010 - 2011",
@@ -189,7 +189,7 @@
         },
         {
           "title": "New Bedford ITS Deployment",
-          "link": "/projects/nb-its",
+          "path": "/projects/nb-its",
           "imgSource": "/images/projects/new_bedford_its_s.png",
           "location": "Massachusetts",
           "date": "2008 - 2010",
@@ -198,7 +198,7 @@
         },
         {
           "title": "San Juan Light Rail Feasibility Study",
-          "link": "/projects/sj-rail",
+          "path": "/projects/sj-rail",
           "imgSource": "/images/projects/light_rail_fs_l1.png",
           "location": "Puerto Rico",
           "date": "2008 - 2011",
