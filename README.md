@@ -12,8 +12,10 @@ Bundles code from `src/`
 ## Key Features
 * Pure JavaScript powered SPA
 * Mobile responsive layout, using [Bootstrap 4](https://getbootstrap.com/)
-* Largely atomic, selector-free, Bootstrap-name-matching [SCSS](sass-lang.com)
+* Simple, largely atomic, selector-free [SCSS](sass-lang.com)
 * [Handlebars](http://handlebarsjs.com/) templates for html clarity
+* [Babel](https://babeljs.io/) for ES6+ syntax, js modules
+* [Webpack](https://webpack.js.org/) for bundling, json/handlebars loading
 
 ## SPA
 Listens for `popstate` event and changes page body content.
@@ -34,6 +36,7 @@ To add/change staff or projects, change only the JSON data in `src/data/`, no ne
 
 all staff hashes prefix w/ staff-
 all project hashes prefix w/ projects-
+add new project, if no images, don't include the "image" attribute in the project in projects.json
 
 
 adding to or changing the names of the main nav pages is a larger development effort

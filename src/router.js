@@ -9,6 +9,8 @@ import HomeData from './data/home.json';
 import StaffData from './data/staff.json';
 import ProjectsData from './data/projects.json';
 
+import { setupProjHandlers } from './project.js';
+
 // load the relevant page content and setup event listeners based on path
 // note: only checks subpages for staff and projects; also no nested subpages
 export function route(path) {
@@ -79,7 +81,10 @@ function routeProjects(path, isSubPage) {
   const data = isSubPage ? getProject(ProjectsData.projectCategories) : ProjectsData;
   const content = isSubPage ? projectTemplate(data) : projectsTemplate(data);
   setContent(content);
+
+  if (isSubPage) setupProjHandlers();
 }
+
 
 // staff main route can have subpages, so find it and load accordingly
 function routeStaff(path, isSubPage) {

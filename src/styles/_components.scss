@@ -36,3 +36,15 @@
 		color: $kcus-blue;
 	}
 }
+
+.proj-img {
+	border: 1px solid $kcus-gray;
+	cursor: pointer;
+	min-width: 0px;
+	max-width: 120px;
+}
+
+.proj-img-selected {
+	border-color: $kcus-blue;
+	box-shadow: 0 0 3px 1px $kcus-blue;
+}

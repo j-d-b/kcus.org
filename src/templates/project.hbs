@@ -1,13 +1,41 @@
-<div class="col-12 d-flex justify-content-between pb-1">
-  <h2 class="font-weight-light text-uppercase text-blue">{{title}}</h2>
-  <a class="spa-nav return-button align-self-center rounded text-point-87-rem" href="/projects">View all projects</a>
-</div>
+<section class="col-12 d-flex justify-content-between pb-2">
+  <h3 class="font-weight-light text-uppercase text-blue">{{title}}</h3>
+  <a class="spa-nav return-button align-self-top rounded text-point-87-rem" href="/projects">View all projects</a>
+</section>
 
-<div class="col-12 font-weight-light mb-2 mb-md-4">
-  <div class="row">
-    <h1>{{title}}</h1>
-    <div class="col-12">
-      {{description}}
+{{#if images}}
+  <section class="col-12 font-weight-light mb-3">
+    <div class="row">
+      <div class="col-lg-9 col-xl-8 mx-auto">
+        <img class="img-fluid img-thumbnail" src="{{images.[0]}}" id="proj-lg-img" />
+      </div>
     </div>
+
+    {{#if images.[1]}} {{!-- has at least two images --}}
+      <div class="row mt-3">
+        <div class="col">
+          <div class="d-flex justify-content-center">
+            {{#each images}}
+              <div class="mx-2">
+                <img class="proj-img{{#if @first}} proj-img-selected{{/if}} img-fluid rounded" src="{{this}}" />
+              </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    {{/if}}
+  </section>
+{{/if}}
+
+<section class="col-12 font-weight-light">
+  <div class="text-uppercase d-flex flex-wrap justify-content-center">
+    <div class="pr-3"><span class="text-blue">Client</span> {{client}}</div>
+    <div class="pr-3"><span class="text-blue">Location</span> {{location}}</div>
+    <div><span class="text-blue">Duration</span> {{date}}</div>
   </div>
-</div>
+</section>
+
+<section class="col-12 font-weight-light mb-2">
+  <hr />
+  {{{descriptionHTML}}}
+</section>

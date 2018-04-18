@@ -100,4 +100,14 @@
     text-decoration: none;
     color: #2386CC; }
 
+.proj-img {
+  border: 1px solid #898989;
+  cursor: pointer;
+  min-width: 0px;
+  max-width: 120px; }
+
+.proj-img-selected {
+  border-color: #2386CC;
+  box-shadow: 0 0 3px 1px #2386CC; }
+
 /*# sourceMappingURL=style.css.map */

@@ -7,47 +7,73 @@
         {
           "title": "GoTime - Statewide RTTM System",
           "path": "/projects/gotime",
-          "imgSource": "/images/projects/gotime_s.jpg",
+          "thumbImg": "/images/projects/gotime_s.jpg",
           "location": "Massachusetts",
+          "client": "MassDOT",
           "date": "2014 - 2019",
+          "images": [
+            "/images/projects/gotime_l1.jpg",
+            "/images/projects/gotime_l2.jpg",
+            "/images/projects/gotime_l4.png"
+          ],
           "description": "KCUS is currently implementing, operating, and maintaining a software system for Massachusetts’ permanent Statewide Real Time Traffic Management (RTTM) implementation dubbed GoTime.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS is currently implementing, operating, and maintaining a software system for Massachusetts’ permanent Statewide Real Time Traffic Management (RTTM) implementation dubbed GoTime. This project encompasses the design, development, and operation of software that manages and controls one hundred and forty-six (146) Hybrid VMS and two hundred and ninety-one (291) Bluetooth Reader-based installations throughout Massachusetts. The system uses MAC addresses detected by the deployed Bluetooth Readers to calculate travel times. The travel times are processed, analyzed, and posted to the Hybrid VMS in order to inform drivers of current traffic conditions.</p><p>KCUS's Statewide RTTM software includes a browser-based application that provides users with operational and situational awareness tools. This application includes an interactive map, a real-time dashboard, reporting tools, real-time field device monitoring functionality, and alarm and trouble ticket tracking. KCUS will also be performing field device maintenance operations one year after system acceptance.</p>"
         },
         {
           "title": "RTTM Pilot Program",
           "path": "/projects/rttm-pilot",
-          "imgSource": "/images/projects/rttm_pilot2_s.jpg",
+          "thumbImg": "/images/projects/rttm_pilot2_s.jpg",
           "location": "Massachusetts",
+          "client": "MassDOT",
           "date": "2012 - Present",
+          "images": [
+            "/images/projects/rttm_pilot_l2.jpg",
+            "/images/projects/rttm_pilot_l1.jpg"
+          ],
           "description": "As part of two separate projects, KCUS furnished, installed, operated and maintained the two integrated Real Time Traffic Management (RTTM) implementations within Massachusetts.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>As part of two separate projects, KCUS furnished, installed, and continues to operate and maintain the two pilot Real Time Traffic Management (RTTM) implementations within Massachusetts. These implementations utilize Bluetooth readers, Portable Variable Message Signs (PVMS), and supporting software to deliver a system capable of collecting travel time and/or average speed data from a third party travel time provider (TrafficCast). These real time travel times are then posted on twenty two PVMS along the I-93 corridor, twenty seven PVMS along I-90, and fifteen PVMS along Route 3. KCUS used TrafficCast technology and BlueTOAD™ (Bluetooth Travel-time Origination and Destination) receivers in order to compile and process travel time data. These receivers detect unique MAC Addresses from mobile devices that feature Bluetooth technology (such as “hands-free” headsets, in-dash sync services, smart phones, and personal navigation devices) as they pass by. The system then calculates travel time by analyzing timestamps on subsequent tags. The resulting travel times are post-processed and posted, in real time, to PVMS on the roadway.</p><p>The PVMS associated with the pilot system have been temporarily integrated into the GoTime Statewide RTTM System until the permanent installations on I-93, I-90, and Rt. 3 go live.</p>"
         },
         {
           "title": "ITMS",
           "path": "/projects/itms",
-          "imgSource": "/images/projects/itms_s.jpg",
+          "thumbImg": "/images/projects/itms_s.jpg",
           "location": "Massachusetts",
+          "client": "MassDOT",
           "date": "2015 - 2020",
+          "images": [
+            "/images/projects/itms_l4.jpg",
+            "/images/projects/itms_l1.jpg",
+            "/images/projects/itms_l2.jpg",
+            "/images/projects/itms_l3.jpg"
+          ],
           "description": "KCUS is assisting the Massachusetts Department of Transportation (MassDOT) in the detailed design and implementation process for a new Integrated Transportation Management System (ITMS) to be deployed at MassDOT's Highway Operations Center (HOC).",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS is assisting the Massachusetts Department of Transportation (MassDOT) in the detailed design and implementation process for a new Integrated Transportation Management System (ITMS) to be deployed at MassDOT's Highway Operations Center (HOC). This software is being developed based on the Advanced Traffic Management System (ATMS)/Advanced Traveler Information System (ATIS) and Integrated Project Control System (IPCS)/Supervisory Control and Data Acquisition (SCADA) design documentation that was produced by KCUS. KCUS is providing technical support and design services to MassDOT and is working with the selected ITMS vendor throughout the detailed design and implementation of the ITMS. KCUS will also assist MassDOT in the testing, verification, and validation of the new ITMS platform.</p><p>As part of this project, KCUS is also collaborating with MassDOT Legal to develop a contract that details the terms and conditions, the format of the acquisition, and the phasing of the project. This process will lead to the signing of the final contract for the acquisition and phased deployment of the ITMS platform.<p>"
         },
         {
           "title": "GoTime Data Warehouse",
           "path": "/projects/data-warehouse",
-          "imgSource": "/images/projects/gotime_dw_s.jpg",
+          "thumbImg": "/images/projects/gotime_dw_s.jpg",
           "location": "Massachusetts",
+          "client": "MassDOT",
           "date": "2015 - 2018",
+          "images": [
+            "/images/projects/gotime_dw_l1.jpg"
+          ],
           "description": "KCUS is designing and implementing a data warehouse for MassDOT as part of the Statewide Real Time Traffic Management (RTTM) System. The Data Warehouse is a Redshift-based database hosted on Amazon Web Services.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS is designing and implementing a Data Warehouse for MassDOT as part of the Statewide Real Time Traffic Management (RTTM) System. The Data Warehouse is a Redshift-based database hosted on Amazon Web Services.</p><p>The creation of the Data Warehouse will allow MassDOT to store historical data that can be used to perform complex analytics and can be disseminated to third party developers to create innovative mobile and desktop applications.</p>"
         },
         {
           "title": "Smart Work Zones Application",
           "path": "/projects/swzm",
-          "imgSource": "/images/projects/swz_app_l1.png",
+          "thumbImg": "/images/projects/swz_app_s.jpg",
           "location": "Massachusetts",
+          "client": "MassDOT",
           "date": "2016 - 2018",
+          "images": [
+            "/images/projects/swz_app_l1.jpg"
+          ],
           "description": "KCUS is currently designing and developing a Smart Work Zones (SWZ) Application for the Massachusetts Department of Transportation (MassDOT). This application will enable the integrated centralized configuration, management, and monitoring of SWZ sites and field devices throughout Massachusetts.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS is currently designing and developing a Smart Work Zones (SWZ) Application for the Massachusetts Department of Transportation (MassDOT). This application will enable the integrated centralized configuration, management, and monitoring of SWZ sites and field devices throughout Massachusetts. The SWZ application will also collect and fuse data retrieved from SWZs throughout the state. This data will be stored within the GoTime Data Warehouse for analytics and reporting purposes.</p><p>The application will also present this information in an intuitive manner through a web-based Graphical User Interface (GUI). The GUI will include a public-facing website that will allow for the controlled dissemination of work zone-related information. The SWZ application will also provide an XML feed that will provide real-time SWZ data to third party developers.</p>"
         }
       ]
     },
@@ -58,47 +84,77 @@
         {
           "title": "Cape Cod RTTM Software",
           "path": "/projects/cc-rttm",
-          "imgSource": "/images/projects/cape_cod_rttm_s.jpg",
+          "thumbImg": "/images/projects/cape_cod_rttm_s.jpg",
           "location": "Massachusetts",
+          "client": "MassDOT",
           "date": "2014 - 2015",
+          "images": [
+            "/images/projects/capt_cod_rttm_l1.jpg",
+            "/images/projects/capt_cod_rttm_l3.jpg",
+            "/images/projects/capt_cod_rttm_l4.jpg"
+          ],
           "description": "KCUS designed, integrated, and operated the Real Time Traffic Management (RTTM) Software for the permanent Hybrid VMS and Bluetooth Reader-based installation on Rt. 6, Rt. 28, Rt. 25, and Rt. 3 in the Cape Cod area.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS designed, integrated, and operated the Real Time Traffic Management (RTTM) Software for the Hybrid VMS and Bluetooth Reader-based installation on Rt. 6, Rt. 28, Rt. 25, and Rt. 3 in the Cape Cod area. The Cape Cod RTTM system used twenty-three Bluetooth Readers to collect and process travel time data that is posted to nine Hybrid VMS located along major routes on Cape Cod. KCUS coordinated with the project’s construction contractor to ensure that the system ran accurately and met MassDOT’s performance expectations.</p><p>The Cape Cod RTTM System has been integrated into and is currently being operated under the GoTime Statewide RTTM System.</p>"
         },
         {
           "title": "IPCS/SCADA Design",
           "path": "/projects/ipsc",
-          "imgSource": "/images/projects/ipcs_scada_s.jpg",
+          "thumbImg": "/images/projects/ipcs_scada_s.jpg",
           "location": "Massachusetts",
+          "client": "MassDOT",
           "date": "2014 - 2015",
+          "images": [
+            "/images/projects/ipcs_scada_l3.jpg",
+            "/images/projects/ipcs_scada_l1.jpg",
+            "/images/projects/ipcs_scada_l2.jpg"
+          ],
           "description": "KCUS provided technical support to the MassDOT on the design of an upgraded Integrated Project Control System (IPCS)/Supervisory Control and Data Acquisition (SCADA) which will provide tunnel management and SCADA functionality in relation to MassDOT’s roadway tunnel network and facilities.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS provided technical support to MassDOT on the design of an upgraded Integrated Project Control System (IPCS)/Supervisory Control and Data Acquisition (SCADA) that will be tightly integrated with the Advanced Traffic Management System (ATMS)/Advanced Traveler Information System (ATIS) operational platform at the Highway Operations Center (HOC). The IPCS system will provide tunnel management and SCADA functionality in relation to MassDOT’s roadway tunnel network and facilities.</p><p>The software solution will also implement unified tunnel control workflows, improve management of tunnel life safety systems, and improve monitoring of environmental emissions for certain surface roadways and tunnels located within MassDOT Highway District 6. KCUS followed the Federal Highway Administration’s (FHWA) Systems Engineering Process to ensure that the implemented system will meet its operational needs, institutional requirements, and vision for future expansion and integration. KCUS assisted MassDOT in the development of a Concept of Operations, System Requirements Specification, and High-Level Design.</p>"
         },
         {
           "title": "ATMS/ATIS Design",
           "path": "/projects/atms",
-          "imgSource": "/images/projects/atms_atis_s.jpg",
+          "thumbImg": "/images/projects/atms_atis_s.jpg",
           "location": "Massachusetts",
+          "client": "MassDOT",
           "date": "2013 - 2014",
+          "images": [
+            "/images/projects/atms_atis_l2.jpg",
+            "/images/projects/atms_atis_l1.jpg"
+          ],
           "description": "KCUS provided technical support to MassDOT on the design of a new Advanced Traffic Management System (ATMS)/Advanced Traveler Information System (ATIS) which will be used at the Highway Operations Center (HOC) as the central traffic management system to manage and respond to incidents occurring along the Massachusetts highway network.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS provided technical support to MassDOT on the design of a new Advanced Traffic Management System (ATMS)/Advanced Traveler Information System (ATIS). The system will be used at the Highway Operations Center (HOC) as the central traffic management system used to manage and respond to incidents occurring along the Massachusetts highway network. The software solution will also consolidate the multiple systems that are currently used for incident and traffic management into a single, unified platform. The ATMS/ATIS will be tightly integrated with the IPCS/SCADA to form MassDOT’s envisioned ITMS.</p><p>KCUS followed the Federal Highway Administration’s (FHWA) Systems Engineering Process to ensure that the implemented system will meet its operational needs, institutional requirements, and vision for future expansion and integration. KCUS assisted MassDOT in the development of a Concept of Operations, System Requirements Specification, and High-Level Design.</p>"
         },
         {
           "title": "Work Zone ITS Implementation Tool",
           "path": "/projects/wz-its",
-          "imgSource": "/images/projects/swz_tool_s.jpg",
-          "location": "Massachusetts",
+          "thumbImg": "/images/projects/swz_tool_s.jpg",
+          "location": "United States",
+          "client": "Federal Highway Administration",
           "date": "2015 - 2016",
+          "images": [
+            "/images/projects/swz_tool_l1.jpg",
+            "/images/projects/swz_tool_l3.jpg",
+            "/images/projects/swz_tool_l4.jpg",
+            "/images/projects/swz_tool_l5.jpg"
+          ],
           "description": "KCUS is part of a team working to design, develop, and implement a Work Zone ITS Implementation Tool for the Federal Highway Administration (FHWA).",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS is part of a team working to design, develop, and implement a Work Zone ITS Implementation Tool for the Federal Highway Administration (FHWA). This tool will complement the FHWA’s Work Zone ITS Implementation Guide (FHWA-HOP-14-008) and will assist users in the planning of work zone ITS systems. The tool will provide appropriate recommendations such as targeted ITS technologies and field devices for a specific work zone based on user inputs.</p>"
         },
         {
           "title": "Port of New Bedford Truck Appointment System",
           "path": "/projects/pnb-tas",
-          "imgSource": "/images/projects/new_bedford_truck_s.jpg",
+          "thumbImg": "/images/projects/new_bedford_truck_s.jpg",
           "location": "Massachusetts",
+          "client": "Port of New Bedford",
           "date": "2008 - 2010",
+          "images": [
+            "/images/projects/new_bedford_truck_l1.jpg",
+            "/images/projects/new_bedford_truck_l2.jpg",
+            "/images/projects/new_bedford_truck_l3.jpg"
+          ],
           "description": "As part of the New Bedford ITS Project, KCUS was chosen to develop a Truck Appointment System (TAS) for the Port of New Bedford. KCUS worked with MassDOT, the Harbor Development Commission, and the private terminal operator to develop a pilot system.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>As part of the New Bedford ITS Project, KCUS was chosen to develop a Truck Appointment System (TAS) for the Port of New Bedford. KCUS worked with MassDOT, the Harbor Development Commission, and the private terminal operator to develop a pilot system leveraging the existing business process at the port. The TAS allows truckers and freight dispatchers to schedule appointments with the private terminal operator before arriving at the port and receive real-time traffic alerts and information on local “truck friendly” businesses.</p><p>The back-end of the system allows the public harbor authority to oversee congestion and allows the private operator to access terminal management data. Overall, the system is focused on decreasing congestion around the port area, increasing data collection on freight movement and providing a management tool for the public and private waterfront agencies to expand operations.</p>"
         }
       ]
     },
@@ -109,101 +165,140 @@
         {
           "title": "PACTS Travel Speed Data Report",
           "path": "/projects/pacts",
-          "imgSource": "/images/projects/pacts_s.jpg",
+          "thumbImg": "/images/projects/pacts_s.jpg",
           "location": "Maine",
+          "client": "PACTS",
           "date": "2015 - 2016",
           "description": "KCUS developed a travel speed data report on the Portland, Maine area for the Portland Area Comprehensive Transportation System (PACTS).",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS developed a travel speed data report on the Portland, Maine area for the Portland Area Comprehensive Transportation System (PACTS).</p><p>KCUS purchased the travel speed data for specified links in the region's roadway network from a third-party provider and developed speed maps to show the variation in traffic congestion between the daily peak travel times during the summer and the fall of 2015. The report is intended to be the first of such annual reports used to track trends in traffic congestion in the region.</p>"
         },
         {
           "title": "ITS Planning in Colombia",
           "path": "/projects/its-columbia",
-          "imgSource": "/images/projects/its_colombia_s.jpg",
+          "thumbImg": "/images/projects/its_colombia_s.jpg",
           "location": "Colombia",
+          "client": "Ministry of Transport, Columbia",
           "date": "2014 - 2015",
+          "images": [
+            "/images/projects/its_colombia_l1.jpg",
+            "/images/projects/its_colombia_l2.jpg"
+          ],
           "description": "KCUS offered technical assistance to the Colombian Ministry of Transport regarding the planning and implementation of Intelligent Transportation System (ITS) technologies.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>As part of a USTDA-sponsored project, KCUS offered technical assistance to the Colombian Ministry of Transport regarding the planning and implementation of Intelligent Transportation System (ITS) technologies. KCUS performed a study of ITS technologies that have been successfully implemented in the US and recommended the implementation of a pilot program aimed at improving roadway safety and monitoring of cargo shipment vehicles on Colombian highways. KCUS has designed and developed a detailed implementation plan for a pilot program in Colombia on the Bogotá-Villavicencio highway.</p>"
         },
         {
           "title": "KAEC Transportation Framework",
           "path": "/projects/kaec",
-          "imgSource": "/images/projects/kaec_its_s.png",
+          "thumbImg": "/images/projects/kaec_its_s.png",
           "location": "Saudi Arabia",
+          "client": "Emmar, The Economic City",
           "date": "2015 - 2016",
+          "images": [
+            "/images/projects/kaec_its_l1a.jpg",
+            "/images/projects/kaec_its_l2a.jpg",
+            "/images/projects/kaec_its_l3a.jpg",
+            "/images/projects/kaec_its_l4.jpg"
+          ],
           "description": "KCUS is currently developing a transportation framework for King Abdullah Economic City (KAEC), which is the largest of four economic cities currently being built in Saudi Arabia. The development of the KAEC Transportation Framework would be the first phase in the development of a more detailed transit and ITS Master Plan.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS is currently developing a transportation framework for King Abdullah Economic City (KAEC), which is the largest of four economic cities currently being built in Saudi Arabia. The development of the KAEC Transportation Framework would be the first phase in the development of a more detailed transit and ITS Master Plan. This framework will propose a public transit system and an ITS network, identify transit and ITS projects and technologies that can be completed within the next five years, and provide a high-level schedule for the development of a Public Transit and ITS Master Plan, and for the implementation of the proposed public transit and ITS projects.</p><p>As part of this effort, KCUS is conducting a series of workshops in order to document stakeholder needs, desires, goals, and objectives, along with KAEC’s existing transit- and ITS-related infrastructure plans and policies. KCUS will also produce a preliminary cost estimate for the development of a Public Transit and ITS Master Plan and for the implementation of the proposed transit and ITS projects.</p>"
         },
         {
           "title": "I-90 ITS Design",
           "path": "/projects/i90-its",
-          "imgSource": "/images/projects/its_strategic_plan_s.jpg",
+          "thumbImg": "/images/projects/its_strategic_plan_s.jpg",
           "location": "Massachusetts",
+          "client": "MassDOT",
           "date": "2012 - 2013",
+          "images": [
+            "/images/projects/i90_its_design_l1.jpg"
+          ],
           "description": "KCUS assisted MassDOT in the implementation of ITS on I-90, west of Route 128 and I-95. This project involved the placement of eighteen (18) closed-circuit television (CCTV) cameras along I-90.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS assisted MassDOT in the implementation of ITS on I-90, west of Route 128 and I-95. This project involved the placement of eighteen (18) closed-circuit television (CCTV) cameras along I-90. KCUS designed this system and prepared plans, specifications and an estimate for MassDOT to let the project for construction. The effort included the design of CCTV power source connections and communication to existing MassDOT fiber optic cables that terminate at the Highway Operations Center (HOC).</p>"
         },
         {
           "title": "ITS Strategic Plan",
           "path": "/projects/its-plan",
-          "imgSource": "/images/projects/swz_tool_s.jpg",
+          "thumbImg": "/images/projects/swz_tool_s.jpg",
           "location": "Massachusetts",
-          "date": "2009 - 2010 ",
+          "client": "MassDOT",
+          "date": "2009 - 2010",
+          "images": [
+            "/images/projects/its_strategic_plan_l1.jpg"
+          ],
           "description": "KCUS participated in the preparation of the ITS Strategic Plan and the Regional Transportation Operations Strategies for the MassDOT ITS Programs. The ITS Strategic Plan provided a 5-year roadmap for the implementation of ITS to improve incident management, congestion management/customer service, and safety/security management.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS played a lead role in the preparation of the ITS Strategic Plan and the Regional Transportation Operations Strategies for the MassDOT ITS Programs. The ITS Strategic Plan provided a 5-year roadmap for the implementation of ITS to meet four important goals:</p><ol><li>Improve incident management;</li><li>Improve congestion management/customer service;</li><li>Improve safety/security management; and</li><li>Improve management for cost-effective operations.</li></ol><p>KCUS was also involved in the preparation of the Regional Transportation Operations Strategy document.</p>"
         },
         {
           "title": "I-495 ITS ConOps",
           "path": "/projects/its-conops",
-          "imgSource": "/images/projects/its_conops_s.jpg",
+          "thumbImg": "/images/projects/its_conops_s.jpg",
           "location": "Massachusetts",
+          "client": "MassDOT",
           "date": "2012 - 2013",
           "description": "KCUS developed the ITS Concepts of Operations (ConOps) and System Requirements Specification (SyRS) for the I-495 ITS deployment.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS developed the ITS Concept of Operations (ConOps) and System Requirements Specification (SyRS) for the I-495 ITS deployment.</p><p>KCUS conducted interviews and meetings with the projects’ stakeholders to gather critical information on the systems’ existing condition, objectives and priorities, and operational needs. The documents adhered to the FHWA Systems Engineering Process.</p><p>The project also included the development of ConOps and SyRS templates that can be used by MassDOT for the implementation of similar systems in the future. The templates provide customizable outlines for the three types of systems, including a list of common considerations and MassDOT standards.</p>"
         },
         {
           "title": "Smart Work Zone SOPs",
           "path": "/projects/swz-sop",
-          "imgSource": "/images/projects/swz_standards_s.jpg",
+          "thumbImg": "/images/projects/swz_standards_s.jpg",
           "location": "Massachusetts",
+          "client": "MassDOT",
           "date": "2012 - 2013",
+          "images": [
+            "/images/projects/swz_standards_l1.jpg"
+          ],
           "description": "KCUS assisted MassDOT with the development of Standard Operating Procedures (SOPs) for Smart Work Zone (SWZ) deployments across the state.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS assisted MassDOT with the development of Standard Operating Procedures (SOPs) for Smart Work Zone (SWZ) deployments across the state. These standard operating procedures will be used by MassDOT and Contractors to decide what types of projects warrant SWZ installations, determine which devices should be deployed, and collect consistent data for performance management.</p><p>The Standard Operating Procedures document developed by KCUS will be used to improve safety and mobility through highway construction areas by providing a basis for the deployment of future SWZs statewide in a consistent manner.</p>"
         },
         {
           "title": "Regional ITS Architecture Updates",
           "path": "/projects/its-arch",
-          "imgSource": "/images/projects/regional_its_arch_s.jpg",
+          "thumbImg": "/images/projects/regional_its_arch_s.jpg",
           "location": "Massachusetts",
+          "client": "MassDOT",
           "date": "2010",
+          "images": [
+            "/images/projects/regional_its_arch_l1.jpg"
+          ],
           "description": "KCUS reviewed and updated the four regional ITS architectures implemented in 2005 to reflect the changes in the National ITS Architecture, the reorganization of transportation agencies in Massachusetts, the updated Regional Transportation Plans (RTPs), and new transportation projects, plans, policies, procedures, and infrastructure.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS reviewed and updated the four regional ITS architectures to reflect the changes in the National ITS Architecture, the reorganization of transportation agencies in Massachusetts, the updated Regional Transportation Plans (RTPs), and new transportation projects, plans, policies, procedures, and infrastructure implemented after 2005. KCUS performed a Quality Assurance (QA) review for all four regions’ Turbo Architecture files and Visio market package diagrams.</p><p>These federally-mandated architectures established a framework for interagency ITS coordination for four separate regions covering the entire state. These regions were: Western Massachusetts, Central Massachusetts, Metropolitan Boston, and Southeastern Massachusetts.</p>"
         },
         {
           "title": "ITS Deployment and Design Guide",
           "path": "/projects/its-depdev",
-          "imgSource": "/images/projects/its_d_d_s.png",
+          "thumbImg": "/images/projects/its_d_d_s.jpg",
           "location": "Massachusetts",
+          "client": "MassDOT",
           "date": "2010 - 2011",
           "description": "KCUS was part of the team that created the MassDOT ITS Deployment and Design Guide. This guide provides more detailed planning and design criteria for ITS device deployments throughout the Commonwealth as established in the MassDOT ITS Strategic Plan.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS was part of a team that created the MassDOT ITS Deployment and Design Guide to provide more detailed planning and design criteria for ITS device deployments throughout the Commonwealth as established in the MassDOT ITS Strategic Plan.</p><p>This manual provides exact coordinates for device deployment including location, power and communications descriptions as well as device final design plans, device specifications, quality and cost estimation and construction phase services. The MassDOT ITS Deployment and Development Guide will be used as a manual for consultants and contractors for planning, designing and building projects that involve VMS, CCTV, traffic monitoring, RWIS, and solar-powered devices.</p>"
         },
         {
           "title": "New Bedford ITS Deployment",
           "path": "/projects/nb-its",
-          "imgSource": "/images/projects/new_bedford_its_s.png",
+          "thumbImg": "/images/projects/new_bedford_its_s.jpg",
           "location": "Massachusetts",
+          "client": "City of New Bedford",
           "date": "2008 - 2010",
+          "images": [
+            "/images/projects/new_bedford_its_l1.jpg"
+          ],
           "description": "KCUS developed a deployment plan for the City of New Bedford's ITS project to support the City's goal of becoming the region's hub for passenger and freight movement.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS developed a deployment plan for the City of New Bedford's ITS project to support the City’s goal of becoming the region’s hub for passenger and freight movement.</p><p>The New Bedford ITS project presented an opportunity to integrate a variety of initiatives and information sources on an affordable scale to achieve common goals across all modes of transportation in the community: highway, arterial, bridge, freight, passenger terminal, port operations, airport, and transit. Both the security and efficiency of the transportation networks are of paramount importance to New Bedford, considering its status as a high-value working fishery port and tourist destination.</p><p>The New Bedford ITS deployment plan is to fulfill the objective to improve transportation management including road traffic, transit and ferry, and freight operations; and to improve security of the transportation infrastructure including the airport, port and road network. Improvements in the efficiency and security of the transportation system will yield the outcome that is ultimately desired – the opportunity for economic development. The key to achieving these objectives is effective integration of systems, information and operations.</p>"
         },
         {
           "title": "San Juan Light Rail Feasibility Study",
           "path": "/projects/sj-rail",
-          "imgSource": "/images/projects/light_rail_fs_l1.png",
+          "thumbImg": "/images/projects/light_rail_fs_s.jpg",
           "location": "Puerto Rico",
+          "client": "City of San Juan, Puerto Rico",
           "date": "2008 - 2011",
+          "images": [
+            "/images/projects/light_rail_fs_l2.jpg"
+          ],
           "description": "KCUS was part of a team commissioned to perform a feasibility study for a proposed five-mile long Light Rail Technology (LRT) project in the City of San Juan, Puerto Rico.",
-          "descHTMLSource": ""
+          "descriptionHTML": "<p>KCUS was part of a team commissioned to perform a feasibility study for a proposed five mile-long Light Rail Technology (LRT) project in the City of San Juan, Puerto Rico. The proposed LRT would provide transit service between the Tren Urbano metro system at Sagrado Corazon, the historic and commercial districts in Old San Juan, and the Convention Center.</p><p>During the first phase, KCUS was responsible for analyzing the corridor and transportation systems between Sagrado Corazon and Old San Juan and recommended a preferred alignment option while identifying the locations of the various intermediary passenger stations. As part of this phase, KCUS conducted an extensive assessment of the various LRT as well as Bus Rapid Transit (BRT) technology options.</p><p>KCUS was also responsible for the conceptual design of the maintenance facility. For the second phase of this project, KCUS developed the capital cost projections and evaluation, and prepared an operating plan in terms of speed, frequency of service, operational staff, and maintenance procedures. KCUS also prepared an estimate for annual operations and maintenance costs for the LRT system, defined a projected time schedule for the installation of the LRT system and its operation, and took part in industry outreach conferences in San Juan.</p>"
         }
       ]
     }
