@@ -36,6 +36,9 @@
 .mw-450 {
   max-width: 450px; }
 
+.mw-155 {
+  max-width: 155px; }
+
 .unselectable {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -101,13 +104,11 @@
     color: #2386CC; }
 
 .proj-img {
-  border: 1px solid #898989;
-  cursor: pointer;
-  min-width: 0px;
-  max-width: 120px; }
+  border: 1px solid #bbb;
+  cursor: pointer; }
 
 .proj-img-selected {
-  border-color: #2386CC;
-  box-shadow: 0 0 3px 1px #2386CC; }
+  border-color: #6fb5e6;
+  box-shadow: 0 0 2px 1px #6fb5e6; }
 
 /*# sourceMappingURL=style.css.map */

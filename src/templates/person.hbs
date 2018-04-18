@@ -1,19 +1,23 @@
-<div class="col-12 d-flex justify-content-between pb-1">
-  <h3 class="font-weight-light text-uppercase">
-    <span class="text-blue">{{firstName}} {{lastName}}</span>
-  </h3>
-  <a class="spa-nav return-button align-self-top rounded text-point-87-rem" href="/staff">View all staff</a>
-</div>
+<div class="px-0 px-md-3 pb-md-3">
 
-<div class="col-12 font-weight-light mb-2 mb-md-4">
-  <div class="row">
-    <div class="col-md-4 col-xl-3">
-      <img class="img-fluid img-thumbnail d-none d-md-block" src="{{imgTallSource}}" />
-      <img class="img-fluid img-thumbnail d-md-none mb-4" src="{{imgThumbSource}}" />
-    </div>
-    <div class="col-md">
-      <p><strong>{{title}}</strong></p>
-      {{{bioHTML}}}
+  <div class="col-12 d-flex justify-content-between pb-1">
+    <h3 class="font-weight-light text-uppercase">
+      <span class="text-blue">{{firstName}} {{lastName}}</span>
+    </h3>
+    <a class="spa-nav return-button align-self-top rounded text-point-87-rem text-right" href="/staff">View all staff</a>
+  </div>
+
+  <div class="col-12 font-weight-light">
+    <div class="row">
+      <div class="col-md-4 col-xl-3">
+        <img class="img-fluid img-thumbnail d-none d-md-block" src="{{imgTallSource}}" />
+        <img class="img-fluid img-thumbnail d-md-none mb-4" src="{{imgThumbSource}}" />
+      </div>
+      <div class="col-md">
+        <p><strong>{{title}}</strong></p>
+        {{{bioHTML}}}
+      </div>
     </div>
   </div>
+
 </div>

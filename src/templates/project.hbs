@@ -1,41 +1,51 @@
-<section class="col-12 d-flex justify-content-between pb-2">
-  <h3 class="font-weight-light text-uppercase text-blue">{{title}}</h3>
-  <a class="spa-nav return-button align-self-top rounded text-point-87-rem" href="/projects">View all projects</a>
-</section>
+<div class="px-0 px-md-3 pb-md-3">
 
-{{#if images}}
-  <section class="col-12 font-weight-light mb-3">
-    <div class="row">
-      <div class="col-lg-9 col-xl-8 mx-auto">
-        <img class="img-fluid img-thumbnail" src="{{images.[0]}}" id="proj-lg-img" />
-      </div>
-    </div>
+  <section class="col-12 d-sm-flex justify-content-between text-center text-sm-left">
+    <h3 class="font-weight-light text-uppercase text-blue">
+      {{#if pageTitle}}
+        {{pageTitle}}
+      {{else}}
+        {{title}}
+      {{/if}}
+    </h3>
+    <a class="spa-nav ml-auto return-button align-self-top rounded text-point-87-rem text-right" href="/projects">View all projects</a>
+  </section>
 
-    {{#if images.[1]}} {{!-- has at least two images --}}
-      <div class="row mt-3">
-        <div class="col">
-          <div class="d-flex justify-content-center">
-            {{#each images}}
-              <div class="mx-2">
-                <img class="proj-img{{#if @first}} proj-img-selected{{/if}} img-fluid rounded" src="{{this}}" />
-              </div>
-            {{/each}}
-          </div>
+  <section class="col-12">
+    <hr class="mt-1 mb-3 pt-0" />
+  </section>
+
+  {{#if images}}
+    <section class="col-12 font-weight-light mb-3">
+      <div class="row">
+        <div class="col-lg-9 col-xl-8 mx-auto">
+          <img class="img-fluid" src="{{images.[0]}}" id="proj-lg-img" />
         </div>
       </div>
-    {{/if}}
+      {{#if images.[1]}} {{!-- has at least two images --}}
+        <div class="row justify-content-center mt-3 mx-auto no-gutters">
+          {{#each images}}
+            <div class="col mx-1 mw-155">
+              <img class="proj-img {{#if @first}}proj-img-selected{{/if}} img-fluid img-thumbnail rounded" src="{{this}}" />
+            </div>
+          {{/each}}
+        </div>
+      {{/if}}
+    </section>
+  {{/if}}
+
+  <section class="col-12 font-weight-light mb-3">
+    <div class="text-uppercase d-flex flex-wrap justify-content-center">
+      <div class="pr-3"><span class="text-blue">Client</span> {{client}}</div>
+      <div class="pr-3"><span class="text-blue">Location</span> {{location}}</div>
+      <div><span class="text-blue">Duration</span> {{date}}</div>
+    </div>
   </section>
-{{/if}}
 
-<section class="col-12 font-weight-light">
-  <div class="text-uppercase d-flex flex-wrap justify-content-center">
-    <div class="pr-3"><span class="text-blue">Client</span> {{client}}</div>
-    <div class="pr-3"><span class="text-blue">Location</span> {{location}}</div>
-    <div><span class="text-blue">Duration</span> {{date}}</div>
-  </div>
-</section>
+  <section class="col-12 font-weight-light mb-2">
+    <div class="mb-lg-2 text-justify">
+      {{{descriptionHTML}}}
+    </div>
+  </section>
 
-<section class="col-12 font-weight-light mb-2">
-  <hr />
-  {{{descriptionHTML}}}
-</section>
+</div>

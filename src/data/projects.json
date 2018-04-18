@@ -13,14 +13,14 @@
           "date": "2014 - 2019",
           "images": [
             "/images/projects/gotime_l1.jpg",
-            "/images/projects/gotime_l2.jpg",
-            "/images/projects/gotime_l4.png"
+            "/images/projects/gotime_l2.jpg"
           ],
           "description": "KCUS is currently implementing, operating, and maintaining a software system for Massachusetts’ permanent Statewide Real Time Traffic Management (RTTM) implementation dubbed GoTime.",
           "descriptionHTML": "<p>KCUS is currently implementing, operating, and maintaining a software system for Massachusetts’ permanent Statewide Real Time Traffic Management (RTTM) implementation dubbed GoTime. This project encompasses the design, development, and operation of software that manages and controls one hundred and forty-six (146) Hybrid VMS and two hundred and ninety-one (291) Bluetooth Reader-based installations throughout Massachusetts. The system uses MAC addresses detected by the deployed Bluetooth Readers to calculate travel times. The travel times are processed, analyzed, and posted to the Hybrid VMS in order to inform drivers of current traffic conditions.</p><p>KCUS's Statewide RTTM software includes a browser-based application that provides users with operational and situational awareness tools. This application includes an interactive map, a real-time dashboard, reporting tools, real-time field device monitoring functionality, and alarm and trouble ticket tracking. KCUS will also be performing field device maintenance operations one year after system acceptance.</p>"
         },
         {
           "title": "RTTM Pilot Program",
+          "pageTitle": "Pilot RTTM System (I-93, I-90, and Rt. 3)",
           "path": "/projects/rttm-pilot",
           "thumbImg": "/images/projects/rttm_pilot2_s.jpg",
           "location": "Massachusetts",
@@ -35,6 +35,7 @@
         },
         {
           "title": "ITMS",
+          "pageTitle": "Integrated Transportation Management System (ITMS)",
           "path": "/projects/itms",
           "thumbImg": "/images/projects/itms_s.jpg",
           "location": "Massachusetts",
@@ -89,15 +90,16 @@
           "client": "MassDOT",
           "date": "2014 - 2015",
           "images": [
-            "/images/projects/capt_cod_rttm_l1.jpg",
-            "/images/projects/capt_cod_rttm_l3.jpg",
-            "/images/projects/capt_cod_rttm_l4.jpg"
+            "/images/projects/cape_cod_rttm_l1.jpg",
+            "/images/projects/cape_cod_rttm_l3.jpg",
+            "/images/projects/cape_cod_rttm_l4.jpg"
           ],
           "description": "KCUS designed, integrated, and operated the Real Time Traffic Management (RTTM) Software for the permanent Hybrid VMS and Bluetooth Reader-based installation on Rt. 6, Rt. 28, Rt. 25, and Rt. 3 in the Cape Cod area.",
           "descriptionHTML": "<p>KCUS designed, integrated, and operated the Real Time Traffic Management (RTTM) Software for the Hybrid VMS and Bluetooth Reader-based installation on Rt. 6, Rt. 28, Rt. 25, and Rt. 3 in the Cape Cod area. The Cape Cod RTTM system used twenty-three Bluetooth Readers to collect and process travel time data that is posted to nine Hybrid VMS located along major routes on Cape Cod. KCUS coordinated with the project’s construction contractor to ensure that the system ran accurately and met MassDOT’s performance expectations.</p><p>The Cape Cod RTTM System has been integrated into and is currently being operated under the GoTime Statewide RTTM System.</p>"
         },
         {
           "title": "IPCS/SCADA Design",
+          "pageTitle": "Integrated Project Control System/Supervisory Control and Data Acquisition Design",
           "path": "/projects/ipsc",
           "thumbImg": "/images/projects/ipcs_scada_s.jpg",
           "location": "Massachusetts",
@@ -113,6 +115,7 @@
         },
         {
           "title": "ATMS/ATIS Design",
+          "pageTitle": "Advanced Traffic Management System/Advanced Traveler Information System Design",
           "path": "/projects/atms",
           "thumbImg": "/images/projects/atms_atis_s.jpg",
           "location": "Massachusetts",
@@ -230,6 +233,7 @@
         },
         {
           "title": "I-495 ITS ConOps",
+          "pageTitle": "I-495 ITS Concept of Operations",
           "path": "/projects/its-conops",
           "thumbImg": "/images/projects/its_conops_s.jpg",
           "location": "Massachusetts",
@@ -240,6 +244,7 @@
         },
         {
           "title": "Smart Work Zone SOPs",
+          "pageTitle": "Smart Work Zone Standard Operating Procedures (SOPs)",
           "path": "/projects/swz-sop",
           "thumbImg": "/images/projects/swz_standards_s.jpg",
           "location": "Massachusetts",

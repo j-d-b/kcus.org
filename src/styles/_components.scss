@@ -38,13 +38,12 @@
 }
 
 .proj-img {
-	border: 1px solid $kcus-gray;
+	border: 1px solid #bbb;
 	cursor: pointer;
-	min-width: 0px;
-	max-width: 120px;
+	//max-width: 120px;
 }
 
 .proj-img-selected {
-	border-color: $kcus-blue;
-	box-shadow: 0 0 3px 1px $kcus-blue;
+	border-color: lighten($kcus-blue, 20%);
+	box-shadow: 0 0 2px 1px lighten($kcus-blue, 20%);
 }
