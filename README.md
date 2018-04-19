@@ -5,8 +5,10 @@ Ground-up website rewrite for [Kanaan Consulting US, Inc.](http://www.kcus.org) 
 Maintains similar content, layout, and styling, while being a full rewrite designed for future ease of maintenance.
 
 ## Build
-`npm i` to install required dependencies
+`npm i` to install required dependencies.
 `npm run build` to generate `dist/` directory for distribution.
+
+**Note:** use `npm run dev` to set webpack mode to development and avoid minification.
 
 Uses [webpack](https://webpack.js.org/) to bundle and copy code from `src/`
 * `styles/`, `data/`, `views/`, and all JavaScript files bundled into `bundle.js`
@@ -28,7 +30,7 @@ Listens for `popstate` event and changes page body content.
 
 Client-side routing, in `router.js`.
 
-Page templates injected into index.html `<section id="main-content"></section>`
+Page templates injected into index.html `<section id="main-content"></section>`.
 
 ## Views
 Uses **Handlebars** for repeated staff, project, and home info elements, dramatically shortening fixed html and facilitating addition of new staff or projects with minimal-to-no codebase knowledge.
@@ -44,7 +46,7 @@ Common actions, such as add/remove/edit a project or staff member requires *only
 
 Adding to or changing the names of the main navbar pages is a larger development effort.
 
-**Note:** all anchor elements whose href attribute refers to an internal page must be given class `spa-nav`
+**Note:** all anchor elements whose href attribute refers to an internal page must be given class `spa-nav`.
 
 Below I'll discuss the workflow for adding new projects or staff. From this it should be fairly clear how to perform other similar maintenance actions.  
 
@@ -118,6 +120,9 @@ An example staff object:
   "bioHTML": "<p>Mr. Brady is a Software Developer at KCUS</p>"
 }
 ```
+
+## Todo
+I took the image files for the projects from the old site, and they're all fairly terrible quality. The dimensions are also not standard. I spent some time doing a bit of bulk removal, some files were randomly huge but awful quality. This all needs to be redone and the sizes optimized.
 
 ## About KCUS, Inc.
 > Kanaan Consulting US, Inc. is a Cambridge-based engineering company that offers comprehensive engineering and consulting services with a focus on multimodal transportation.

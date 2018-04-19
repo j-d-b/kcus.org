@@ -35,6 +35,14 @@ module.exports = {
       { from: './src/images/favicons/favicon.ico', to: './' },
       { from: './src/index.html', to: './' }
     ]),
-    new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i })
+    new ImageminPlugin({
+      test: /\.(jpe?g|png|gif|svg)$/i,
+      optipng: {
+        optimizationLevel: 7
+      },
+      jpegtran: {
+        optimize: true
+      }
+    })
   ]
 };

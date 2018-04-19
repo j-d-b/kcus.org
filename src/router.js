@@ -9,8 +9,6 @@ import HomeData from './data/home.json';
 import StaffData from './data/staff.json';
 import ProjectsData from './data/projects.json';
 
-import { setupProjHandlers } from './project.js';
-
 // load the relevant page content and setup event listeners based on path
 // note: only checks subpages for staff and projects; also no nested subpages
 export function route(path) {
@@ -70,6 +68,16 @@ function setContent(html) {
   document.getElementById('main-content').innerHTML = html;
 }
 
+// staff main route can have subpages, so find it and load accordingly
+function routeStaff(path, isSubPage) {
+  if (isSubPage) {
+    const person = StaffData.staff.find(person => person.path === path);
+    setContent(personTemplate(person));
+  } else {
+    setContent(staffTemplate(StaffData));
+  }
+}
+
 // projects main route can have subpages, so find it and load accordingly
 function routeProjects(path, isSubPage) {
   const getProject = (categories) => {
@@ -85,13 +93,14 @@ function routeProjects(path, isSubPage) {
   if (isSubPage) setupProjHandlers();
 }
 
-
-// staff main route can have subpages, so find it and load accordingly
-function routeStaff(path, isSubPage) {
-  if (isSubPage) {
-    const person = StaffData.staff.find(person => person.path === path);
-    setContent(personTemplate(person));
-  } else {
-    setContent(staffTemplate(StaffData));
-  }
+// sets up the event listenrs for the project page image viewer
+function setupProjHandlers() {
+  document.querySelectorAll('.proj-img').forEach(element => {
+    element.addEventListener('click', e => {
+      let imgSrc = e.currentTarget.getAttribute('src');
+      document.querySelectorAll('.proj-img').forEach(el => el.classList.remove('proj-img-selected'));
+      e.currentTarget.classList.add('proj-img-selected');
+      document.getElementById('proj-lg-img').src = imgSrc;
+    });
+  });
 }

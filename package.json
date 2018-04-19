@@ -1,6 +1,5 @@
 {
   "name": "kcus.org",
-  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "webpack --watch --config webpack.config.js --mode development",
