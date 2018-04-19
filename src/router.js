@@ -1,9 +1,9 @@
-const homeTemplate = require('./templates/home.hbs');
-const projectsTemplate = require('./templates/projects.hbs');
-const projectTemplate = require('./templates/project.hbs');
-const staffTemplate = require('./templates/staff.hbs');
-const personTemplate = require('./templates/person.hbs');
-const contactTemplate = require('./templates/contact.hbs');
+const homeTemplate = require('./views/home.hbs');
+const projectsTemplate = require('./views/projects.hbs');
+const projectTemplate = require('./views/project.hbs');
+const staffTemplate = require('./views/staff.hbs');
+const personTemplate = require('./views/person.hbs');
+const contactTemplate = require('./views/contact.hbs');
 
 import HomeData from './data/home.json';
 import StaffData from './data/staff.json';
