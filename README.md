@@ -2,6 +2,8 @@
 
 Ground-up website rewrite for [Kanaan Consulting US, Inc.](http://www.kcus.org) *(old site link)*
 
+*Live dev site [here](http://kcus-dev.netlify.com)*
+
 Maintains similar content, layout, and styling, while being a full rewrite designed for future ease of maintenance.
 
 ## Build
