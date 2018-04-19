@@ -6,6 +6,7 @@ Maintains similar content, layout, and styling, while being a full rewrite desig
 
 ## Build
 `npm i` to install required dependencies.
+
 `npm run build` to generate `dist/` directory for distribution.
 
 **Note:** use `npm run dev` to set webpack mode to development and avoid minification.
@@ -122,7 +123,7 @@ An example staff object:
 ```
 
 ## Todo
-I took the image files for the projects from the old site, and they're all fairly terrible quality. The dimensions are also not standard. I spent some time doing a bit of bulk removal, some files were randomly huge but awful quality. This all needs to be redone and the sizes optimized.
+I took the image files for the projects from the old site, and they're all fairly terrible quality. The dimensions are also not standard. I spent some time doing a bit of bulk removal; some files were randomly huge but awful quality. This all needs to be redone and the sizes optimized.
 
 ## About KCUS, Inc.
 > Kanaan Consulting US, Inc. is a Cambridge-based engineering company that offers comprehensive engineering and consulting services with a focus on multimodal transportation.
