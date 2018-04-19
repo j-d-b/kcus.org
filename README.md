@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/j-d-b/kcus.org/src/images/logos/kcus_inc.svg?sanitize=true" width="250">
+<img src="https://raw.githubusercontent.com/j-d-b/kcus.org/blob/master/src/images/logos/kcus_inc.svg?sanitize=true" width="250">
 
 Ground-up website rewrite for [Kanaan Consulting US, Inc.](http://www.kcus.org) *(old site link)*
 
