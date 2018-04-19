@@ -31,23 +31,23 @@ Listens for `popstate` event and changes page body content.
 
 Client-side routing, in `router.js`.
 
-Page templates injected into index.html `<section id="main-content"></section>`.
+Page templates injected into `<section id="main-content"></section>` in `index.html`.
 
 ## Views
-Uses **Handlebars** for repeated staff, project, and home info elements, dramatically shortening fixed html and facilitating addition of new staff or projects with minimal-to-no codebase knowledge.
+Uses **Handlebars** for repeated staff, project, and home info elements, dramatically shortening fixed HTML and facilitating addition of new staff or projects with minimal-to-no codebase knowledge.
 
 Handlebars files are found in `src/views/` and are generated into html using the JSON data files in `src/data/`.
 
 To add/change staff or projects, change only the JSON data in `src/data/`, no need to touch any HTML or JS.
 
 ## Maintenance/Additions
-This site was built to be easily managed by those without knowledge of the codebase, or even web development in general.
+This site was built to be easily managed by those without knowledge of the codebase, or even much web development in general.
 
 Common actions, such as add/remove/edit a project or staff member requires *only* changing the respective JSON data file.
 
 Adding to or changing the names of the main navbar pages is a larger development effort.
 
-**Note:** all anchor elements whose href attribute refers to an internal page must be given class `spa-nav`.
+**Note:** all anchor elements whose `href` attribute refers to an internal page must be given class `spa-nav`.
 
 Below I'll discuss the workflow for adding new projects or staff. From this it should be fairly clear how to perform other similar maintenance actions.  
 
