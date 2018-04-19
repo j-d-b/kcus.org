@@ -33,7 +33,8 @@ module.exports = {
     new CopyWebpackPlugin([
       { from: './src/images', to: './images' },
       { from: './src/images/favicons/favicon.ico', to: './' },
-      { from: './src/index.html', to: './' }
+      { from: './src/index.html', to: './' },
+      { from: './src/netlify/_redirects', to: './' }
     ]),
     new ImageminPlugin({
       test: /\.(jpe?g|png|gif|svg)$/i,
