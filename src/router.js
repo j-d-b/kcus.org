@@ -96,19 +96,20 @@ function routeProjects(path, isSubPage) {
     data = getProject(ProjectsData.projectCategories);
     content = projectTemplate(data);
     setContent(content);
-    setupProjHandlers();
+    setupimgViewer();
   };
 
   isSubpage ? routeSubpage() : setContent(content);
 }
 
-// sets up the event listenrs for the project page image viewer
-function setupProjHandlers() {
+// sets up the event listeners for the project page image viewer on click
+function setupImgViewer() {
   document.querySelectorAll('.proj-img').forEach(element => {
     element.addEventListener('click', e => {
-      let imgSrc = e.currentTarget.getAttribute('src');
       document.querySelectorAll('.proj-img').forEach(el => el.classList.remove('proj-img-selected'));
       e.currentTarget.classList.add('proj-img-selected');
+      
+      let imgSrc = e.currentTarget.getAttribute('src');
       document.getElementById('proj-lg-img').src = imgSrc;
     });
   });
