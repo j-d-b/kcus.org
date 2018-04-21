@@ -70,12 +70,9 @@ function setContent(html) {
 
 // staff main route can have subpages, so find it and load accordingly
 function routeStaff(path, isSubPage) {
-  if (isSubPage) {
-    const person = StaffData.staff.find(person => person.path === path);
-    setContent(personTemplate(person));
-  } else {
-    setContent(staffTemplate(StaffData));
-  }
+  const getPerson = () => StaffData.staff.find(person => person.path === path);
+  const content = isSubPage ? personTemplate(getPerson()) : staffTemplate(StaffData);
+  setContent(content);
 }
 
 // projects main route can have subpages, so find it and load accordingly
