@@ -7,9 +7,15 @@ Ground-up website rewrite for [Kanaan Consulting US, Inc.](http://www.kcus.org) 
 Maintains similar content, layout, and styling, while being a full rewrite designed for future ease of maintenance.
 
 ## Build
-`npm i` to install required dependencies.
+To install required dependencies:
+```
+npm i
+```
 
-`npm run build` to generate `dist/` directory for distribution.
+To generate `dist/` directory for distribution:
+```
+npm run build
+``` 
 
 **Note:** use `npm run dev` to set webpack mode to development and avoid minification.
 
