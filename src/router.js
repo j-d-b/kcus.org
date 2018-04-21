@@ -80,17 +80,26 @@ function routeStaff(path, isSubPage) {
 
 // projects main route can have subpages, so find it and load accordingly
 function routeProjects(path, isSubPage) {
+  let data = ProjectsData;
+  let content = projectsTemplate(data);
+
+  // loop through the project categories and then projects to match paths
   const getProject = (categories) => {
     for (let i = 0; i < categories.length; i++) {
       let proj = categories[i].projects.find(proj => proj.path === path);
       if (proj) return proj;
     }
   };
-  const data = isSubPage ? getProject(ProjectsData.projectCategories) : ProjectsData;
-  const content = isSubPage ? projectTemplate(data) : projectsTemplate(data);
-  setContent(content);
 
-  if (isSubPage) setupProjHandlers();
+  // set the content and setup handlers for a subpage
+  const routeSubpage = () => {
+    data = getProject(ProjectsData.projectCategories);
+    content = projectTemplate(data);
+    setContent(content);
+    setupProjHandlers();
+  };
+
+  isSubpage ? routeSubpage() : setContent(content);
 }
 
 // sets up the event listenrs for the project page image viewer
