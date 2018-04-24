@@ -1,7 +1,7 @@
 // Jacob Brady
 // 2018 KCUS Inc.
 
-import style from './styles/style.scss';
+import style from './styles/style.scss'; // single, global stylesheet
 import { route, setupNavigation } from './router.js';
 
 // setup the spa internal link handlers for the navbar, which never reloads

@@ -96,7 +96,7 @@ function routeProjects(path, isSubPage) {
     setupimgViewer();
   };
 
-  isSubpage ? routeSubpage() : setContent(content);
+  isSubPage ? routeSubpage() : setContent(content);
 }
 
 // sets up the event listeners for the project page image viewer on click
@@ -105,7 +105,7 @@ function setupImgViewer() {
     element.addEventListener('click', e => {
       document.querySelectorAll('.proj-img').forEach(el => el.classList.remove('proj-img-selected'));
       e.currentTarget.classList.add('proj-img-selected');
-      
+
       let imgSrc = e.currentTarget.getAttribute('src');
       document.getElementById('proj-lg-img').src = imgSrc;
     });
