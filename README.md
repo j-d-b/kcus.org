@@ -26,7 +26,7 @@ Uses [webpack](https://webpack.js.org/) to bundle and copy code from `src/`
 
 ## Key Features
 * Pure JavaScript powered SPA, client-side routing with the [history api](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
-* Simple, largely atomic, selector-free [SCSS](sass-lang.com)
+* Simple, largely atomic, selector-free [SCSS](https://sass-lang.com)
 * Mobile responsive layout, using [Bootstrap 4](https://getbootstrap.com/) CSS
 * [Handlebars](http://handlebarsjs.com/) for generating html views from JSON data
 * [Babel](https://babeljs.io/) for ES6+ syntax, JavaScript modules
