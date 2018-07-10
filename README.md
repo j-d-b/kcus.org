@@ -9,7 +9,7 @@ Maintains similar content, layout, and styling, while being a full rewrite desig
 ## Build
 To install required dependencies:
 ```
-npm i
+npm install
 ```
 
 To generate `dist/` directory for distribution:
@@ -25,7 +25,7 @@ Uses [webpack](https://webpack.js.org/) to bundle and copy code from `src/`
 * `index.html` copied to `dist/`
 
 ## Key Features
-* Pure JavaScript powered SPA, client-side routing with the [history api](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
+* Pure JavaScript powered SPA, client-side routing with the [history API](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
 * Simple, largely atomic, selector-free [SCSS](https://sass-lang.com)
 * Mobile responsive layout, using [Bootstrap 4](https://getbootstrap.com/) CSS
 * [Handlebars](http://handlebarsjs.com/) for generating html views from JSON data
@@ -69,7 +69,7 @@ Project object attributes:
 Attribute | Value | Description
 --- | --- | ---
 title | string | General project title
-pageTitle | string | **Optional** header title of on it's page; if not included, `title` will be used
+pageTitle | string | **Optional** header title of on its page; if not included, `title` will be used
 path | string absolute path | Route to the page. Must be /projects/THISPAGE
 thumbImg | string image path | Path to thumbnail image for use on /projects page
 location | string | Where the project took place
@@ -131,7 +131,7 @@ An example staff object:
 ```
 
 ## Todo
-I took the image files for the projects from the old site, and they're all fairly terrible quality. The dimensions are also not standard. I spent some time doing a bit of bulk removal; some files were randomly huge but awful quality. This all needs to be redone and the sizes optimized.
+I took the image files for the projects from the old site, and they're all fairly terrible quality. The dimensions are also not standard. I spent some time doing a bit of bulk removal; some files were randomly huge but awful quality. This all needs to be redone and the sizes optimized. Additionally, quick-loading image placeholders must be added.
 
 ## About KCUS, Inc.
 > Kanaan Consulting US, Inc. is a Cambridge-based engineering company that offers comprehensive engineering and consulting services with a focus on multimodal transportation.
