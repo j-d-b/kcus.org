@@ -6,7 +6,8 @@ Ground-up website rewrite for [Kanaan Consulting US, Inc.](http://www.kcus.org) 
 
 Maintains similar content, layout, and styling, while being a full rewrite designed for future ease of maintenance.
 
-## Build
+## Usage
+### Production Build
 To install required dependencies:
 ```
 npm install
@@ -15,14 +16,25 @@ npm install
 To generate `dist/` directory for distribution:
 ```
 npm run build
-``` 
-
-**Note:** use `npm run dev` to set webpack mode to development and avoid minification.
+```
 
 Uses [webpack](https://webpack.js.org/) to bundle and copy code from `src/`
 * `styles/`, `data/`, `views/`, and all JavaScript files bundled into `bundle.js`
 * `images/` files processed with [imagemin-webpack-plugin](https://github.com/Klathmon/imagemin-webpack-plugin) and copied to `dist/`
 * `index.html` copied to `dist/`
+
+### Development
+Install dependencies
+```
+npm install
+```
+
+Start the hot-reloading development server
+```
+npm run develop
+```
+
+**Note** ImageminPlugin does not run in the development environment which makes build time insanely faster.
 
 ## Key Features
 * Pure JavaScript powered SPA, client-side routing with the [history API](https://developer.mozilla.org/en-US/docs/Web/API/History_API)

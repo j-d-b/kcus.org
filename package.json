@@ -2,8 +2,8 @@
   "name": "kcus.org",
   "private": true,
   "scripts": {
-    "dev": "webpack --watch --config webpack.config.js --mode development",
-    "build": "webpack --config webpack.config.js --mode production"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --history-api-fallback --mode development"
   },
   "repository": {
     "type": "git",
@@ -11,20 +11,21 @@
   },
   "author": "Jacob Brady",
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.6.1",
-    "copy-webpack-plugin": "^4.5.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^0.28.11",
     "handlebars-loader": "^1.7.0",
-    "imagemin-webpack-plugin": "^2.1.1",
-    "node": "^9.11.0",
-    "node-sass": "^4.8.3",
-    "sass": "^1.2.0",
-    "sass-loader": "^7.0.1",
+    "imagemin-webpack-plugin": "^2.1.5",
+    "node": "^9.11.2",
+    "node-sass": "^4.9.2",
+    "sass": "^1.10.0",
+    "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
-    "webpack": "^4.5.0",
-    "webpack-cli": "^2.0.14"
+    "webpack": "^4.16.1",
+    "webpack-cli": "^2.1.5",
+    "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
     "handlebars": "^4.0.11"
