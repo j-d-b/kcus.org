@@ -64,9 +64,7 @@ function setHighlight(mainPage) {
 }
 
 // sets the innerHTML of #main-content to the given html content
-function setContent(html) {
-  document.getElementById('main-content').innerHTML = html;
-}
+const setContent = html => document.getElementById('main-content').innerHTML = html;
 
 // staff main route can have subpages, so find it and load accordingly
 function routeStaff(path, isSubPage) {
@@ -93,7 +91,7 @@ function routeProjects(path, isSubPage) {
     data = getProject(ProjectsData.projectCategories);
     content = projectTemplate(data);
     setContent(content);
-    setupimgViewer();
+    setupImgViewer();
   };
 
   isSubPage ? routeSubpage() : setContent(content);
