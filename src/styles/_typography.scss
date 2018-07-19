@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400|Roboto:300,400|Roboto+Condensed:300,400|Titillium+Web:400|Rubik:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400|Roboto+Condensed:300,400|Titillium+Web:400|Lora:300,400');
 
 .font-weight-medium {
 	font-weight: 400;
@@ -8,8 +8,12 @@
   font-size: 0.87rem;
 }
 
-.text-point-8-rem{
+.text-point-8-rem {
   font-size: 0.8rem;
+}
+
+.text-larger {
+	font-size: 1.4rem;
 }
 
 .text-blue {
@@ -24,14 +28,14 @@
   color: $light-gray;
 }
 
-.text-merriweather {
-  font-family: "Rubik";//"Merriweather Sans", Helvetica, sans-serif;
-}
-
 .text-roboto {
   font-family: "Roboto", sans-serif;
 }
 
 .text-roboto-cond {
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.text-lora {
+	font-family: "Lora", serif;
 }
