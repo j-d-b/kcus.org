@@ -37,22 +37,13 @@
       "bioHTML": "<p>Ms. Wright is a Transportation Systems Engineer specializing in Intelligent Transportation Systems (ITS). She has experience in the design and development of ITS-related software applications and systems. Ms. Wright worked as part of a team to provide technical assistance for the implementation of ITS technologies to Colombia's Ministry of Transport. Ms. Wright's experience includes projects involving design, prototyping, marketing, project management and control systems.</p><p>Ms. Wright has a Bachelor of Science degree in Mechanical Engineering and a minor in Engineering Management from Tufts University.</p>"
     },
     {
-      "path": "/staff/sapreen",
-      "firstName": "Sapreen",
-      "lastName": "Abbass",
-      "title": "Systems Engineer",
-      "imgThumbSource": "/images/staff/sapreen-2x1-thumb.png",
-      "imgTallSource": "/images/staff/sapreen-3x4.jpg",
-      "bioHTML": "<p>Ms. Abbass is a Transportation Systems Engineer specializing in Intelligent Transportation Systems (ITS). She draws on her analytical problem solving skills cultivated from her mechanical engineering background. She has completed various projects that involved product and system design, programming, troubleshooting, and prototyping.</p><p>Ms. Abbass has a Bachelor of Science in Mechanical Engineering from Johns Hopkins University.</p>"
-    },
-    {
       "path": "/staff/jacob",
       "firstName": "Jacob",
       "lastName": "Brady",
       "title": "Software Developer",
       "imgThumbSource": "/images/staff/jacob-2x1-thumb.png",
       "imgTallSource": "/images/staff/jacob-3x4.jpg",
-      "bioHTML": "<p>Mr. Brady is a Software Developer with a broad-ranging skill set that includes multiple programming languages and stacks, with an emphasis on the front-end. He is excited by the modern web and cutting-edge tech. His work occasionally touches on graphic design and visual layout. He draws these skills from his computer science degree, personal projects, and aesthetic interests.</p><p>Mr. Brady has a Bachelor of Arts in Computer Science from Middlebury College.</p>"
+      "bioHTML": "<p>Mr. Brady is a Fullstack Software Developer with an emphasis on web development. He is excited by JavaScript, the modern web, and cutting-edge tech. His work is often frontend focused and encompasses UX and graphic design. Mr. Brady draws these skills from his computer science degree, personal projects, and aesthetic interests.</p><p>Mr. Brady has a Bachelor of Arts in Computer Science from Middlebury College.</p>"
     }
   ]
 }
