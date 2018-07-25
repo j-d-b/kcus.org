@@ -37,7 +37,7 @@ npm run develop
 **Note** ImageminPlugin does not run in the development environment which makes build time insanely faster.
 
 ## Key Features
-* Pure JavaScript powered SPA, client-side routing with the [history API](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
+* Vanilla JavaScript powered SPA, client-side routing with the [history API](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
 * Simple, largely atomic, selector-free [SCSS](https://sass-lang.com)
 * Mobile responsive layout, using [Bootstrap 4](https://getbootstrap.com/) CSS
 * [Handlebars](http://handlebarsjs.com/) for generating html views from JSON data
