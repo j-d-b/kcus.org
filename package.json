@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --history-api-fallback --mode development"
+    "develop": "webpack-dev-server --open --history-api-fallback --mode development"
   },
   "repository": {
     "type": "git",

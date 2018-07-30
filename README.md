@@ -37,7 +37,7 @@ npm run develop
 **Note** ImageminPlugin does not run in the development environment which makes build time insanely faster.
 
 ## Key Features
-* Pure JavaScript powered SPA, client-side routing with the [history API](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
+* Vanilla JavaScript powered SPA, client-side routing with the [history API](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
 * Simple, largely atomic, selector-free [SCSS](https://sass-lang.com)
 * Mobile responsive layout, using [Bootstrap 4](https://getbootstrap.com/) CSS
 * [Handlebars](http://handlebarsjs.com/) for generating html views from JSON data
@@ -83,7 +83,7 @@ Attribute | Value | Description
 title | string | General project title
 pageTitle | string | **Optional** header title of on its page; if not included, `title` will be used
 path | string absolute path | Route to the page. Must be /projects/THISPAGE
-thumbImg | string image path | Path to thumbnail image for use on /projects page
+thumbImg | string image path | Path to thumbnail image for use on /projects page. **Should be 4:3**
 location | string | Where the project took place
 client | string | Who the project was for
 date | string | Year or range of years (e.g. 2010-2012) which the project takes place
@@ -141,6 +141,11 @@ An example staff object:
   "bioHTML": "<p>Mr. Brady is a Software Developer at KCUS</p>"
 }
 ```
+
+### Updating the home infos
+Process is the same as adding/updating staff/projects.
+
+Photos are **3:2** aspect ratio and the containing `div` has a `max-width` of `310px`, so images need not be large.
 
 ## Todo
 I took the image files for the projects from the old site, and they're all fairly terrible quality. The dimensions are also not standard. I spent some time doing a bit of bulk removal; some files were randomly huge but awful quality. This all needs to be redone and the sizes optimized. Additionally, quick-loading image placeholders must be added.

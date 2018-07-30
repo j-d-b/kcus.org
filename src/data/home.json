@@ -13,10 +13,10 @@
       "descriptionHTML": "KCUS is working with the Massachusetts <abbr title='department of transportation'>DOT</abbr> to design and implement a new <a href='/projects/itms.html' class='font-weight-medium'>Integrated Transportation Management System (ITMS)</a>."
     },
     {
-      "path": "/contact",
-      "imgName": "Bulfinch Square",
-      "imgSource": "/images/home/bulfinch_square.jpg",
-      "descriptionHTML": "KCUS is located in Cambridge, Massachusetts at <a class='font-weight-medium' href='https://www.google.com/maps/place/Kanaan+Consulting,+Inc.+US/@42.3663545,-71.0826626,15z/data=!4m5!3m4!1s0x89e370bbf92c8791:0x49e5de4aae3787d6!8m2!3d42.3699335!4d-71.0797014' target='_blank'>43 Thorndike Street</a> in historical Bulfinch Square."
+      "path": "/projects/swzm",
+      "imgName": "SWZM",
+      "imgSource": "/images/home/swzm-3-2-sm.png",
+      "descriptionHTML": "KCUS is currently designing and developing a <a href='/projects/itms.html' class='font-weight-medium'>Smart Work Zones (SWZ) Application</a> for the Massachusetts Department of Transportation (MassDOT)."
     }
   ]
 }
