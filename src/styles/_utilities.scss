@@ -1,6 +1,14 @@
 // spacing
 $bs-md-breakpoint: 768px;
+$bs-sm-breakpoint: 576px;
 $space-4-5: 2.0rem; // between bs 4 and 5 spacing
+
+@media (min-width: $bs-sm-breakpoint) {
+  .px-sm-4-5 {
+    padding-right: $space-4-5 !important;
+    padding-left: $space-4-5 !important;
+  }
+}
 
 @media (min-width: $bs-md-breakpoint) {
   .pb-md-4-5 {

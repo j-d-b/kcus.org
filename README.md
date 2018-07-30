@@ -83,7 +83,7 @@ Attribute | Value | Description
 title | string | General project title
 pageTitle | string | **Optional** header title of on its page; if not included, `title` will be used
 path | string absolute path | Route to the page. Must be /projects/THISPAGE
-thumbImg | string image path | Path to thumbnail image for use on /projects page. **Should be 4:3**
+thumbImg | string image path | Path to thumbnail image for use on /projects page. **Should be 9:5**
 location | string | Where the project took place
 client | string | Who the project was for
 date | string | Year or range of years (e.g. 2010-2012) which the project takes place
@@ -125,8 +125,8 @@ path | string absolute path | Route to the page. Must be /staff/THISSTAFF
 firstName | string |
 lastName | string |
 title | string | Role at the company, e.g. "Engineer"
-imgThumbSource | string img path | Path to 2x1 aspect ratio image, for small displays and staff page thumbnail
-imgTallSource | string img path | Path to 3x4 aspect ratio portrait for this staff's page
+imgThumbSource | string img path | Path to 2:1 aspect ratio image, for small displays and staff page thumbnail
+imgTallSource | string img path | Path to 3:4 aspect ratio portrait for this staff's page
 bioHTML | string html | HTML body for the staff page
 
 An example staff object:

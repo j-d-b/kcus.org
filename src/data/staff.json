@@ -14,7 +14,7 @@
       "firstName": "Michelle",
       "lastName": "Boucher",
       "title": "Managing Director",
-      "imgThumbSource": "/images/staff/michelle-2x1-thumb.png",
+      "imgThumbSource": "/images/staff/michelle-2x1-thumb.jpg",
       "imgTallSource": "/images/staff/michelle-3x4.jpg",
       "bioHTML": "<p>Ms. Michelle Boucher has over 20 years of experience in intelligent transportation systems (ITS), highway operations, traffic incident management and engineering, combined with a strong project management background.</p><p>In the past Ms. Boucher held several senior positions in the ITS field, most recently as an on-site contractor with the Volpe National Transportation System Center (Volpe). In this position she provided technical assistance and expertise on various projects and programs related to transportation safety, traffic incident management, ITS and University ITS Education. Prior to joining Volpe, she spent over 20 years at the Massachusetts Department of Transportation (MassDOT) as the Director of ITS. In this role, she successfully mainstreamed the deployment of ITS infrastructure and fiber expansion into the project development process using the ITS Strategic Deployment Plan and implemented a two-year pilot real time travel time management system on the I-93 corridor. She was also the Project Manager for the All Electronic Tolling (AET) gantry and equipment design on the Tobin Bridge.</p><p>She has a Bachelor of Science in Civil Engineering from the University of Vermont and a Master’s of Science in Transportation from the University of Massachusetts Lowell. She is a registered professional engineer in the state of Massachusetts, registration #41261, and New Hampshire, registration #14847.</p>"
     },
@@ -23,7 +23,7 @@
       "firstName": "Firas",
       "lastName": "Said",
       "title": "Lead Systems Engineer",
-      "imgThumbSource": "/images/staff/firas-2x1-thumb.png",
+      "imgThumbSource": "/images/staff/firas-2x1-thumb.jpg",
       "imgTallSource": "/images/staff/firas-3x4.jpg",
       "bioHTML": "<p>Mr. Said is an engineer with extensive experience in automation and software system design and architecture. He has comprehensive knowledge of and experience with software-based automation and control systems.</p><p>Mr. Said has participated in teams that have tackled multiple projects for the Massachusetts Department of Transportation, including maintaining the Interstate 93 Real Time Traffic Management system and developing related software, along with drafting Concepts of Operations documents for multiple MassDOT projects. In addition to roadway-centric ITS experience, Mr. Said has worked on the design and implementation of software-based automation and control systems in port container terminal environments.</p><p>He has a Bachelor of Science degree in Mechanical Engineering from Tufts University.</p>"
     },
@@ -32,7 +32,7 @@
       "firstName": "Emily",
       "lastName": "Wright",
       "title": "Systems Engineer",
-      "imgThumbSource": "/images/staff/emily-2x1-thumb.png",
+      "imgThumbSource": "/images/staff/emily-2x1-thumb.jpg",
       "imgTallSource": "/images/staff/emily-3x4.jpg",
       "bioHTML": "<p>Ms. Wright is a Transportation Systems Engineer specializing in Intelligent Transportation Systems (ITS). She has experience in the design and development of ITS-related software applications and systems. Ms. Wright worked as part of a team to provide technical assistance for the implementation of ITS technologies to Colombia's Ministry of Transport. Ms. Wright's experience includes projects involving design, prototyping, marketing, project management and control systems.</p><p>Ms. Wright has a Bachelor of Science degree in Mechanical Engineering and a minor in Engineering Management from Tufts University.</p>"
     },
@@ -41,7 +41,7 @@
       "firstName": "Jacob",
       "lastName": "Brady",
       "title": "Software Developer",
-      "imgThumbSource": "/images/staff/jacob-2x1-thumb.png",
+      "imgThumbSource": "/images/staff/jacob-2x1-thumb.jpg",
       "imgTallSource": "/images/staff/jacob-3x4.jpg",
       "bioHTML": "<p>Mr. Brady is a Fullstack Software Developer with an emphasis on web development. He is excited by JavaScript, the modern web, and cutting-edge tech. His work is often frontend focused and encompasses UX and graphic design. Mr. Brady draws these skills from his computer science degree, personal projects, and aesthetic interests.</p><p>Mr. Brady has a Bachelor of Arts in Computer Science from Middlebury College.</p>"
     }
