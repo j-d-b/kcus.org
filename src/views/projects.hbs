@@ -1,6 +1,5 @@
-<div class="pt-3 px-0 px-md-3">
-
-  {{#each projectCategories}}
+{{#each projectCategories}}
+  <div class="bg-white pt-3 px-0 px-md-3 rounded {{#unless @last}}mb-3{{/unless}}">
     <div class="col-12 text-center text-md-left">
       <h3 class="font-weight-light text-uppercase pb-2">
         <span class="text-blue">{{titleOne}} </span> {{!-- should allow for flexible length --}}
@@ -33,6 +32,5 @@
         {{/each}}
       </div>
     </div>
-  {{/each}}
-
-</div>
+  </div>
+{{/each}}

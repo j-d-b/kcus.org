@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400|Roboto+Condensed:300,400|Titillium+Web:400|Lora:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400|Roboto+Condensed:300,400');
+@import url("https://use.typekit.net/lmo4ogv.css");
 
 .font-weight-medium {
 	font-weight: 400;
@@ -30,6 +31,10 @@
 
 .text-roboto {
   font-family: "Roboto", sans-serif;
+}
+
+.text-freight-sans {
+	font-family: "freight-sans-pro", sans-serif;
 }
 
 .text-roboto-cond {
