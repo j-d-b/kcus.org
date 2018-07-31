@@ -16,11 +16,20 @@
 	padding: 2px;
 }
 
-
 // ---------- custom ----------
-.2-1-placeholder {
-	padding-top: 50%;
+.img-placeholder-2-1 {
+  padding-bottom: 50%;
+  height: 0;
+  position: relative;
 }
+
+.placed-img {
+  width:100%;
+  height:100%;
+  display:block;
+  position:absolute;
+}
+
 
 .blue-header {
 	color: $kcus-blue;

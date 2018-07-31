@@ -10,7 +10,9 @@
     {{#each staff}}
       <div class="staff-item col-md-6 col-lg-4 pb-2 pb-md-3">
         <a class="spa-nav" href="{{path}}">
-          <img class="img-thumbnail" src="{{imgThumbSource}}" alt="{{firstName}}">
+          <div class="img-placeholder-2-1">
+            <img class="placed-img img-thumbnail" src="{{imgThumbSource}}" alt="{{firstName}}">
+          </div>
         </a>
         <div class="blue-header pt-1">
           <a class="spa-nav" href="{{path}}">{{firstName}} {{lastName}}</a>

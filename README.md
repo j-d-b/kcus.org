@@ -6,6 +6,9 @@ Ground-up website rewrite for [Kanaan Consulting US, Inc.](http://www.kcus.org) 
 
 Maintains similar content, layout, and styling, while being a full rewrite designed for future ease of maintenance.
 
+## Netlify
+The `prod` branch of this repository represents the current live dev site, hosted with netlify. A new build is triggered on every push to this branch. 
+
 ## Usage
 ### Production Build
 To install required dependencies:

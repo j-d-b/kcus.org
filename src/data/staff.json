@@ -5,7 +5,7 @@
       "firstName": "Ammar",
       "lastName": "Kanaan",
       "title": "President",
-      "imgThumbSource": "/images/staff/ammar-2x1-thumb.png",
+      "imgThumbSource": "/images/staff/ammar-2x1-thumb.jpg",
       "imgTallSource": "/images/staff/ammar-3x4.jpg",
       "bioHTML": "<p>Mr. Kanaan has over 20 years of experience and is an expert in transportation economics, transportation systems and transportation policy.</p><p>In the past Mr. Kanaan occupied several senior positions in the field, mainly as director and partner with another transportation consulting firm, IBI Group, in Boston, Massachusetts. In the mid-1990s, Mr. Kanaan had worked as a consultant to the World Bank on the privatization of container terminals.</p><p>Mr. Kanaan has advised and is still advising the current government of Lebanon on transportation policy. He was the author of the current national transportation policy.</p><p>He has a Bachelor in Engineering from the American University of Beirut and a Masters of Science in Transportation from the Massachusetts Institute of Technology.</p>"
     },
@@ -43,7 +43,7 @@
       "title": "Software Developer",
       "imgThumbSource": "/images/staff/jacob-2x1-thumb.jpg",
       "imgTallSource": "/images/staff/jacob-3x4.jpg",
-      "bioHTML": "<p>Mr. Brady is a Fullstack Software Developer with an emphasis on web development. He is excited by JavaScript, the modern web, and cutting-edge tech. His work is often frontend focused and encompasses UX and graphic design. Mr. Brady draws these skills from his computer science degree, personal projects, and aesthetic interests.</p><p>Mr. Brady has a Bachelor of Arts in Computer Science from Middlebury College.</p>"
+      "bioHTML": "<p>Mr. Brady is a Fullstack Software Developer with an emphasis on web development. He is excited by JavaScript, the modern web, and cutting-edge tech. His work is often frontend focused and encompasses UX and graphic design. Mr. Brady draws these skills from his computer science degree, personal projects, and aesthetic interests.</p><p>Mr. Brady has a Bachelor of Arts in Computer Science from Middlebury College.</p><p class='font-italic'>Source code repository for this website can be viewed <a href='https://github.com/j-d-b/kcus.org'>here</a>.</p>"
     }
   ]
 }
