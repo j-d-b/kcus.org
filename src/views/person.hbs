@@ -3,14 +3,22 @@
     <h3 class="font-weight-light text-uppercase">
       <span class="text-blue">{{firstName}} {{lastName}}</span>
     </h3>
-    <a class="spa-nav return-button align-self-top rounded text-point-87-rem text-right" href="/staff">View all staff</a>
+    <div class="text-point-87-rem text-right align-self-center">
+      <a class="spa-nav return-button" href="/staff">View all staff</a>
+    </div>
   </div>
 
   <div class="px-3 font-weight-light">
     <div class="row">
       <div class="col-md-4 col-xl-3 order-md-2 mb-md-3">
-        <img class="img-fluid img-thumbnail d-none d-md-block" src="{{imgTallSource}}" />
-        <img class="img-fluid img-thumbnail d-md-none mb-3" src="{{imgThumbSource}}" />
+        <div class="img-thumbnail">
+          <div class="img-placeholder-3-4 d-none d-md-block">
+            <img class="placed-img img-fluid" src="{{imgTallSource}}" />
+          </div>
+          <div class="img-placeholder-2-1 d-md-none mb-3">
+            <img class="placed-img img-fluid" src="{{imgThumbSource}}" />
+          </div>
+        </div>
       </div>
       <div class="col-md">
         <p><strong>{{title}}</strong></p>

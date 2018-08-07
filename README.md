@@ -10,12 +10,12 @@ Maintains similar content, layout, and styling, while being a full rewrite desig
 ### Production Build
 To install required dependencies:
 ```
-npm install
+yarn install
 ```
 
 To generate `dist/` directory for distribution:
 ```
-npm run build
+yarn build
 ```
 
 Uses [webpack](https://webpack.js.org/) to bundle and copy code from `src/`
@@ -26,12 +26,12 @@ Uses [webpack](https://webpack.js.org/) to bundle and copy code from `src/`
 ### Development
 Install dependencies
 ```
-npm install
+yarn install
 ```
 
 Start the hot-reloading development server
 ```
-npm run develop
+yarn develop
 ```
 
 **Note** ImageminPlugin does not run in the development environment which makes build time insanely faster.
