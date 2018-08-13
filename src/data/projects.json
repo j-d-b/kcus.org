@@ -44,7 +44,8 @@
           "client": "MassDOT",
           "date": "2016 - 2019",
           "images": [
-            "/images/projects/swz_app_l1.jpg"
+            "/images/projects/swz_app_l1.jpg",
+            "/images/projects/swzm-overview.png"
           ],
           "description": "KCUS designed and is now developing a Smart Work Zones (SWZ) Application for the Massachusetts Department of Transportation (MassDOT). This application will enable central monitoring of SWZ sites throughout the state and allow for SWZ performance reporting",
           "descriptionHTML": "<p>KCUS is currently designing and developing a <strong>Smart Work Zones (SWZ) Application</strong> for the Massachusetts Department of Transportation (MassDOT). This application will enable the integrated centralized configuration, management, and monitoring of SWZ sites and field devices throughout Massachusetts. The SWZ application will also collect and fuse data retrieved from SWZs throughout the state. This data will be stored within the GoTime Data Warehouse for analytics and reporting purposes.</p><p>The application will also present this information in an intuitive manner through a web-based Graphical User Interface (GUI). The GUI will include a public-facing website that will allow for the controlled dissemination of work zone-related information. The SWZ application will also provide an XML feed that will provide real-time SWZ data to third party developers.</p>"
