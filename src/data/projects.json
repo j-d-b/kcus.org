@@ -87,12 +87,12 @@
         {
           "title": "Work Zone ITS Implementation Tool",
           "path": "/projects/wz-its",
-          "thumbImg": "/images/projects/swz_tool_s.jpg",
+          "thumbImg": "/images/projects/wzits-feasibiliy-wizard-thumb.png",
           "location": "United States",
           "client": "Federal Highway Administration",
           "date": "2015 - 2017",
           "images": [
-            "/images/projects/swz_tool_l1.png"
+            "/images/projects/wzits-feasibility-wizard.png"
           ],
           "description": "KCUS was part of a team that designed, developed, and implemented a Work Zone ITS Implementation Tool for the Federal Highway Administration (FHWA).",
           "descriptionHTML": "<p>KCUS was part of a team that designed, developed, and implemented a Work Zone ITS Implementation Tool for the Federal Highway Administration (FHWA). This tool will complement the FHWA’s Work Zone ITS Implementation Guide (FHWA-HOP-14-008) and will assist users in the planning of work zone ITS systems. The tool will provide appropriate recommendations such as targeted ITS technologies and field devices for a specific work zone based on user inputs.</p>"
