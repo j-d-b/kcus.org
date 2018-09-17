@@ -7,6 +7,17 @@ Ground-up website rewrite for [Kanaan Consulting US, Inc.](http://www.kcus.org) 
 Maintains similar content, layout, and styling, while being a full rewrite designed for future ease of maintenance.
 
 ## Usage
+### Development
+Install dependencies
+```
+yarn install
+```
+
+Start the hot-reloading development server
+```
+yarn develop
+```
+
 ### Production Build
 To install required dependencies:
 ```
@@ -22,17 +33,6 @@ Uses [webpack](https://webpack.js.org/) to bundle and copy code from `src/`
 * `styles/`, `data/`, `views/`, and all JavaScript files bundled into `bundle.js`
 * `images/` files processed with [imagemin-webpack-plugin](https://github.com/Klathmon/imagemin-webpack-plugin) and copied to `dist/`
 * `index.html` copied to `dist/`
-
-### Development
-Install dependencies
-```
-yarn install
-```
-
-Start the hot-reloading development server
-```
-yarn develop
-```
 
 **Note** ImageminPlugin does not run in the development environment which makes build time insanely faster.
 
@@ -151,7 +151,7 @@ Process is the same as adding/updating staff/projects.
 Photos are **3:2** aspect ratio and the containing `div` has a `max-width` of `310px`, so images need not be large.
 
 ## Todo
-I took the image files for the projects from the old site, and they're all fairly terrible quality. The dimensions are also not standard. I spent some time doing a bit of bulk removal; some files were randomly huge but awful quality. This all needs to be redone and the sizes optimized. Additionally, quick-loading image placeholders must be added.
+I took the image files for the projects from the old site, and they're all fairly terrible quality. The dimensions are also not standard. I spent some time doing a bit of bulk removal; some files were randomly huge but awful quality. This all needs to be redone and the sizes optimized. There is still a lot of loading speed to be gained from this. Additionally, quick-loading image placeholders could be added.
 
 ## About KCUS, Inc.
 > Kanaan Consulting US, Inc. is a Cambridge-based engineering company that offers comprehensive engineering and consulting services with a focus on multimodal transportation.

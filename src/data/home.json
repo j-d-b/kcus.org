@@ -4,19 +4,19 @@
       "path": "/projects/gotime",
       "imgName": "RTTM",
       "imgSource": "/images/home/home_rttm.png",
-      "descriptionHTML": "KCUS implemented and maintains <a class='font-weight-medium' href='http://www.massdotgotime.com' target='_blank'>GoTime</a>, the Massachusetts Statewide <a class='font-weight-medium' href='projects/gotime'>Real Time Traffic Management (RTTM)</a> System."
+      "descriptionHTML": "KCUS implemented and maintains <span class='font-weight-medium'>GoTime</span>, the Massachusetts Statewide <a class='font-weight-medium' href='projects/gotime'>Real Time Traffic Management (RTTM)</a> System."
     },
     {
       "path": "/projects/itms",
       "imgName": "ITMS",
       "imgSource": "/images/home/hoc.jpeg",
-      "descriptionHTML": "KCUS is working with the Massachusetts <abbr title='department of transportation'>DOT</abbr> to design and implement a new <a href='/projects/itms' class='font-weight-medium'>Integrated Transportation Management System (ITMS)</a>."
+      "descriptionHTML": "KCUS is working with the Massachusetts Department of Transportation to design and implement a new <a href='/projects/itms' class='font-weight-medium'>Integrated Transportation Management System (ITMS)</a>."
     },
     {
       "path": "/projects/bctc-tas",
       "imgName": "TAS",
       "imgSource": "/images/home/tas-dashboard-3-2.png",
-      "descriptionHTML": "KCUS is currently designing and developing a <a href='/projects/bctc-tas' class='font-weight-medium'>Truck Appointment System (TAS) Application</a> for Beirut Container Terminal Consoritum (BCTC)."
+      "descriptionHTML": "KCUS is currently designing and developing a <a href='/projects/bctc-tas' class='font-weight-medium'>Truck Appointment System (TAS)</a> for the Beirut Container Terminal Consoritum."
     }
   ]
 }
