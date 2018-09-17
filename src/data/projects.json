@@ -13,10 +13,9 @@
           "date": "2014 - 2019",
           "images": [
             "/images/projects/gotime_l1.png",
-            "/images/projects/gotime_l2.png",
-            "/images/projects/gotime_l3.png"
+            "/images/projects/gotime_l2.png"
           ],
-          "description": "KCUS is implemented and is now operating and maintaining a software system for Massachusetts’ permanent Statewide Real Time Traffic Management (RTTM) implementation dubbed GoTime.",
+          "description": "KCUS implemented and is now operating and maintaining a software system for GoTime, Massachusetts’ permanent Statewide Real Time Traffic Management (RTTM) implementation.",
           "descriptionHTML": "<p>KCUS is currently implementing, operating, and maintaining a software system for Massachusetts’ permanent Statewide Real Time Traffic Management (RTTM) implementation dubbed <strong>GoTime</strong>.</p><p>This project encompasses the design, development, and operation of software that manages and controls 146 Hybrid VMS and 291 Bluetooth Reader-based installations throughout Massachusetts. The system uses MAC addresses detected by the deployed Bluetooth Readers to calculate travel times, which are processed, analyzed, and posted to the Hybrid VMS in order to inform drivers of current traffic conditions.</p><p>KCUS's Statewide RTTM software includes a browser-based application that provides users with operational and situational awareness tools. This application includes an interactive map, a real-time dashboard, reporting tools, real-time field device monitoring functionality, and alarm and trouble ticket tracking. KCUS will also be performing field device maintenance operations one year after system acceptance.</p>"
         },
         {
@@ -33,7 +32,7 @@
             "/images/projects/itms_l2.png",
             "/images/projects/itms_l3.png"
           ],
-          "description": "KCUS is assisting the Massachusetts Department of Transportation (MassDOT) in the detailed design and implementation process for a new Integrated Transportation Management System (ITMS) to be deployed at MassDOT's Highway Operations Center (HOC).",
+          "description": "KCUS is assisting the Massachusetts Department of Transportation (MassDOT) to design and implement a new Integrated Transportation Management System (ITMS) to be deployed at MassDOT's Highway Operations Center (HOC).",
           "descriptionHTML": "<p>KCUS is assisting the Massachusetts Department of Transportation (MassDOT) in the detailed design and implementation process for a new <strong>Integrated Transportation Management System (ITMS)</strong> to be deployed at MassDOT's Highway Operations Center (HOC).</p><p>This software is being developed based on the Advanced Traffic Management System (ATMS)/Advanced Traveler Information System (ATIS) and Integrated Project Control System (IPCS)/Supervisory Control and Data Acquisition (SCADA) design documentation that was produced by KCUS. KCUS is providing technical support and design services to MassDOT and is working with the selected ITMS vendor throughout the detailed design and implementation of the ITMS. KCUS will also assist MassDOT in the testing, verification, and validation of the new ITMS platform.</p><p>As part of this project, KCUS is also collaborating with MassDOT Legal to develop a contract that details the terms and conditions, the format of the acquisition, and the phasing of the project. This process will lead to the signing of the final contract for the acquisition and phased deployment of the ITMS platform.<p>"
         },
         {
@@ -47,7 +46,7 @@
             "/images/projects/swz_app_l1.jpg",
             "/images/projects/swzm-overview.png"
           ],
-          "description": "KCUS designed and is now developing a Smart Work Zones (SWZ) Application for the Massachusetts Department of Transportation (MassDOT). This application will enable central monitoring of SWZ sites throughout the state and allow for SWZ performance reporting",
+          "description": "KCUS designed and is now developing a Smart Work Zones (SWZ) Application for the Massachusetts Department of Transportation (MassDOT). This application will enable central monitoring of SWZ sites throughout the state and allow for SWZ performance reporting.",
           "descriptionHTML": "<p>KCUS is currently designing and developing a <strong>Smart Work Zones (SWZ) Application</strong> for the Massachusetts Department of Transportation (MassDOT). This application will enable the integrated centralized configuration, management, and monitoring of SWZ sites and field devices throughout Massachusetts. The SWZ application will also collect and fuse data retrieved from SWZs throughout the state. This data will be stored within the GoTime Data Warehouse for analytics and reporting purposes.</p><p>The application will also present this information in an intuitive manner through a web-based Graphical User Interface (GUI). The GUI will include a public-facing website that will allow for the controlled dissemination of work zone-related information. The SWZ application will also provide an XML feed that will provide real-time SWZ data to third party developers.</p>"
         },
         {
@@ -61,7 +60,7 @@
             "/images/projects/tas-scheduler-mock-gui.png",
             "/images/projects/tas-dashboard-mock-gui.png"
           ],
-          "description": "KCUS is currently designing and developing a Truck Appointment System (TAS) Application for Beirut Container Terminal Consoritum (BCTC). The TAS will provide BCTC customers with the ability to schedule container pick-up and drop-off with the BCTC terminal using the developed web, iOS, and Android applications.",
+          "description": "KCUS is currently designing and developing a Truck Appointment System (TAS) Application for the Beirut Container Terminal Consoritum (BCTC). The TAS will provide BCTC customers with the ability to schedule container pick-up and drop-off with the terminal using the developed web, iOS, and Android applications.",
           "descriptionHTML": "<p>KCUS is currently designing and developing a <strong>Truck Appointment System (TAS)</strong> application for Beirut Container Terminal Consoritum (BCTC). Implementing a TAS at BCTC promises increased efficiency for the terminal, improved ability to plan ahead, and a better customer experience.</p><p>The TAS will provide BCTC customers with the ability to schedule container pick-up and drop-off with the BCTC terminal. It will be comprised of an API backend as well as web, iOS, and Android applications.</p>"
         }
       ]
@@ -237,7 +236,7 @@
           "location": "Massachusetts",
           "client": "MassDOT",
           "date": "2012 - 2013",
-          "description": "KCUS developed the ITS Concepts of Operations (ConOps) and System Requirements Specification (SyRS) for the I-495 ITS deployment following the systems engineering process",
+          "description": "KCUS developed the ITS Concepts of Operations (ConOps) and System Requirements Specification (SyRS) for the I-495 ITS deployment.",
           "descriptionHTML": "<p>KCUS developed the ITS Concept of Operations (ConOps) and System Requirements Specification (SyRS) for the I-495 ITS deployment.</p><p>KCUS conducted interviews and meetings with the projects’ stakeholders to gather critical information on the systems’ existing condition, objectives and priorities, and operational needs. The documents adhered to the FHWA Systems Engineering Process.</p><p>The project also included the development of ConOps and SyRS templates that can be used by MassDOT for the implementation of similar systems in the future. The templates provide customizable outlines for the three types of systems, including a list of common considerations and MassDOT standards.</p>"
         },
         {
