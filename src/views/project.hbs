@@ -1,5 +1,5 @@
 <div class="bg-white rounded pt-3 px-0 px-md-3 pb-md-3">
-  <div class="px-3 d-sm-flex justify-content-between text-sm-left">
+  <div class="px-3 text-sm-left">
     <h3 class="font-weight-light text-uppercase text-blue">
       {{#if pageTitle}}
         {{pageTitle}}
@@ -7,16 +7,13 @@
         {{title}}
       {{/if}}
     </h3>
-    <div class="text-point-87-rem text-right align-self-center">
-      <a class="spa-nav return-button" href="/projects">View all projects</a>
-    </div>
   </div>
 
   <hr class="mx-3 mt-1 mb-3 pt-0" />
 
   {{#if images}}
     <div class="row px-3">
-      <div class="col-lg-9 col-xl-8 mx-auto">
+      <div class="col-lg-9 mx-auto">
         <img class="img-fluid" src="{{images.[0]}}" id="proj-lg-img" />
       </div>
     </div>
