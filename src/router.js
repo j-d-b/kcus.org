@@ -19,6 +19,7 @@ export function route(path) {
   switch (mainPage) {
     case 'home':
       setHighlight('home');
+      setTitle('Home');
       setContent(homeTemplate(HomeData));
       break;
     case 'projects':
@@ -31,10 +32,12 @@ export function route(path) {
       break;
     case 'contact':
       setHighlight('contact');
+      setTitle('Contact');
       setContent(contactTemplate());
       break;
     default:
       setHighlight('home');
+      setTitle('Home');
       setContent(homeTemplate(HomeData));
       window.history.replaceState({}, null, '/home');
   }
@@ -63,38 +66,50 @@ function setHighlight(mainPage) {
   document.querySelector(`.nav-title[href="/${mainPage}"]`).classList.add('nav-active');
 }
 
-// sets the innerHTML of #main-content to the given html content
-const setContent = html => document.getElementById('main-content').innerHTML = html;
+function setTitle(title) {
+  document.title = 'Kanaan Consulting US, Inc - ' + title;
+}
+
+function setContent(html) {
+  document.getElementById('main-content').innerHTML = html;
+}
 
 // staff main route can have subpages, so find it and load accordingly
 function routeStaff(path, isSubPage) {
-  const getPerson = () => StaffData.staff.find(person => person.path === path);
-  const content = isSubPage ? personTemplate(getPerson()) : staffTemplate(StaffData);
+  let content, title;
+  if (isSubPage) {
+    const person = StaffData.staff.find(person => person.path === path);
+    content = personTemplate(person);
+    title = person.firstName;
+  } else {
+    content = staffTemplate(StaffData);
+    title = 'Staff'
+  }
+
+  setTitle(title);
   setContent(content);
 }
 
 // projects main route can have subpages, so find it and load accordingly
 function routeProjects(path, isSubPage) {
-  let data = ProjectsData;
-  let content = projectsTemplate(data);
-
-  // loop through the project categories and then projects to match paths
-  const getProject = (categories) => {
-    for (let i = 0; i < categories.length; i++) {
-      let proj = categories[i].projects.find(proj => proj.path === path);
-      if (proj) return proj;
+  let content, title;
+  if (isSubPage) {
+    let project;
+    for (const cat of ProjectsData.projectCategories) {
+      project = cat.projects.find(proj => proj.path === path);
+      if (project) break;
     }
-  };
 
-  // set the content and setup handlers for a subpage
-  const routeSubpage = () => {
-    data = getProject(ProjectsData.projectCategories);
-    content = projectTemplate(data);
-    setContent(content);
-    setupImgViewer();
-  };
+    content = projectTemplate(project);
+    title = project.title;
+  } else {
+    content = projectsTemplate(ProjectsData);
+    title = 'Projects'
+  }
 
-  isSubPage ? routeSubpage() : setContent(content);
+  setTitle(title);
+  setContent(content);
+  if (isSubPage) setupImgViewer();
 }
 
 // sets up the event listeners for the project page image viewer on click
