@@ -64,11 +64,19 @@
 }
 
 .return-button {
-	color: $kcus-gray;
-	margin: 0.4rem;
+	cursor: pointer;
+	color: #fff;
+	padding: 0.5rem;
+	text-align: center;
+	font-weight: 400;
+	width: 100%;
+	font-size: 0.87rem;
+	border-radius: 4px;
+	background-color: $kcus-gray;
+
 	&:hover {
 		text-decoration: none;
-		color: $kcus-blue;
+		background-color: $kcus-blue;
 	}
 }
 
