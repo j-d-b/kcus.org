@@ -51,7 +51,9 @@ export function setupNavigation(element) {
   element.querySelectorAll('.spa-nav').forEach(el => {
     el.addEventListener('click', e => {
       e.preventDefault();
-      let path = e.currentTarget.getAttribute('href');
+      window.scrollTo(0, 0);
+
+      const path = e.currentTarget.getAttribute('href');
       if (path !== window.location.pathname) {
         route(path);
         window.history.pushState({}, null, path);
@@ -119,7 +121,7 @@ function setupImgViewer() {
       document.querySelectorAll('.proj-img').forEach(el => el.classList.remove('proj-img-selected'));
       e.currentTarget.classList.add('proj-img-selected');
 
-      let imgSrc = e.currentTarget.getAttribute('src');
+      const imgSrc = e.currentTarget.getAttribute('src');
       document.getElementById('proj-lg-img').src = imgSrc;
     });
   });
