@@ -34,6 +34,13 @@ $space-4-5: 2.0rem; // between bs 4 and 5 spacing
   }
 }
 
+.anchor-blue-underline {
+  a:hover {
+    color: $kcus-blue;
+    text-decoration: underline;
+  }
+}
+
 .blue-links {
   a {
     color: $kcus-blue;
