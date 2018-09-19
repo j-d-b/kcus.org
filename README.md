@@ -36,6 +36,7 @@ Uses [webpack](https://webpack.js.org/) to bundle and copy code from `src/`
 * `styles/`, `data/`, `views/`, and all JavaScript files bundled into `bundle.js`
 * `images/` files processed with [imagemin-webpack-plugin](https://github.com/Klathmon/imagemin-webpack-plugin) and copied to `dist/`
 * `index.html` copied to `dist/`
+* All files in `netlify/` are copied to `dist/`
 
 **Note** ImageminPlugin does not run in the development environment which makes build time insanely faster.
 
