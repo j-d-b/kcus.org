@@ -10,6 +10,15 @@
       "bioHTML": "<p>Mr. Kanaan has over 25 years of experience and is an expert in transportation economics, transportation systems and transportation policy.</p><p>In the past Mr. Kanaan occupied several senior positions in the field, mainly as director and partner with another transportation consulting firm, IBI Group, in Boston, Massachusetts. In the mid-1990s, Mr. Kanaan had worked as a consultant to the World Bank on the privatization of container terminals.</p><p>Mr. Kanaan has advised and is still advising the current government of Lebanon on transportation policy. He was the author of the current national transportation policy.</p><p>He has a Bachelor in Engineering from the American University of Beirut and a Masters of Science in Transportation from the Massachusetts Institute of Technology.</p>"
     },
     {
+      "path": "/staff/someone",
+      "firstName": "Someone",
+      "lastName": "Random",
+      "title": "Alright.",
+      "imgThumbSource": "/images/staff/ammar-2x1-thumb.jpg",
+      "imgTallSource": "/images/staff/ammar-3x4.jpg",
+      "bioHTML": "<p>A non-existant person.</p>"
+    },
+    {
       "path": "/staff/michelle",
       "firstName": "Michelle",
       "lastName": "Boucher",
