@@ -29,8 +29,5 @@
   "dependencies": {
     "handlebars": "^4.0.11",
     "node-sass": "^4.9.2"
-  },
-  "resolutions": {
-    "**/hoek": "4.2.1"
   }
 }
