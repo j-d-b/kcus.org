@@ -49,7 +49,7 @@ The `prod` branch of this repository represents the current live site, hosted wi
 * Mobile responsive layout, using [Bootstrap 4](https://getbootstrap.com/) CSS
 * [Handlebars](http://handlebarsjs.com/) for generating html views from JSON data
 * [Babel](https://babeljs.io/) for ES6+ syntax, JavaScript modules
-* [webpack](https://webpack.js.org/) for bundling, json/handlebars loading
+* [webpack](https://webpack.js.org/) for bundling, JSON/template loading
 
 ## SPA
 Listens for `popstate` event and changes page body content.
