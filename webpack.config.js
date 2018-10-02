@@ -28,13 +28,13 @@ module.exports = (env, argv) => {
 
   return {
     entry: './src/index.js',
-    devServer: {
-      contentBase: './dist',
-      hot: true
-    },
     output: {
       filename: 'bundle.js',
       path: path.resolve(__dirname, 'dist')
+    },
+    devServer: {
+      contentBase: './dist',
+      hot: true
     },
     module: {
       rules: [
