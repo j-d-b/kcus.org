@@ -16,18 +16,16 @@
     "babel-preset-env": "^1.7.0",
     "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^0.28.11",
+    "handlebars": "^4.0.12",
     "handlebars-loader": "^1.7.0",
     "imagemin-webpack-plugin": "^2.2.0",
     "node": "^9.11.2",
+    "node-sass": "^4.9.3",
     "sass": "^1.10.1",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "webpack": "^4.16.3",
     "webpack-cli": "^2.1.5",
     "webpack-dev-server": "^3.1.5"
-  },
-  "dependencies": {
-    "handlebars": "^4.0.11",
-    "node-sass": "^4.9.2"
   }
 }
