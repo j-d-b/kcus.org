@@ -10,23 +10,18 @@ The following sections assume you have the following installed:
 * [Yarn](https://yarnpkg.com/en/) package manager
 
 ## Usage
-### Development
 Install dependencies
 ```
 yarn install
 ```
 
+### Development
 Start the hot-reloading development server (at http://localhost:8080)
 ```
 yarn develop
 ```
 
 ### Production Build
-To install required dependencies:
-```
-yarn install
-```
-
 To generate `dist/` directory for distribution:
 ```
 yarn build
