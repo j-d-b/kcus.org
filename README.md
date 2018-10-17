@@ -4,6 +4,8 @@ Ground-up website rewrite for [Kanaan Consulting US, Inc.](http://www.kcus.org)
 
 Maintains similar content, layout, and styling, while being a full rewrite designed for future ease of maintenance.
 
+**Note:** This is the official repository for the live site.
+
 ## Prerequisites
 The following sections assume you have the following installed:
 * [Node.js](https://nodejs.org/en/) runtime
