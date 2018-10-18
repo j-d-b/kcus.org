@@ -1,6 +1,6 @@
 // Jacob Brady
 // 2018 KCUS Inc.
-
+import 'nodelist-foreach-polyfill';
 import style from './styles/style.scss'; // single, global stylesheet
 import { route, setupNavigation } from './router.js';
 

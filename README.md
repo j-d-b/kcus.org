@@ -4,29 +4,26 @@ Ground-up website rewrite for [Kanaan Consulting US, Inc.](http://www.kcus.org)
 
 Maintains similar content, layout, and styling, while being a full rewrite designed for future ease of maintenance.
 
+**Note:** This is the official repository for the live site.
+
 ## Prerequisites
 The following sections assume you have the following installed:
 * [Node.js](https://nodejs.org/en/) runtime
 * [Yarn](https://yarnpkg.com/en/) package manager
 
 ## Usage
-### Development
 Install dependencies
 ```
 yarn install
 ```
 
+### Development
 Start the hot-reloading development server (at http://localhost:8080)
 ```
 yarn develop
 ```
 
 ### Production Build
-To install required dependencies:
-```
-yarn install
-```
-
 To generate `dist/` directory for distribution:
 ```
 yarn build

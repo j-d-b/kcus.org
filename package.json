@@ -22,12 +22,13 @@
     "sass": "^1.10.1",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
-    "webpack": "^4.16.3",
-    "webpack-cli": "^2.1.5",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
-    "handlebars": "^4.0.11",
-    "node-sass": "^4.9.2"
+    "handlebars": "^4.0.12",
+    "node-sass": "^4.9.3",
+    "nodelist-foreach-polyfill": "^1.2.0"
   }
 }

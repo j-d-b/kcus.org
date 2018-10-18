@@ -16,6 +16,11 @@ $space-4-5: 2.0rem; // between bs 4 and 5 spacing
   }
 }
 
+.py-3125rem {
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+}
+
 .pt-4-5 {
   padding-top: $space-4-5 !important;
 }

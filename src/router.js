@@ -1,9 +1,9 @@
-const homeTemplate = require('./views/home.hbs');
-const projectsTemplate = require('./views/projects.hbs');
-const projectTemplate = require('./views/project.hbs');
-const staffTemplate = require('./views/staff.hbs');
-const personTemplate = require('./views/person.hbs');
-const contactTemplate = require('./views/contact.hbs');
+import homeTemplate from './views/home.hbs';
+import projectsTemplate from './views/projects.hbs';
+import projectTemplate from './views/project.hbs';
+import staffTemplate from './views/staff.hbs';
+import personTemplate from './views/person.hbs';
+import contactTemplate from './views/contact.hbs';
 
 import HomeData from './data/home.json';
 import StaffData from './data/staff.json';
