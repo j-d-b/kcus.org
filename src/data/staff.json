@@ -43,7 +43,7 @@
       "title": "Software Developer",
       "imgThumbSource": "/images/staff/jacob-2x1-thumb.jpg",
       "imgTallSource": "/images/staff/jacob-3x4.jpg",
-      "bioHTML": "<p>Mr. Brady is a Full-Stack Software Developer who works primarily in the web development realm. He enjoys working in JavaScript (and Node.js) and is excited by the modern web and cutting-edge tech. His work is often frontend focused and encompasses UX and graphic design.</p><p>Mr. Brady has a Bachelor of Arts in Computer Science from Middlebury College.</p><p class='font-italic'>Source code repository for this website can be viewed <a href='https://github.com/j-d-b/kcus.org'>here</a>.</p>"
+      "bioHTML": "<p>Mr. Brady is a Full-Stack Software Developer who works primarily in the web development realm. He enjoys working in JavaScript (and Node.js) and is excited by the modern web and cutting-edge tech. His work is often frontend focused and encompasses UX and graphic design.</p><p>Mr. Brady has a Bachelor of Arts in Computer Science from Middlebury College.</p><p class='font-italic text-point-87-rem'>Hi, I'm the author of this website; source code repository <a href='https://github.com/j-d-b/kcus.org'>here</a>.</p>"
     }
   ]
 }
