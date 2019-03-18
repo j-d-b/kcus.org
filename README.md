@@ -151,6 +151,9 @@ Process is the same as adding/updating staff/projects.
 
 Photos are **3:2** aspect ratio and the containing `div` has a `max-width` of `310px`, so images need not be large.
 
+## License
+This package is licensed under [The MIT License](https://opensource.org/licenses/MIT).
+
 ## Todo
 I took the image files for the projects from the old site, and they're all fairly terrible quality. The dimensions are also not standard. I spent some time doing a bit of bulk removal; some files were randomly huge but awful quality. This all needs to be redone and the sizes optimized. There is still a lot of loading speed to be gained from this. Additionally, quick-loading image placeholders could be added.
 

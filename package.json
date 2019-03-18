@@ -10,6 +10,7 @@
     "url": "git+https://github.com/j-d-b/kcus.org.git"
   },
   "author": "Jacob Brady",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
