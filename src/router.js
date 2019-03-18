@@ -9,6 +9,16 @@ import HomeData from './data/home.json';
 import StaffData from './data/staff.json';
 import ProjectsData from './data/projects.json';
 
+const pageNotExist = `
+  <div class="bg-white pt-3 px-0 px-md-3 pb-md-3 rounded">
+    <div class="px-3 pb-3 pb-md-0 text-center text-md-left">
+      <h1 class="h3 font-weight-light text-uppercase mb-0">
+        <span class="text-gray">This page does not exist</span>
+      </h1>
+    </div>
+  </div>
+`;
+
 // load the relevant page content and setup event listeners based on path
 // note: only checks subpages for staff and projects; also no nested subpages
 export function route(path) {
@@ -81,8 +91,13 @@ function routeStaff(path, isSubPage) {
   let content, title;
   if (isSubPage) {
     const person = StaffData.staff.find(person => person.path === path);
-    content = personTemplate(person);
-    title = person.firstName;
+    if (person) {
+      content = personTemplate(person);
+      title = person.firstName;
+    } else {
+      content = pageNotExist;
+      title = '404';
+    }
   } else {
     content = staffTemplate(StaffData);
     title = 'Staff'
@@ -101,9 +116,13 @@ function routeProjects(path, isSubPage) {
       project = cat.projects.find(proj => proj.path === path);
       if (project) break;
     }
-
-    content = projectTemplate(project);
-    title = project.title;
+    if (project) {
+      content = projectTemplate(project);
+      title = project.title;
+    } else {
+      content = pageNotExist;
+      title = '404';
+    }
   } else {
     content = projectsTemplate(ProjectsData);
     title = 'Projects'
