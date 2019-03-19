@@ -111,7 +111,7 @@ An example project object:
     "/images/projects/travel-sign.jpg",
     "/images/projects/big-blue-sky.png"
   ],
-  "description": "This is a test projects",
+  "description": "This is a test project",
   "descriptionHTML": "<p>Welcome to the RTTM page</p><p>Have a good day</p>"
 }
 ```
@@ -128,8 +128,8 @@ Staff object attributes:
 Attribute | Value | Description
 --- | --- | ---
 path | string (absolute path) | Route to the page. Must be /staff/THISSTAFF
-firstName | string |
-lastName | string |
+firstName | string | Staff member's first name
+lastName | string | Staff member's last name
 title | string | Role at the company, e.g. "Engineer"
 imgThumbSource | string (img path) | Path to 2:1 aspect ratio image, for small displays and staff page thumbnail
 imgTallSource | string (img path) | Path to 3:4 aspect ratio portrait for this staff's page
