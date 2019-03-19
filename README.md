@@ -37,7 +37,7 @@ Uses [webpack](https://webpack.js.org/) to bundle and copy code from `src/`
 * `index.html` copied to `dist/`
 * All files in `netlify/` are copied to `dist/`
 
-**Note** ImageminPlugin does not run in the development environment which makes build time insanely faster.
+**Note:** `ImageminPlugin` does not run in `development` mode which makes build time insanely faster.
 
 ## Netlify
 The `master` branch of this repository represents the current live site, hosted with Netlify. A new build is triggered on every PR merge to this branch.
@@ -87,13 +87,13 @@ Project object attributes:
 Attribute | Value | Description
 --- | --- | ---
 title | string | General project title
-pageTitle | string | **Optional** header title of on its page; if not included, `title` will be used
+pageTitle | string | Header title of on its page; if not included, `title` will be used *(optional)*
 path | string (absolute path) | Route to the page. Must be /projects/THISPAGE
 thumbImg | string (image path) | Path to thumbnail image for use on /projects page. **Should be 9:5**
 location | string | Where the project took place
 client | string | Who the project was for
 date | string | Year or range of years (e.g. 2010-2012) which the project takes place
-images | array | **Optional** images for use on this project's page
+images | array | Images for use on this project's page *(optional)*
 description | string | Description for use on projects page card
 descriptionHTML | string (html) | HTML body for the project page; inserted beneath the project images
 
