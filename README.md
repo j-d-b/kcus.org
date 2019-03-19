@@ -1,5 +1,7 @@
 <img src="https://raw.githubusercontent.com/j-d-b/kcus.org/master/src/images/logos/kcus_inc.svg?sanitize=true" width="250">
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1ee7e33e-e229-4961-8b12-ed4a1a6944a1/deploy-status)](https://app.netlify.com/sites/kcus/deploys)
+
 Ground-up website rewrite for [Kanaan Consulting US, Inc.](http://www.kcus.org)
 
 Maintains similar content, layout, and styling, while being a full rewrite designed for future ease of maintenance.
@@ -38,7 +40,7 @@ Uses [webpack](https://webpack.js.org/) to bundle and copy code from `src/`
 **Note** ImageminPlugin does not run in the development environment which makes build time insanely faster.
 
 ## Netlify
-The `prod` branch of this repository represents the current live site, hosted with netlify. A new build is triggered on every push to this branch.
+The `master` branch of this repository represents the current live site, hosted with Netlify. A new build is triggered on every PR merge to this branch.
 
 ## Key Features
 * Vanilla JavaScript powered SPA, client-side routing with the [history API](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
