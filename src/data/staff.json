@@ -35,6 +35,15 @@
       "imgThumbSource": "/images/staff/jacob-2x1-thumb.jpg",
       "imgTallSource": "/images/staff/jacob-3x4.jpg",
       "bioHTML": "<p>Jacob Brady is a full-stack Software Developer who works primarily in the web development realm. He avidly follows the progression of modern web technology to evolve his knowledge and skillset. He works primarily in JavaScript on both the front and back end. On the frontend, his work extends past programming and often encompasses UX and graphic design.</p><p>Jacob has a Bachelor of Arts in Computer Science from Middlebury College.</p><p class='font-italic text-point-87-rem'>Hi, I'm the author of this website; source code repository <a href='https://github.com/j-d-b/kcus.org'>here</a>.</p>"
+    },
+    {
+      "path": "/staff/david",
+      "firstName": "David",
+      "lastName": "Siegel",
+      "title": "Systems Engineer",
+      "imgThumbSource": "/images/staff/david-2x1-thumb.jpg",
+      "imgTallSource": "/images/staff/david-3x4.jpg",
+      "bioHTML": "<p>David Siegel is an engineer with a foundation in mechanical design and project operations. He has industry experience from engineering co-ops that include: Systems Engineering at MIT Lincoln Lab, Submarine Trainers at General Dynamics Electric Boat, and Mechanical Design at Upstart Power, Inc. David is an avid technology hobbyist with a variety of experience ranging from rocketry to remote-controlled water vehicles.</p><p>David has a Bachelor of Science in Mechanical Engineering from Northeastern University.</p>"
     }
   ]
 }
