@@ -34,7 +34,7 @@
       "title": "Software Developer",
       "imgThumbSource": "/images/staff/jacob-2x1-thumb.jpg",
       "imgTallSource": "/images/staff/jacob-3x4.jpg",
-      "bioHTML": "<p>Jacob Brady is a full-stack Software Developer who works primarily in the web development realm. He avidly follows the progression of modern web technology to evolve his knowledge and skillset. He works primarily in JavaScript on both the front and back end. On the frontend, his work extends past programming and often encompasses UX and graphic design.</p><p>Jacob has a Bachelor of Arts in Computer Science from Middlebury College.</p><p class='font-italic text-point-87-rem'>Hi, I'm the author of this website; source code repository <a href='https://github.com/j-d-b/kcus.org'>here</a>.</p>"
+      "bioHTML": "<p>Jacob Brady is a full-stack Software Developer who works primarily in the web development realm. He avidly follows the progression of modern web technology to evolve his knowledge and skillset. He works primarily in JavaScript on both the front and back end. On the frontend, his work extends past programming and often encompasses UX and UI design.</p><p>Jacob has a Bachelor of Arts in Computer Science from Middlebury College.</p><p class='font-italic text-point-87-rem'>Hi, I'm the author of this website; source code repository <a href='https://github.com/j-d-b/kcus.org'>here</a>.</p>"
     },
     {
       "path": "/staff/david",
