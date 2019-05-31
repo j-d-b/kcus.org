@@ -13,10 +13,10 @@
       "descriptionHTML": "KCUS is working with MassDOT to design and implement a new <a class='spa-nav' href='/projects/itms' class='font-weight-medium'>Integrated Transportation Management System (ITMS)</a>."
     },
     {
-      "path": "/projects/bctc-tas",
-      "imgName": "TAS",
-      "imgSource": "/images/home/tas-dashboard-3-2.png",
-      "descriptionHTML": "KCUS is developing a specialized <a class='spa-nav' href='/projects/bctc-tas' class='font-weight-medium'>Truck Appointment System (TAS)</a> for the Beirut Container Terminal Consoritum."
+      "path": "/projects/swzm",
+      "imgName": "SWZM",
+      "imgSource": "/images/home/swzm-3-2-sm.png",
+      "descriptionHTML": "KCUS designed and is currently developing a central management & reporting system for MassDOT's Smart Work Zone (SWZ) deployments."
     }
   ]
 }
