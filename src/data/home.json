@@ -10,7 +10,7 @@
       "path": "/projects/itms",
       "imgName": "ITMS",
       "imgSource": "/images/home/hoc.jpeg",
-      "descriptionHTML": "KCUS is working with MassDOT to design and implement a new <a class='spa-nav' href='/projects/itms' class='font-weight-medium'>Integrated Transportation Management System (ITMS)</a>."
+      "descriptionHTML": "KCUS is working with MassDOT to design and implement a new <a class='spa-nav font-weight-medium' href='/projects/itms' class='font-weight-medium'>Integrated Transportation Management System (ITMS)</a>."
     },
     {
       "path": "/projects/swzm",
