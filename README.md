@@ -11,24 +11,24 @@ Maintains similar content, layout, and styling, while being a full rewrite desig
 ## Prerequisites
 The following sections assume you have the following installed:
 * [Node.js](https://nodejs.org/en/) runtime
-* [Yarn](https://yarnpkg.com/en/) package manager
+* [npm](https://www.npmjs.com/get-npm) package manager
 
 ## Usage
 Install dependencies
 ```
-yarn install
+npm install
 ```
 
 ### Development
 Start the hot-reloading development server (at http://localhost:8080)
 ```
-yarn develop
+npm run develop
 ```
 
 ### Production Build
 To generate `dist/` directory for distribution:
 ```
-yarn build
+npm run build
 ```
 
 Uses [webpack](https://webpack.js.org/) to bundle and copy code from `src/`
@@ -40,7 +40,7 @@ Uses [webpack](https://webpack.js.org/) to bundle and copy code from `src/`
 **Note:** `ImageminPlugin` does not run in `development` mode which makes build time insanely faster.
 
 ## Netlify
-The `master` branch of this repository represents the current live site, hosted with Netlify. A new build is triggered on every PR merge to this branch.
+The `master` branch of this repository represents the current live site, hosted with Netlify. A new build is triggered on every PR merge or commit to this branch.
 
 ## Key Features
 * Vanilla JavaScript powered SPA, client-side routing with the [history API](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
