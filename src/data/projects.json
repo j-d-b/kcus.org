@@ -61,6 +61,20 @@
           ],
           "description": "KCUS is working with MassDOT as consultant to Vanasse Hangen Brustlin, Inc. (VHB) on the design and implementation of a Connected Vehicle (CV) Signal Phase and Timing (SPaT) Pilot Project, which will include up to 40 intersections along the Route 9 corridor from Worcester to Wellesley.",
           "descriptionHTML": "<p>KCUS is working with MassDOT as consultant to Vanasse Hangen Brustlin, Inc. (VHB) on the design and implementation of a Connected Vehicle (CV) Signal Phase and Timing (SPaT) Pilot Project, which will include up to 40 intersections along the Route 9 corridor from Worcester to Wellesley. Implementing the SPaT broadcast at intersections will provide MassDOT with a tangible first step for deploying vehicle-to-infrastructure (V2I) applications, promote future, more advanced V2I applications, and demonstrate a commitment to the V2I deployments that are being planned by the automobile manufacturers.</p><p>The team will prepare a concept of operations, system requirements and the design of the SPaT system, which will include the plans and specifications, provide system implementation oversight, system validation, inspection, and fine-tuning.</p>"
+        },
+        {
+          "title": "Middle Eastern Technical University Technical Assistance Program",
+          "path": "/projects/metu",
+          "thumbImg": "/images/projects/metu-chart-outline.png",
+          "location": "Ankara, Turkey",
+          "client": "USTDA",
+          "date": "2018 - 2019",
+          "images": [
+            "/images/projects/metu-chart.png",
+            "/images/projects/metu-bike-network-plan.png"
+          ],
+          "description": "KCUS is part of a team developing a feasibility study for creating a smart campus at the Middle Eastern Technical University (METU) in Ankara, Turkey for the United States Trade and Development Agency (USTDA).",
+          "descriptionHTML": "<p>KCUS is part of a team developing a feasibility study for creating a smart campus at the Middle Eastern Technical University (METU) in Ankara, Turkey for the United States Trade and Development Agency (USTDA). The study involves the following sectors:</p><ol><li>Smart energy;</li><li>Smart transportation;</li><li>Smart water;</li><li>Smart building; and</li><li>Smart Information Communication Technology (ICT).</li></ol><p>KCUS is leading the smart transportation sector of the project.</p>"
         }
       ]
     },
