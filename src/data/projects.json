@@ -16,7 +16,20 @@
             "/images/projects/gotime_l2.png"
           ],
           "description": "KCUS designed, implemented, and is now operating & maintaining MassDOT's GoTime statewide traveler information system.",
-          "descriptionHTML": "<p>KCUS implemented Massachusetts’ permanent Statewide Real Time Traffic Management (RTTM) implementation, dubbed <strong>GoTime</strong>. KCUS is now operating and maintaining the system.</p><p>This project encompasses the design, development, and operation of software that manages and controls 146 Hybrid VMS and 291 Bluetooth Reader-based installations throughout Massachusetts. The system uses MAC addresses detected by the deployed Bluetooth Readers to calculate travel times, which are processed, analyzed, and posted to the Hybrid VMS in order to inform drivers of current traffic conditions.</p><p>KCUS's Statewide RTTM software includes a browser-based application that provides users with operational and situational awareness tools. This application includes an interactive map, a real-time dashboard, reporting tools, real-time field device monitoring functionality, and alarm and trouble ticket tracking. KCUS will also be performing field device maintenance operations one year after system acceptance.</p>"
+          "descriptionHTML": "<p>KCUS implemented Massachusetts’ permanent Statewide Real Time Traffic Management (RTTM) implementation, dubbed <strong>GoTime</strong>. KCUS is now operating and maintaining the system.</p><p>This project encompasses the design, development, and operation of software that manages and controls 146 Hybrid VMS and 291 Bluetooth Reader-based installations throughout Massachusetts. The system uses MAC addresses detected by the deployed Bluetooth Readers to calculate travel times, which are processed, analyzed, and posted to the Hybrid VMS in order to inform drivers of current traffic conditions.</p><p>KCUS's Statewide RTTM software includes a browser-based application that provides users with operational and situational awareness tools. This application includes an interactive map, a real-time dashboard, reporting tools, real-time field device monitoring functionality, and alarm and trouble ticket tracking.</p>"
+        },
+        {
+          "title": "Smart Work Zones Application",
+          "path": "/projects/swzm",
+          "thumbImg": "/images/projects/swzm-overview-sm.jpg",
+          "location": "Massachusetts",
+          "client": "MassDOT",
+          "date": "2016 - 2020",
+          "images": [
+            "/images/projects/swzm-overview.png"
+          ],
+          "description": "KCUS designed and is currently developing a central management & reporting system for MassDOT's Smart Work Zone (SWZ) deployments.",
+          "descriptionHTML": "<p>KCUS is working with the Massachusetts Department of Transportation (MassDOT) to design and develop a <strong>smart work zone manager (SWZM) application</strong> that will allow for the central configuration, management, and monitoring of Smart Work Zone (SWZ) sites throughout the state.</p><p>The SWZ system will provide MassDOT with a real-time overview of SWZ conditions and allow for the viewing and management of deployed field devices. The application will present SWZ information through a web-based graphical user interface (GUI). The application includes a real-time dashboard and performance management capabilities and defines an Application Programming Interface (API), for received and disseminated data respectively.</p><p>The project followed the systems engineering process and began with stakeholder meetings and the development of a concept of operations document. This was followed by the establishment of a system requirements specification and then the primary software development effort.</p><p>The Federal Highway Administration (FHWA) recently established a Work Zone Data Initiative (WZDI) effort to develop nationwide standards for Work Zone Activity Data (WZAD). As part of this effort FHWA released a draft Work Zone Data Dictionary (WZDD), which provides definitions for work zone data concepts from field names to enumerable types. These definitions are intended to be used by organizations collecting, storing, disseminating, and consuming work zone data to facilitate comparison and aggregation of data from varying sources. The SWZM application incorporates the FHWA WZAD standards and the SWZ team is working with FHWA through the effort to augment the evolving WZAD specification as needed.</p>"
         },
         {
           "title": "ITMS",
@@ -34,20 +47,6 @@
           ],
           "description": "KCUS is providing engineering support services to MassDOT on the detailed design and implementation of the Integrated Transportation Management System (ITMS) at the Highway Operations Center (HOC).",
           "descriptionHTML": "<p>KCUS is assisting the Massachusetts Department of Transportation (MassDOT) in the detailed design and implementation process for a new <strong>Integrated Transportation Management System (ITMS)</strong> to be deployed at MassDOT's Highway Operations Center (HOC).</p><p>This software is being developed based on the Advanced Traffic Management System (ATMS)/Advanced Traveler Information System (ATIS) and Integrated Project Control System (IPCS)/Supervisory Control and Data Acquisition (SCADA) design documentation that was produced by KCUS. KCUS is providing technical support and design services to MassDOT and is working with the selected ITMS vendor throughout the detailed design and implementation of the ITMS. KCUS will also assist MassDOT in the testing, verification, and validation of the new ITMS platform.</p><p>As part of this project, KCUS is also collaborating with MassDOT Legal to develop a contract that details the terms and conditions, the format of the acquisition, and the phasing of the project. This process will lead to the signing of the final contract for the acquisition and phased deployment of the ITMS platform.<p>"
-        },
-        {
-          "title": "Smart Work Zones Application",
-          "path": "/projects/swzm",
-          "thumbImg": "/images/projects/swz_app_s.jpg",
-          "location": "Massachusetts",
-          "client": "MassDOT",
-          "date": "2016 - 2020",
-          "images": [
-            "/images/projects/swz_app_l1.jpg",
-            "/images/projects/swzm-overview.png"
-          ],
-          "description": "KCUS designed and is currently developing a central management & reporting system for MassDOT's Smart Work Zone (SWZ) deployments.",
-          "descriptionHTML": "<p>KCUS is currently designing and developing a <strong>Smart Work Zones (SWZ) Application</strong> for the Massachusetts Department of Transportation (MassDOT). This application will enable the integrated centralized configuration, management, and monitoring of SWZ sites and field devices throughout Massachusetts. The SWZ application will also collect and fuse data retrieved from SWZs throughout the state. This data will be stored within the GoTime Data Warehouse for analytics and reporting purposes.</p><p>The application will also present this information in an intuitive manner through a web-based Graphical User Interface (GUI). The GUI will include a public-facing website that will allow for the controlled dissemination of work zone-related information. The SWZ application will also provide an XML feed that will provide real-time SWZ data to third party developers.</p><p>KCUS is working with Federal Highway Administration (FHWA) to enhance and support the emerging <a href='https://github.com/usdot-jpo-ode/jpo-wzdx/blob/master/full-spec/full-spec.md'>Work Zone Data Exchange (WZDx)</a> specification.</p>"
         },
         {
           "title": "Route 9 Connected Vehicle Signal Phase and Timing Pilot Project",
