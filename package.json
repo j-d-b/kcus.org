@@ -20,12 +20,12 @@
     "handlebars-loader": "^1.7.0",
     "imagemin-webpack-plugin": "^2.2.0",
     "node": "^9.11.2",
-    "sass": "^1.10.1",
+    "sass": "^1.22.4",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.14"
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
     "handlebars": "^4.0.12",
