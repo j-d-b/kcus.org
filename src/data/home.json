@@ -7,16 +7,16 @@
       "descriptionHTML": "KCUS designed, implemented, and is now operating & maintaining MassDOT's <a class='spa-nav font-weight-medium' href='projects/gotime'>GoTime statewide traveler information system</a>."
     },
     {
+      "path": "/projects/swzm",
+      "imgName": "SWZM",
+      "imgSource": "/images/home/swzm-overview-3-2-sm.jpg",
+      "descriptionHTML": "KCUS designed and is currently developing a central management & reporting system for MassDOT's Smart Work Zone (SWZ) deployments."
+    },
+    {
       "path": "/projects/itms",
       "imgName": "ITMS",
       "imgSource": "/images/home/hoc.jpeg",
       "descriptionHTML": "KCUS is working with MassDOT to design and implement a new <a class='spa-nav font-weight-medium' href='/projects/itms' class='font-weight-medium'>Integrated Transportation Management System (ITMS)</a>."
-    },
-    {
-      "path": "/projects/swzm",
-      "imgName": "SWZM",
-      "imgSource": "/images/home/swzm-3-2-sm.png",
-      "descriptionHTML": "KCUS designed and is currently developing a central management & reporting system for MassDOT's Smart Work Zone (SWZ) deployments."
     }
   ]
 }

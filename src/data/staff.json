@@ -25,7 +25,7 @@
       "title": "Software Engineer",
       "imgThumbSource": "/images/staff/jacob-2x1-thumb.jpg",
       "imgTallSource": "/images/staff/jacob-3x4.jpg",
-      "bioHTML": "<p>Jacob Brady is a full-stack Software Engineer who works on all sides of a project from system design to implementation. He specializes in web development and works primarily in JavaScript on both sides of the stack. His work also includes scripting projects, UI/graphic design, device configuration, network troubleshooting, and system operation and maintenance.</p><p>Jacob has a Bachelor of Arts in Computer Science from Middlebury College.</p><p class='font-italic text-point-87-rem'>Hi, I'm the author of this website; source code repository <a href='https://github.com/j-d-b/kcus.org'>here</a>.</p>"
+      "bioHTML": "<p>Jacob Brady is a full-stack software engineer who works on all sides of a project from system design to implementation. He specializes in web development and works primarily in JavaScript on both sides of the stack. His work also includes scripting projects, UI/graphic design, device configuration, network troubleshooting, and system operation and maintenance.</p><p>Jacob has a Bachelor of Arts in Computer Science from Middlebury College.</p><p class='font-italic text-point-87-rem'>Hi, I'm the author of this website; source code repository <a href='https://github.com/j-d-b/kcus.org'>here</a>.</p>"
     },
     {
       "path": "/staff/david",
@@ -34,7 +34,7 @@
       "title": "Systems Engineer",
       "imgThumbSource": "/images/staff/david-2x1-thumb.jpg",
       "imgTallSource": "/images/staff/david-3x4.jpg",
-      "bioHTML": "<p>David Siegel is an engineer with a foundation in mechanical design and project operations. He has industry experience from engineering co-ops that include: Systems Engineering at MIT Lincoln Lab, Submarine Trainers at General Dynamics Electric Boat, and Mechanical Design at Upstart Power, Inc. David is an avid technology hobbyist with a variety of experience ranging from rocketry to remote-controlled water vehicles.</p><p>David has a Bachelor of Science in Mechanical Engineering from Northeastern University.</p>"
+      "bioHTML": "<p>David Siegel is a junior transportation systems engineer with a foundation in mechanical design and project operations. He has industry experience from engineering co-ops that include: Systems Engineering at MIT Lincoln Lab, Submarine Trainers at General Dynamics Electric Boat, and Mechanical Design at Upstart Power, Inc. David is an avid technology hobbyist with a variety of experience ranging from rocketry to remote-controlled water vehicles.</p><p>David has a Bachelor of Science in Mechanical Engineering from Northeastern University.</p>"
     }
   ]
 }
