@@ -1,12 +1,10 @@
 <img src="https://raw.githubusercontent.com/j-d-b/kcus.org/master/src/images/logos/kcus_inc.svg?sanitize=true" width="250">
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1ee7e33e-e229-4961-8b12-ed4a1a6944a1/deploy-status)](https://app.netlify.com/sites/kcus/deploys)
-
 Ground-up website rewrite for [Kanaan Consulting US, Inc.](http://www.kcus.org)
 
 Maintains similar content, layout, and styling, while being a full rewrite designed for future ease of maintenance.
 
-**Note:** This is the official repository for the live site.
+**NOTE:** This ~~is~~ was the official repository for the KCUS site. KCUS has now merged with IBI and the website has been made unavailable, replaced by a placeholder page (the `no-more-kcus` branch of this repo).
 
 ## Prerequisites
 The following sections assume you have the following installed:
