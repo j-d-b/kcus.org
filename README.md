@@ -1,4 +1,4 @@
-***NOTE:** This was the official repository for the KCUS site. KCUS has now merged with IBI and the website has been made unavailable, replaced by a placeholder page (the `no-more-kcus` branch of this repo).*
+***NOTE:** This was the official repository for the KCUS site. KCUS has now merged with IBI Group and the website has been made unavailable, replaced by a placeholder page (the `no-more-kcus` branch of this repo).*
 
 ---
 
