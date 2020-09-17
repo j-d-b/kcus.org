@@ -1,10 +1,12 @@
+***NOTE:** This was the official repository for the KCUS site. KCUS has now merged with IBI and the website has been made unavailable, replaced by a placeholder page (the `no-more-kcus` branch of this repo).*
+
+---
+
 <img src="https://raw.githubusercontent.com/j-d-b/kcus.org/master/src/images/logos/kcus_inc.svg?sanitize=true" width="250">
 
 Ground-up website rewrite for [Kanaan Consulting US, Inc.](http://www.kcus.org)
 
 Maintains similar content, layout, and styling, while being a full rewrite designed for future ease of maintenance.
-
-**NOTE:** This ~~is~~ was the official repository for the KCUS site. KCUS has now merged with IBI and the website has been made unavailable, replaced by a placeholder page (the `no-more-kcus` branch of this repo).
 
 ## Prerequisites
 The following sections assume you have the following installed:
