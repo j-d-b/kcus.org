@@ -28,7 +28,7 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
-    "handlebars": "^4.0.12",
+    "handlebars": "^4.7.7",
     "node-sass": "^4.9.3",
     "nodelist-foreach-polyfill": "^1.2.0"
   }
